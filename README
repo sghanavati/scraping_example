@@ -1,0 +1,8 @@
+General architecture of the application: To run the code from terminal "python ./run.py X(int)"
+
+Reasoning behind main technical choices: Python and BeautifulSoup are very powerful tools for scraping info from html files
+Things you didn't implement or trade-offs you made. This can also include details about how you would implement things differently if you were to spend more time on the assignment or if it was for production use:
+- There are withdrawn files in each month, so I put them manually in the code now
+- The months and initial files are also hardcoded, to make it more general they can be input args
+- Currently, the output is just a print of dictionaries and saving it to a json file. Given more time, it would be ideal to make it look like a table
+- For objects that have only one of height or length info, I assumed a square box
