@@ -9,6 +9,9 @@ from bs4 import BeautifulSoup
 import re
 import urllib
 import os
+import json
+import codecs
+
 
 from christie_scraper import scraper, read_ivr_training_data, save_ivr_training_data
 
@@ -84,7 +87,7 @@ def run(X):     #similar objects: height +/-X and width +/-X
     print("X is ", X)
     X = float(X)
     basedir = os.path.abspath(os.path.dirname(__file__))
-    scraped_path = os.path.abspath(os.path.dirname(__file__)) + "/feb17_march18.csv"
+    scraped_path = basedir + "/feb17_march18.csv"
     month1 = '14November2017'
     month2 = '28February2018'
 
@@ -105,18 +108,20 @@ def run(X):     #similar objects: height +/-X and width +/-X
         growth = calc_price_growth(feb_price, march_price)
         result['feb_price'] = feb_price
         result['march_price'] = march_price
-        result['growth'] = growth
+        result['growth'] = round(growth)
         print(result)
         results.append(result)
+    with codecs.open(basedir + '/final_output.json', 'w', encoding='utf-8') as fp:
+        json.dump(results, fp, sort_keys=True, indent=4, ensure_ascii=False)
 
 
 if __name__ == '__main__':
     run(sys.argv[1])
+
     #TODO: 1.read both dates into a pandas framework (month, lot num, artist, born death, title,
     # sold price, estimation price, image, medium, size WxH, convert gbp to usd  (artist signature, year painted, provenance))
-    #TODO: 2.find common artist who sold on both days  list(set(list1).intersection(list2))
+    # save first lot, then while next lot is not empty wget
+    # #TODO: 2.find common artist who sold on both days  list(set(list1).intersection(list2))
     #TODO: 3.for those find similar objs in each month
     #TODO: 4.calc avg price of each month + growth and print nicely
 
-
-    # 1. save first lot, then while next lot is not empty wget

@@ -1,0 +1,272 @@
+[
+    {
+        "artist": "Maurice de Vlaminck",
+        "feb_price": 219883.56164383562,
+        "growth": -34.0,
+        "march_price": 144566.33333333334
+    },
+    {
+        "artist": "Georges Rouault",
+        "feb_price": 231758.62068965516,
+        "growth": -28.0,
+        "march_price": 166297.77272727274
+    },
+    {
+        "artist": "Alexej von Jawlensky",
+        "feb_price": 156116.66666666666,
+        "growth": -8.0,
+        "march_price": 143841.96
+    },
+    {
+        "artist": "Tamara De Lempicka",
+        "feb_price": 152787.6984126984,
+        "growth": 29.0,
+        "march_price": 197774.66666666666
+    },
+    {
+        "artist": "Henri Martin",
+        "feb_price": 247916.66666666666,
+        "growth": -16.0,
+        "march_price": 208829.47368421053
+    },
+    {
+        "artist": "Armand Guillaumin",
+        "feb_price": 193135.7142857143,
+        "growth": -5.0,
+        "march_price": 183087.5
+    },
+    {
+        "artist": "Carlos Nadal",
+        "feb_price": 196070.1754385965,
+        "growth": -28.0,
+        "march_price": 140762.4375
+    },
+    {
+        "artist": "Giacomo Manzù",
+        "feb_price": 46875.0,
+        "growth": 188.0,
+        "march_price": 135207.48571428572
+    },
+    {
+        "artist": "Joan Miró",
+        "feb_price": 328036.29032258067,
+        "growth": -62.0,
+        "march_price": 126219.78571428571
+    },
+    {
+        "artist": "Pablo Picasso",
+        "feb_price": 181558.46774193548,
+        "growth": -18.0,
+        "march_price": 149207.33898305084
+    },
+    {
+        "artist": "Diego Giacometti",
+        "feb_price": 84285.71428571429,
+        "growth": 348.0,
+        "march_price": 377240.0
+    },
+    {
+        "artist": "Louis Valtat",
+        "feb_price": 147980.0,
+        "growth": 12.0,
+        "march_price": 165729.55
+    },
+    {
+        "artist": "Moïse Kisling",
+        "feb_price": 300032.4074074074,
+        "growth": -49.0,
+        "march_price": 151691.45652173914
+    },
+    {
+        "artist": "Raoul Dufy",
+        "feb_price": 181725.0,
+        "growth": -1.0,
+        "march_price": 179598.04225352113
+    },
+    {
+        "artist": "Bernard Buffet",
+        "feb_price": 263173.07692307694,
+        "growth": -35.0,
+        "march_price": 171185.92
+    },
+    {
+        "artist": "Léonard Tsuguharu Foujita",
+        "feb_price": 182896.0280373832,
+        "growth": 23.0,
+        "march_price": 224753.0
+    },
+    {
+        "artist": "Pierre-Auguste Renoir",
+        "feb_price": 135248.57954545456,
+        "growth": 41.0,
+        "march_price": 191098.60465116278
+    },
+    {
+        "artist": "Maurice Utrillo",
+        "feb_price": 130805.14705882352,
+        "growth": 13.0,
+        "march_price": 148369.97619047618
+    },
+    {
+        "artist": "Francis Picabia",
+        "feb_price": 177514.2857142857,
+        "growth": -23.0,
+        "march_price": 136112.25806451612
+    },
+    {
+        "artist": "Maximilien Luce",
+        "feb_price": 219566.8316831683,
+        "growth": -23.0,
+        "march_price": 169141.25
+    },
+    {
+        "artist": "André Brasilier",
+        "feb_price": 283791.6666666667,
+        "growth": -39.0,
+        "march_price": 171758.84210526315
+    },
+    {
+        "artist": "Henri Le Sidaner",
+        "feb_price": 206111.74242424243,
+        "growth": -36.0,
+        "march_price": 132350.22448979592
+    },
+    {
+        "artist": "Auguste Herbin",
+        "feb_price": 153685.48387096773,
+        "growth": -30.0,
+        "march_price": 107982.25
+    },
+    {
+        "artist": "Baltasar Lobo",
+        "feb_price": 306233.3333333333,
+        "growth": -33.0,
+        "march_price": 206196.02702702704
+    },
+    {
+        "artist": "Maurice Denis",
+        "feb_price": 216839.2857142857,
+        "growth": -4.0,
+        "march_price": 207612.85714285713
+    },
+    {
+        "artist": "Camille Bombois",
+        "feb_price": 236750.0,
+        "growth": -20.0,
+        "march_price": 189984.7894736842
+    },
+    {
+        "artist": "André Derain",
+        "feb_price": 290503.67647058825,
+        "growth": -32.0,
+        "march_price": 198949.95833333334
+    },
+    {
+        "artist": "Henry Moore",
+        "feb_price": 117897.32142857143,
+        "growth": -30.0,
+        "march_price": 82025.11111111111
+    },
+    {
+        "artist": "Aristide Maillol",
+        "feb_price": 131417.1875,
+        "growth": 37.0,
+        "march_price": 180514.88
+    },
+    {
+        "artist": "Marie Laurencin",
+        "feb_price": 165935.7142857143,
+        "growth": -16.0,
+        "march_price": 139873.45454545456
+    },
+    {
+        "artist": "Jean-Pierre Cassigneul",
+        "feb_price": 181375.0,
+        "growth": -43.0,
+        "march_price": 103732.0
+    },
+    {
+        "artist": "Édouard Vuillard",
+        "feb_price": 171361.11111111112,
+        "growth": 10.0,
+        "march_price": 189333.62857142856
+    },
+    {
+        "artist": "Max Ernst",
+        "feb_price": 103721.42857142857,
+        "growth": 102.0,
+        "march_price": 210008.07692307694
+    },
+    {
+        "artist": "Eugène Boudin",
+        "feb_price": 145117.55952380953,
+        "growth": 30.0,
+        "march_price": 188187.70212765958
+    },
+    {
+        "artist": "Fernand Léger",
+        "feb_price": 299955.55555555556,
+        "growth": -44.0,
+        "march_price": 166507.13888888888
+    },
+    {
+        "artist": "Ossip Zadkine",
+        "feb_price": 229261.62790697673,
+        "growth": -18.0,
+        "march_price": 187656.57142857142
+    },
+    {
+        "artist": "Henri Lebasque",
+        "feb_price": 185338.70967741936,
+        "growth": -25.0,
+        "march_price": 139320.57627118644
+    },
+    {
+        "artist": "Georges Braque",
+        "feb_price": 93841.66666666667,
+        "growth": 106.0,
+        "march_price": 193462.37735849057
+    },
+    {
+        "artist": "Jules Pascin",
+        "feb_price": 207483.49056603774,
+        "growth": 23.0,
+        "march_price": 255456.11764705883
+    },
+    {
+        "artist": "Paul Sérusier",
+        "feb_price": 95500.0,
+        "growth": 36.0,
+        "march_price": 129449.125
+    },
+    {
+        "artist": "Auguste Rodin",
+        "feb_price": 145860.0,
+        "growth": -10.0,
+        "march_price": 131249.55172413794
+    },
+    {
+        "artist": "Henri Matisse",
+        "feb_price": 156500.0,
+        "growth": -3.0,
+        "march_price": 152098.54054054053
+    },
+    {
+        "artist": "Chaïm Soutine",
+        "feb_price": 244053.57142857142,
+        "growth": -27.0,
+        "march_price": 178972.775
+    },
+    {
+        "artist": "Pierre Bonnard",
+        "feb_price": 274731.0606060606,
+        "growth": -41.0,
+        "march_price": 160963.61666666667
+    },
+    {
+        "artist": "Albert Lebourg",
+        "feb_price": 255720.2380952381,
+        "growth": -38.0,
+        "march_price": 158582.8947368421
+    }
+]
