@@ -92,36 +92,45 @@ def scraper(LotUrlFile):
         mediums.append( description[3].replace('\n',''))
 
         try:
-            height = list(set([el if 'Height' in el else 0 for el in description]))
+            height = list(set([el if 'height' in el.lower() else 0 for el in description]))
             height.remove(0)
             height = height[0].replace(' ','')
-            height = height.replace('\n', '')
-            height = height.replace('Height:','')
+            height = height.replace('height:','')
             height_cm = re.findall('\(.*cm.*\)', height)[0]
-            height_cm = height_cm.replace('(','')
-            height_cm = height_cm.replace('cm.)','')
-            height_cm = height_cm.replace('cm)', '')
+            height_cm = float(height_cm[1:height_cm.find('cm')])
+        except:
+            height_cm = 0
 
-            length = list(set([el if 'Length' in el else 0 for el in description]))
+        try:
+            length = list(set([el if 'length' in el.lower() else 0 for el in description]))
             length.remove(0)
             length = length[0].replace(' ','')
-            length = length.replace('\n', '')
-            length = length.replace('Length:','')
+            length = length.replace('length:','')
             length_cm = re.findall('\(.*cm.*\)', length)[0]
-            length_cm = length_cm.replace('(','')
-            length_cm = length_cm.replace('cm.)','')
-            length_cm = length_cm.replace('cm)', '')
+            length_cm = float(length_cm[1:length_cm.find('cm')])
         except:
-            size_list = [re.findall('\(.*cm.*\)', el) for el in description]
-            for el in size_list:
-                if el != []:
-                    size = el
-            size = size[0].replace('\n', '')
-            size = size.replace(' ', '')
-            size_cm = re.findall('\(.*cm.*\)', size)[0]
-            x = size_cm.find('x')
-            height_cm = size_cm[1:x]
-            length_cm = size_cm[x+1:size_cm.find('cm')]
+            length_cm = 0
+
+        if (height_cm==0 and length_cm==0):
+            try:
+                size_list = [re.findall('\(.*cm.*\)', el) for el in description]
+                for el in size_list:
+                    if el != []:
+                        size = el
+                size = size[0].replace('\n', '')
+                size = size.replace(' ', '')
+                size_cm = re.findall('\(.*cm.*\)', size)[0]
+                x = size_cm.find('x')
+                height_cm = float(size_cm[1:x])
+                length_cm = float(size_cm[x+1:size_cm.find('cm')])
+            except:
+                height_cm = 0
+                length_cm = 0
+        else:
+            if length_cm>height_cm:
+                height_cm = length_cm
+            else:
+                length_cm = height_cm
 
 
         height_cms.append(height_cm)
