@@ -1,0 +1,1400 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- mainHEaderFooter -->
+<head>
+    <script type="text/javascript" src="/ruxitagentjs_ICA27SVfghjoqrx_10155181025135642.js" data-dtconfig="rid=RID_285761271|rpid=-1617310938|domain=christies.com|reportUrl=/rb_bf49921zcg|srms=1,1,,,|bp2=1|featureHash=ICA27SVfghjoqrx|dpvc=1|md=1=cWebClient_Id2|lastModification=1541686052003|dtVersion=10155181025135642|tp=500,50,0,1|rdnt=1|agentUri=/ruxitagentjs_ICA27SVfghjoqrx_10155181025135642.js"></script><style media="screen">
+        .widget--christies-header {display:block;height:54px;} @media (min-width:768px) {.widget--christies-header {height:58px;}} @media (min-width:1280px) {.widget--christies-header {height:109px;}}
+    </style>
+	 
+	    <!-- OneTrust Cookies Consent Notice (Staging, staging.christies.com, en-GB) start -->
+	     
+		
+		 
+			<script src="https://cdn.cookielaw.org/consent/1d0e237c-19a3-4077-bea6-ecb56a0c3401.js" type="text/javascript" data-document-language="true" charset="UTF-8"></script>
+		
+	    <script type="text/javascript">
+		    function OptanonWrapper() {
+          Optanon.InsertScript('/js/performance-cookies.js', 'head', null, null, 2);
+			    Optanon.InsertScript('/js/targeting-cookies.js', 'head', null, null, 4);
+		    }
+	    </script>
+	    <!-- OneTrust Cookies Consent Notice (Staging, staging.christies.com, en-GB) end -->
+    
+
+    <script type="text/javascript">
+        document.cookie = 'CurrentLanguage=; path=/; Domain=.www.christies.com; expires=' + new Date(0).toUTCString();
+        document.cookie = 'CurrentLanguage=; path=/; expires=' + new Date(0).toUTCString();
+    </script>
+    <script type="text/javascript">
+
+
+        function getParameterByName(StrURL, name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(StrURL.toLocaleLowerCase());
+            return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+        function getLanguage() {
+            var loc = window.location.href.toLowerCase();
+            var patt = /departments\/.*-(\d{1,3})-(\d{1,2})\.aspx/;
+            var lang;
+            var IsDepartment = patt.test(loc);
+            if (loc.indexOf(".com/zh-cn") > -1 || getParameterByName(loc, "sc_lang") == "zh-cn" || getParameterByName(loc, "lid") == "4" || getParameterByName(loc, "languageid") == "4" || (IsDepartment && loc.indexOf("-4.aspx") > -1)) {
+                lang = "zh-cn";
+            }
+            else if (loc.indexOf(".com/zh") > -1 || getParameterByName(loc, "sc_lang") == "zh" || getParameterByName(loc, "lid") == "3" || getParameterByName(loc, "languageid") == "3" || (IsDepartment && loc.indexOf("-3.aspx") > -1)) {
+                lang = "zh";
+            }
+            else {
+                lang = "en";
+            }
+            return lang;
+        }
+
+
+        var _val = getLanguage();
+        /*var d = new Date();
+        d.setTime(d.getTime() + (1 * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();*/
+        document.cookie = "CurrentLanguage=" + _val + ";Domain=.christies.com;path=/";
+        //document.cookie = "CurrentLanguage=" + _val + ";Domain=www.christies.com;path=/";
+
+        function setCookie(name, value, expires, path, domain, secure) {
+            cookieStr = name + "=" + escape(value) + "; ";
+
+            if (expires) {
+                expires = setExpiration(expires);
+                cookieStr += "expires=" + expires + "; ";
+            }
+            if (path) {
+                cookieStr += "path=" + path + "; ";
+            }
+            if (domain) {
+                cookieStr += "domain=" + domain + "; ";
+            }
+            if (secure) {
+                cookieStr += "secure; ";
+            }
+
+            document.cookie = cookieStr;
+        }
+
+        function setExpiration(cookieLife) {
+            var today = new Date();
+            var expr = new Date(today.getTime() + cookieLife * 24 * 60 * 60 * 1000);
+            return expr.toGMTString();
+        }
+
+        setCookie("CurrentLanguage", "", "-100", "/", "www.christies.com", false);
+        setCookie("CurrentLanguage", "", "-100", "/", "staging.christies.com", false);
+        setCookie("CurrentLanguage", "", "-100", "/", "artist.christies.com", false);
+
+
+
+
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style media="all">
+        /* Baskerville 10 Pro */
+        body:not(.webfont-loaded) {
+            font-family: 'Helvetica;',Arial,sans-serif !important;
+        }
+
+        /* Lyon */
+        @font-face {
+            font-family: "Lyon";
+            font-weight: normal;
+            font-style: normal;
+            src: url("/build/assets/fonts/Lyon/LyonDisplay-Regular-Web.eot");
+            src: url("/build/assets/fonts/Lyon/LyonDisplay-Regular-Web.eot?#iefix") format("embedded-opentype"), url("/build/assets/fonts/Lyon/LyonDisplay-Regular-Web.woff") format("woff"), url("/build/assets/fonts/Lyon/LyonDisplay-Regular-Web.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "Christies";
+            font-weight: normal;
+            font-style: normal;
+            src: url("/build/assets/fonts/Christies/Christies.eot");
+            src: url("/build/assets/fonts/Christies/Christies.eot?#iefix") format("embedded-opentype"), url("/build/assets/fonts/Christies/Christies.woff") format("woff"), url("/build/assets/fonts/Christies/Christies.ttf") format("truetype");
+        }
+
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.15);
+            z-index: 9999999;
+        }
+
+        .loader--inner {
+            height: 60px;
+            width: 60px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            position: fixed;
+            margin: auto;
+            border: 6px solid #fff;
+            border-right-color: #B30900;
+            border-top-color: #B30900;
+            border-radius: 100%;
+            animation: spin 800ms infinite linear;
+            z-index: 1200;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(359deg);
+            }
+        }
+    </style>
+    <link href="/build/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="/build/css/styles.min.css" rel="stylesheet" />
+
+   
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta charset="UTF-8" />
+        
+
+        <script type="text/javascript" src="/static/scripts/jquery/jquery-2.1.4.min.js"></script>
+		<script src="/static/Scripts/jquery/jquery.cookie.js" type="text/javascript"></script>
+        <script src="/static/Scripts/vendor/bootstrap.min.js" type="text/javascript"></script>
+		
+        <script src="/static/Scripts/vendor/jquery.mobile.custom.min.js" type="text/javascript" async></script>
+        <script type="text/javascript" src="/static/Scripts/christies/viewportSize-min.js"></script>
+		
+        <script src="/static/Scripts/winWidthTest.js" type="text/javascript" async></script>
+        <script src="/static/Scripts/vendor/flash_detect_min.js?v=1" type="text/javascript"></script>
+
+        <link href="//www.christies.com/static/images/favicon.ico?v=1" rel="shortcut icon" type="image/x-icon">
+
+        <link rel="stylesheet" type="text/css" href="https://www.christies.com//inc/css/modules/paramPopup-global.css?date=20150421063417" />
+
+        <script type="text/javascript">
+            var sOmnitureEnvironment = 'christiesprod';
+            var APIKey_caption = "APIKey";
+            var mychristies_key = '03F16AEC-B8DB-4697-97EC-A729544223A8';
+			 var mychristies_url = 'https://www.christies.com/ChristiesAPIServices/mychristiesapi/api/MyChristies/';
+			
+        </script>
+        
+        <meta name="og:title" property="og:title" content="Aristide Maillol (1861-1944)
+, Etude pour Le monument à Paul Cézanne
+" />
+        <meta name="og:description" property="og:description" content="Etude pour Le monument à Paul Cézanne
+" />
+        <meta name="og:image" property="og:image" content="https://www.christies.com/LotFinderImages/D61099/D6109986r.jpg" />
+        <meta name="og:url" property="og:url" content="https://www.christies.com/lotfinder/lot_details.aspx?intObjectID=6109986&from=salesummery&intObjectID=6109986&sid=b10ea8b5-0c60-42c9-b7da-e6dfa2c8bae4" />
+        <meta name="og:type" property="og:type" content="website" />
+        <meta id="meta_keywords" name="keywords" content="Christies,auction" />
+
+        <meta name="google-site-verification" content="2pm6xoJkRM_9TezjADtdaKy43hAcMXqYJWwwxc1viVY" />
+        
+        <meta name="apple-itunes-app" content="app-id=322000464,app-argument= christies://christies.app/lot?saleID=27255&lotID=6109986" />
+        
+        <link rel="canonical" href="https://www.christies.com/lotfinder/Lot/aristide-maillol-1861-1944-etude-pour-le-monument-6109986-details.aspx" />
+        
+        <title>
+            Aristide Maillol (1861-1944)
+, Etude pour Le monument à Paul Cézanne
+ | Christie's
+        	 
+        </title>
+        </head>
+<body id="lot_details" class='x-responsive-section  English'>
+    <!-- Page body -->
+    <!--<div id="wrapper">-->
+    
+<!-- ===========================================
+    This should be the first thing just after the  Body Tag
+        OMNITURE CODE SECTION-A BEGIN
+     ===========================================-->
+<script type="text/javascript" language="javascript" src="//assets.adobedtm.com/2816ee5076772aae086bc7eee9f12e8219e0ff4e/satelliteLib-6a012b2adc503a0bca6cad156554efbcfc5b3bf8.js"></script> 
+<script type="text/javascript" language="javascript">var s = s || {};</script>
+
+<script  type='text/javascript' language='JavaScript'><!--
+s.prop37 = window.location.href;
+var _userLanguage = "English";
+   var _userLanguageID = "1";
+ var _OmnitureEnvironment = "christiesprod";
+//--></script>
+<!-- ===========================================
+    OMNITURE CODE SECTION-A END
+     ===========================================-->
+
+    
+    <div class="widget--christies-header">
+    </div>
+    <form method="post" action="/lotfinder/sculptures-statues-figures/aristide-maillol-etude-pour-le-monument-a-6109986-details.aspx?from=salesummery&amp;intObjectID=6109986&amp;sid=b10ea8b5-0c60-42c9-b7da-e6dfa2c8bae4" id="mainform">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc1MTE0MjAyDxYCHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWBAICEGRkFgICAQ9kFgICAQ9kFgJmD2QWAmYPDxYCHwACAWQWSmYPFgQeA3NyYwVJaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvU2FsZUltYWdlcy9ueXItMTUwMDYtMTExNDIwMTcuanBnP3dpZHRoPTMwMB4DYWx0BTNJbXByZXNzaW9uaXN0IGFuZCBNb2Rlcm4gQXJ0IEQgYXVjdGlvbiBhdCBDaHJpc3RpZXNkAgIPFgIeCWlubmVyaHRtbAUFMTUwMDZkAgMPFgIfAwUlSW1wcmVzc2lvbmlzdCBhbmQgTW9kZXJuIEFydCBEYXkgU2FsZWQCBA8WAh8DBQhOZXcgWW9ya2QCBQ8WAh8DBRAxNCBOb3ZlbWJlciAyMDE3ZAIGDxYCHgRocmVmBUZodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL1NhbGVMYW5kaW5nL0luZGV4LmFzcHg/aW50U2FsZUlEPTI3MjU1JmxpZD0xZAIHDxYCHwQFiAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL2xvdGZpbmRlci9sb3RfZGV0YWlscy5hc3B4P2ludE9iamVjdElEPTYxMDk5ODUmbGlkPTEmRnJvbT1zYWxlc3VtbWVyeSZzaWQ9YjEwZWE4YjUtMGM2MC00MmM5LWI3ZGEtZTZkZmEyYzhiYWU0ZAIID2QWAgIBDw9kFgIeC3BsYWNlaG9sZGVyBRxTZWFyY2ggYnkgbG90ICMgaW4gdGhpcyBzYWxlZAIJDxYEHghkaXNhYmxlZGQfBAWIAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbG90ZmluZGVyL2xvdF9kZXRhaWxzLmFzcHg/aW50T2JqZWN0SUQ9NjEwOTk4NyZsaWQ9MSZGcm9tPXNhbGVzdW1tZXJ5JnNpZD1iMTBlYThiNS0wYzYwLTQyYzktYjdkYS1lNmRmYTJjOGJhZTRkAgoPFgIeBWNsYXNzBTJjYXJvdXNlbC1zbGlkZXIgY2Fyb3VzZWwtc2xpZGVyLWNvdW50LTEgbm8tcGFkZGluZxYCAgEPFgIeC18hSXRlbUNvdW50AgEWAgIBD2QWAmYPFRcNcGFuem9vbS0tbGlua4QBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzA0MzVfMDAwKGFyaXN0aWRlX21haWxsb2xfZXR1ZGVfcG91cl9sZV9tb251bWVudF9hX3BhdWxfY2V6YW5uZSkuanBnhAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL2ltZy9Mb3RJbWFnZXMvMjAxNy9OWVIvMjAxN19OWVJfMTUwMDZfMDQzNV8wMDAoYXJpc3RpZGVfbWFpbGxvbF9ldHVkZV9wb3VyX2xlX21vbnVtZW50X2FfcGF1bF9jZXphbm5lKS5qcGeEAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wNDM1XzAwMChhcmlzdGlkZV9tYWlsbG9sX2V0dWRlX3BvdXJfbGVfbW9udW1lbnRfYV9wYXVsX2NlemFubmUpLmpwZ4QBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzA0MzVfMDAwKGFyaXN0aWRlX21haWxsb2xfZXR1ZGVfcG91cl9sZV9tb251bWVudF9hX3BhdWxfY2V6YW5uZSkuanBnDXBhbnpvb20tLWxpbmuEAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wNDM1XzAwMChhcmlzdGlkZV9tYWlsbG9sX2V0dWRlX3BvdXJfbGVfbW9udW1lbnRfYV9wYXVsX2NlemFubmUpLmpwZ4QBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzA0MzVfMDAwKGFyaXN0aWRlX21haWxsb2xfZXR1ZGVfcG91cl9sZV9tb251bWVudF9hX3BhdWxfY2V6YW5uZSkuanBnhAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL2ltZy9Mb3RJbWFnZXMvMjAxNy9OWVIvMjAxN19OWVJfMTUwMDZfMDQzNV8wMDAoYXJpc3RpZGVfbWFpbGxvbF9ldHVkZV9wb3VyX2xlX21vbnVtZW50X2FfcGF1bF9jZXphbm5lKS5qcGeEAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wNDM1XzAwMChhcmlzdGlkZV9tYWlsbG9sX2V0dWRlX3BvdXJfbGVfbW9udW1lbnRfYV9wYXVsX2NlemFubmUpLmpwZ4QBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzA0MzVfMDAwKGFyaXN0aWRlX21haWxsb2xfZXR1ZGVfcG91cl9sZV9tb251bWVudF9hX3BhdWxfY2V6YW5uZSkuanBnhAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL2ltZy9Mb3RJbWFnZXMvMjAxNy9OWVIvMjAxN19OWVJfMTUwMDZfMDQzNV8wMDAoYXJpc3RpZGVfbWFpbGxvbF9ldHVkZV9wb3VyX2xlX21vbnVtZW50X2FfcGF1bF9jZXphbm5lKS5qcGeEAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wNDM1XzAwMChhcmlzdGlkZV9tYWlsbG9sX2V0dWRlX3BvdXJfbGVfbW9udW1lbnRfYV9wYXVsX2NlemFubmUpLmpwZ4QBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzA0MzVfMDAwKGFyaXN0aWRlX21haWxsb2xfZXR1ZGVfcG91cl9sZV9tb251bWVudF9hX3BhdWxfY2V6YW5uZSkuanBnhAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL2ltZy9Mb3RJbWFnZXMvMjAxNy9OWVIvMjAxN19OWVJfMTUwMDZfMDQzNV8wMDAoYXJpc3RpZGVfbWFpbGxvbF9ldHVkZV9wb3VyX2xlX21vbnVtZW50X2FfcGF1bF9jZXphbm5lKS5qcGeEAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wNDM1XzAwMChhcmlzdGlkZV9tYWlsbG9sX2V0dWRlX3BvdXJfbGVfbW9udW1lbnRfYV9wYXVsX2NlemFubmUpLmpwZ4QBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzA0MzVfMDAwKGFyaXN0aWRlX21haWxsb2xfZXR1ZGVfcG91cl9sZV9tb251bWVudF9hX3BhdWxfY2V6YW5uZSkuanBnhAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL2ltZy9Mb3RJbWFnZXMvMjAxNy9OWVIvMjAxN19OWVJfMTUwMDZfMDQzNV8wMDAoYXJpc3RpZGVfbWFpbGxvbF9ldHVkZV9wb3VyX2xlX21vbnVtZW50X2FfcGF1bF9jZXphbm5lKS5qcGeEAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wNDM1XzAwMChhcmlzdGlkZV9tYWlsbG9sX2V0dWRlX3BvdXJfbGVfbW9udW1lbnRfYV9wYXVsX2NlemFubmUpLmpwZ4QBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzA0MzVfMDAwKGFyaXN0aWRlX21haWxsb2xfZXR1ZGVfcG91cl9sZV9tb251bWVudF9hX3BhdWxfY2V6YW5uZSkuanBnhAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL2ltZy9Mb3RJbWFnZXMvMjAxNy9OWVIvMjAxN19OWVJfMTUwMDZfMDQzNV8wMDAoYXJpc3RpZGVfbWFpbGxvbF9ldHVkZV9wb3VyX2xlX21vbnVtZW50X2FfcGF1bF9jZXphbm5lKS5qcGeEAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wNDM1XzAwMChhcmlzdGlkZV9tYWlsbG9sX2V0dWRlX3BvdXJfbGVfbW9udW1lbnRfYV9wYXVsX2NlemFubmUpLmpwZx1BcmlzdGlkZSBNYWlsbG9sICgxODYxLTE5NDQpIGQCCw8WBB4QZGF0YS1jYXJvdXNlbC1sZwWEAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wNDM1XzAwMChhcmlzdGlkZV9tYWlsbG9sX2V0dWRlX3BvdXJfbGVfbW9udW1lbnRfYV9wYXVsX2NlemFubmUpLmpwZx4SZGF0YS1jYXJvdXNlbC16b29tBY8BaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzA0MzVfMDAwKGFyaXN0aWRlX21haWxsb2xfZXR1ZGVfcG91cl9sZV9tb251bWVudF9hX3BhdWxfY2V6YW5uZSkuanBnP2hlaWdodD0xNTBkAhEPFgIfAwUFNDM1ICBkAhIPFgIfAwU7UFJPUEVSVFkgRlJPTSBUSEUgQ09MTEVDVElPTiBPRiBOQU5DWSBMRUUgQU5EIFBFUlJZIFIuIEJBU1NkAhMPFgQfAwUeQXJpc3RpZGUgTWFpbGxvbCAoMTg2MS0xOTQ0KQ0KHg5kYXRhLWxvdFN0YXR1cwUEUGFzdGQCFQ8WAh8DBTA8aT5FdHVkZSBwb3VyPC9pPiBMZSBtb251bWVudCDDoCBQYXVsIEPDqXphbm5lDQpkAhYPFgIfAwUOUHJpY2UgcmVhbGlzZWRkAhcPFgIeE2RhdGEtb3JpZ2luYWwtdGl0bGUFUlByaWNlIFJlYWxpc2VkIGlzIGhhbW1lciBwcmljZSBwbHVzIGJ1eWVy4oCZcyBwcmVtaXVtLCBuZXQgb2YgYW55IGFwcGxpY2FibGUgZmVlcy5kAhgPFgQfAwUKVVNEIDUwLDAwMB4Fc3R5bGUFDWRpc3BsYXk6bm9uZTtkAhkPFgQfA2UfDQUNZGlzcGxheTpub25lO2QCGg8WAh8DBQhFc3RpbWF0ZWQCGw8WAh8MBcYBRXN0aW1hdGVzIGRvIG5vdCByZWZsZWN0IHRoZSBmaW5hbCBoYW1tZXIgcHJpY2UgYW5kIGRvIG5vdCBpbmNsdWRlIGJ1eWVyJ3MgcHJlbWl1bSwgYW55IGFwcGxpY2FibGUgdGF4ZXMgb3IgYXJ0aXN04oCZcyByZXNhbGUgcmlnaHQuIFBsZWFzZSBzZWUgU2VjdGlvbiBEIG9mIHRoZSBDb25kaXRpb25zIG9mIFNhbGUgZm9yIGZ1bGwgZGV0YWlscy4gZAIcDxYEHwMFF1VTRCA1MCwwMDAgLSBVU0QgNzAsMDAwHw0FDWRpc3BsYXk6bm9uZTtkAh0PFgIfDQUNZGlzcGxheTpub25lO2QCIg8WDB8HBSpjdGEgZnVsbC13aWR0aCBuby1tYXJnaW4tYm90dG9tIGxvZ2luLXVzZXIeCGRhdGEtdXJsBWpodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL015Q2hyaXN0aWVzL2xvZ2luQUpBWC5hc3B4P2FjdGlvbj1iaWRsb3RhbmRyZXR1cm50b2xvdGRldGFpbCZpbnRPYmplY3RJRD02MTA5OTg2HgtkYXRhLXJlbW90ZQVqaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9NeUNocmlzdGllcy9sb2dpbkFKQVguYXNweD9hY3Rpb249YmlkbG90YW5kcmV0dXJudG9sb3RkZXRhaWwmaW50T2JqZWN0SUQ9NjEwOTk4Nh4LZGF0YS10b2dnbGUFBW1vZGFsHgtkYXRhLXRhcmdldAULI2Jhc2ljTW9kYWwfDQUNZGlzcGxheTpub25lO2QCIw8WBh8OBV9odHRwczovL3d3dy5jaHJpc3RpZXMuY29tL015Q2hyaXN0aWVzL2xvZ2luQUpBWC5hc3B4P2FjdGlvbj1jb25kaXRpb25yZXBvcnQmaW50T2JqZWN0SUQ9NjEwOTk4Nh8PBV9odHRwczovL3d3dy5jaHJpc3RpZXMuY29tL015Q2hyaXN0aWVzL2xvZ2luQUpBWC5hc3B4P2FjdGlvbj1jb25kaXRpb25yZXBvcnQmaW50T2JqZWN0SUQ9NjEwOTk4Nh8NBQ1kaXNwbGF5Om5vbmU7ZAIlDxYWHhJkYXRhLXVuZm9sbG93LXRleHQFDFVuZm9sbG93IGxvdB8OBWxodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL015Q2hyaXN0aWVzL2xvZ2luQUpBWC5hc3B4P2FjdGlvbj10cmFja2xvdGFuZHJldHVybnRvbG90ZGV0YWlsJm5ld29iamVjdGlkPTYxMDk5ODYeEGRhdGEtZm9sbG93LXRleHQFCkZvbGxvdyBsb3QfAwUKRm9sbG93IGxvdB4NZGF0YS1vYmplY3RpZAUHNjEwOTk4Nh8NBQ1kaXNwbGF5Om5vbmU7HgdkYXRhLWlkBQEwHxEFCyNiYXNpY01vZGFsHw8FbGh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vTXlDaHJpc3RpZXMvbG9naW5BSkFYLmFzcHg/YWN0aW9uPXRyYWNrbG90YW5kcmV0dXJudG9sb3RkZXRhaWwmbmV3b2JqZWN0aWQ9NjEwOTk4Nh4LZGF0YS1mb2xsb3cFAU4fEAUFbW9kYWxkAiYPFg4fDgVfaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9NeUNocmlzdGllcy9sb2dpbkFKQVguYXNweD9hY3Rpb249Y29uZGl0aW9ucmVwb3J0JmludE9iamVjdElEPTYxMDk5ODYeD2RhdGEtY2F0ZWdvcnlpZAUENzgwMR8NBQ1kaXNwbGF5Om5vbmU7HgpkYXRhLWNvYWlkBRwzMzY0MCw4MzA3LDIyMTgsNDk1LDM0MCw1ODYyHhVkYXRhLWJ1dHRvbnVwZGF0ZXRleHQFEkFkZGVkIHRvIEludGVyZXN0cx8PBV9odHRwczovL3d3dy5jaHJpc3RpZXMuY29tL015Q2hyaXN0aWVzL2xvZ2luQUpBWC5hc3B4P2FjdGlvbj1jb25kaXRpb25yZXBvcnQmaW50T2JqZWN0SUQ9NjEwOTk4Nh4YZGF0YS1zaG93bW9yZXJlZmluZW1lbnRzBQVmYWxzZWQCJw8WAh8DBd0CQXJpc3RpZGUgTWFpbGxvbCAoMTg2MS0xOTQ0KTxicj4NCjxpPkV0dWRlIHBvdXI8L2k+IExlIG1vbnVtZW50IMOgIFBhdWwgQ8OpemFubmU8YnI+DQpzaWduZWQgd2l0aCBtb25vZ3JhbSwgbnVtYmVyZWQgYW5kIGluc2NyaWJlZCB3aXRoIGZvdW5kcnkgbWFyayAnMy82IEFsZXhpcyBSdWRpZXIuIC5Gb25kZXVyLiBQYXJpcy4nIChvbiB0aGUgYmFjayBvZiB0aGUgYmFzZSk8YnI+DQpicm9uemUgd2l0aCBicm93biBhbmQgZ3JlZW4gcGF0aW5hPGJyPg0KSGVpZ2h0OiA4IDMvOCBpbi4gKDIzLjUgY20uKTxicj4NCkxlbmd0aDogMTMgwrwgaW4uICgzNS41IGNtLik8YnI+DQpDb25jZWl2ZWQgaW4gMTkxMjxicj4NCmQCKQ8WAh8DBa8BRXN0YXRlIG9mIHRoZSBhcnRpc3QuPGJyPg0KUHJpdmF0ZSBjb2xsZWN0aW9uLCBOZXcgWW9yayAoYWNxdWlyZWQgZnJvbSB0aGUgYWJvdmUpLjxicj4NCkphc29uIE1jQ295LCBJbmMuLCBOZXcgWW9yay48YnI+DQpBY3F1aXJlZCBmcm9tIHRoZSBhYm92ZSBieSB0aGUgbGF0ZSBvd25lcnMsIE1heSAxOTkwLmQCKg8WAh4HVmlzaWJsZWhkAi4PFgIfCAIBFgICAQ9kFgJmDxUFDVZhbmVzc2EgRnVzY28AFHZmdXNjb0BjaHJpc3RpZXMuY29tFHZmdXNjb0BjaHJpc3RpZXMuY29tDysxIDIxMiA2MzYgMjA1MGQCMQ8WAh8DBV9KLiBSZXdhbGQsIDxpPk1haWxsb2w8L2k+LCBQYXJpcywgMTkzOSwgcC4gMTY2ICh0ZXJyYWNvdHRhIHZlcnNpb24gaWxsdXN0cmF0ZWQsIHBwLiA4MiBhbmQgODMpLmQCNQ8WAh8DBTxPbGl2aWVyIExvcnF1aW4gaGFzIGNvbmZpcm1lZCB0aGUgYXV0aGVudGljaXR5IG9mIHRoaXMgd29yay5kAjwPFgIfAwU7UFJPUEVSVFkgRlJPTSBUSEUgQ09MTEVDVElPTiBPRiBOQU5DWSBMRUUgQU5EIFBFUlJZIFIuIEJBU1NkAkMPFgIfG2hkAkQPFgIfCAIGFgwCAQ9kFgJmDxUTVmh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vRmVhdHVyZXMvVGhlLWxpZmUtYW5kLWFydC1vZi1TaXItQWxmcmVkLU11bm5pbmdzLTk1MzgtMS5hc3B4B0FSVElDTEUAiwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBnHkZyb20gd2FyIGhvcnNlcyB0byByb3lhbHR5OiB0aIsBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzExLzA3L3RoZS1saWZlLWFuZC1hcnQtb2Ytc2lyLWFsZnJlZC1tdW5uaW5ncy9hbGZyZWQtbXVubmluZ3MtODgwLmpwZzpGcm9tIHdhciBob3JzZXMgdG8gcm95YWx0eTogdGhlIGFydCBvZiBTaXIgQWxmcmVkIE11bm5pbmdzpQFBbiBleHBlcnQgZ3VpZGUgdG8gdGhlIEJyaXRpc2ggYXJ0aXN0IGJlc3Qga25vd24gZm9yIGhpcyBkZXBpY3Rpb24gb2YgaG9yc2VzLCBidXQgYWxzbyBhIHNraWxsZWQgcG9ydHJhaXRpc3QuIElsbHVzdHJhdGVkIHdpdGggd29ya3Mgb2ZmZXJlZCBpbiBOb3ZlbWJlciBhbmQgRGVjZW1iZXJkAgIPZBYCZg8VE1VodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL0ZlYXR1cmVzL1Zhbi1Hb2doLUNvaW4tZGUtamFyZGluLWF2ZWMtcGFwaWxsb25zLTk0MjMtMy5hc3B4BVZJREVPJzxzcGFuIGNsYXNzPSdwbGF5LWljb24tb3ZlcmxheSc+PC9zcGFuPnlodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvdmFuLWdvZ2gtY29ybmVyLWdhcmRlbi13aXRoLWZsb3dlcnMvdmlkZW8uanBneWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi92YW4tZ29naC1jb3JuZXItZ2FyZGVuLXdpdGgtZmxvd2Vycy92aWRlby5qcGd5aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L3Zhbi1nb2doLWNvcm5lci1nYXJkZW4td2l0aC1mbG93ZXJzL3ZpZGVvLmpwZ3lodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvdmFuLWdvZ2gtY29ybmVyLWdhcmRlbi13aXRoLWZsb3dlcnMvdmlkZW8uanBneWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi92YW4tZ29naC1jb3JuZXItZ2FyZGVuLXdpdGgtZmxvd2Vycy92aWRlby5qcGd5aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L3Zhbi1nb2doLWNvcm5lci1nYXJkZW4td2l0aC1mbG93ZXJzL3ZpZGVvLmpwZ3lodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvdmFuLWdvZ2gtY29ybmVyLWdhcmRlbi13aXRoLWZsb3dlcnMvdmlkZW8uanBneWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi92YW4tZ29naC1jb3JuZXItZ2FyZGVuLXdpdGgtZmxvd2Vycy92aWRlby5qcGd5aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L3Zhbi1nb2doLWNvcm5lci1nYXJkZW4td2l0aC1mbG93ZXJzL3ZpZGVvLmpwZ3lodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvdmFuLWdvZ2gtY29ybmVyLWdhcmRlbi13aXRoLWZsb3dlcnMvdmlkZW8uanBneWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi92YW4tZ29naC1jb3JuZXItZ2FyZGVuLXdpdGgtZmxvd2Vycy92aWRlby5qcGd5aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L3Zhbi1nb2doLWNvcm5lci1nYXJkZW4td2l0aC1mbG93ZXJzL3ZpZGVvLmpwZyTigJhTb21ldGhpbmcgdmVyeSBtdWNoIGFsaXZl4oCZIOKAlCB5aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L3Zhbi1nb2doLWNvcm5lci1nYXJkZW4td2l0aC1mbG93ZXJzL3ZpZGVvLmpwZ03igJhTb21ldGhpbmcgdmVyeSBtdWNoIGFsaXZl4oCZIOKAlCBDb2luIGRlIGphcmRpbiBhdmVjIHBhcGlsbG9ucyBieSBWYW4gR29naIABSm9pbiB1cyBvbiBhIHJlbWFya2FibGUgam91cm5leSBpbnRvIGEgcGFpbnRpbmcgdGhhdCBtYXJrcyB0aGUgbW9tZW50IHRoZSBhcnRpc3Qg4oCYY3Jvc3NlZCB0aGUgZGl2aWRlIGludG8gY29udGVtcG9yYXJ5IGFydOKAmSBkAgMPZBYCZg8VE2lodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL0ZlYXR1cmVzL1BpY2Fzc28tY2VyYW1pY3MtQW4tZXNzZW50aWFsLWd1aWRlLXRvLXN0YW1wcy1hbmQtbWFya2luZ3MtOTM0Ni0zLmFzcHgFVklERU8nPHNwYW4gY2xhc3M9J3BsYXktaWNvbi1vdmVybGF5Jz48L3NwYW4+ngFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDgvMTcvcGljYXNzby1jZXJhbWljcy1ndWlkZS10by1zdGFtcHMtYW5kLW1hcmtpbmdzL2VkaXRpb24tcGljYXNzby1tYWRvdXJhLW51bWJlcmVkLmpwZ54BaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA4LzE3L3BpY2Fzc28tY2VyYW1pY3MtZ3VpZGUtdG8tc3RhbXBzLWFuZC1tYXJraW5ncy9lZGl0aW9uLXBpY2Fzc28tbWFkb3VyYS1udW1iZXJlZC5qcGeeAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOC8xNy9waWNhc3NvLWNlcmFtaWNzLWd1aWRlLXRvLXN0YW1wcy1hbmQtbWFya2luZ3MvZWRpdGlvbi1waWNhc3NvLW1hZG91cmEtbnVtYmVyZWQuanBnngFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDgvMTcvcGljYXNzby1jZXJhbWljcy1ndWlkZS10by1zdGFtcHMtYW5kLW1hcmtpbmdzL2VkaXRpb24tcGljYXNzby1tYWRvdXJhLW51bWJlcmVkLmpwZ54BaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA4LzE3L3BpY2Fzc28tY2VyYW1pY3MtZ3VpZGUtdG8tc3RhbXBzLWFuZC1tYXJraW5ncy9lZGl0aW9uLXBpY2Fzc28tbWFkb3VyYS1udW1iZXJlZC5qcGeeAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOC8xNy9waWNhc3NvLWNlcmFtaWNzLWd1aWRlLXRvLXN0YW1wcy1hbmQtbWFya2luZ3MvZWRpdGlvbi1waWNhc3NvLW1hZG91cmEtbnVtYmVyZWQuanBnngFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDgvMTcvcGljYXNzby1jZXJhbWljcy1ndWlkZS10by1zdGFtcHMtYW5kLW1hcmtpbmdzL2VkaXRpb24tcGljYXNzby1tYWRvdXJhLW51bWJlcmVkLmpwZ54BaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA4LzE3L3BpY2Fzc28tY2VyYW1pY3MtZ3VpZGUtdG8tc3RhbXBzLWFuZC1tYXJraW5ncy9lZGl0aW9uLXBpY2Fzc28tbWFkb3VyYS1udW1iZXJlZC5qcGeeAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOC8xNy9waWNhc3NvLWNlcmFtaWNzLWd1aWRlLXRvLXN0YW1wcy1hbmQtbWFya2luZ3MvZWRpdGlvbi1waWNhc3NvLW1hZG91cmEtbnVtYmVyZWQuanBnngFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDgvMTcvcGljYXNzby1jZXJhbWljcy1ndWlkZS10by1zdGFtcHMtYW5kLW1hcmtpbmdzL2VkaXRpb24tcGljYXNzby1tYWRvdXJhLW51bWJlcmVkLmpwZ54BaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA4LzE3L3BpY2Fzc28tY2VyYW1pY3MtZ3VpZGUtdG8tc3RhbXBzLWFuZC1tYXJraW5ncy9lZGl0aW9uLXBpY2Fzc28tbWFkb3VyYS1udW1iZXJlZC5qcGeeAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOC8xNy9waWNhc3NvLWNlcmFtaWNzLWd1aWRlLXRvLXN0YW1wcy1hbmQtbWFya2luZ3MvZWRpdGlvbi1waWNhc3NvLW1hZG91cmEtbnVtYmVyZWQuanBnHlBpY2Fzc28gY2VyYW1pY3M6IEFuIGVzc2VudGlhbJ4BaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA4LzE3L3BpY2Fzc28tY2VyYW1pY3MtZ3VpZGUtdG8tc3RhbXBzLWFuZC1tYXJraW5ncy9lZGl0aW9uLXBpY2Fzc28tbWFkb3VyYS1udW1iZXJlZC5qcGc7UGljYXNzbyBjZXJhbWljczogQW4gZXNzZW50aWFsIGd1aWRlIHRvIHN0YW1wcyBhbmQgbWFya2luZ3NbU3BlY2lhbGlzdCBJbW9nZW4gS2VyciBvbiB3aHkgdGhlIGFydGlzdCB3YW50ZWQgZXZlcnlvbmUgdG8gYmUgYWJsZSB0byBvd24gb25lIG9mIGhpcyB3b3Jrc2QCBA9kFgJmDxUTWWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vRmVhdHVyZXMvQW5kcmV3LUdyYWhhbS1EaXhvbi10by1naWxkLW9yLW5vdC10by1naWxkLTkyNDYtMS5hc3B4B0FSVElDTEUAiQFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDYvMDUvdG8tZ2lsZC1vci1ub3QtdG8tZ2lsZC9wYXJpc3NhbG9ubWFyeWV2YW5zMTAwNjcxODZjcm9wcGVkLmpwZ4kBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA2LzA1L3RvLWdpbGQtb3Itbm90LXRvLWdpbGQvcGFyaXNzYWxvbm1hcnlldmFuczEwMDY3MTg2Y3JvcHBlZC5qcGeJAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wNi8wNS90by1naWxkLW9yLW5vdC10by1naWxkL3Bhcmlzc2Fsb25tYXJ5ZXZhbnMxMDA2NzE4NmNyb3BwZWQuanBniQFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDYvMDUvdG8tZ2lsZC1vci1ub3QtdG8tZ2lsZC9wYXJpc3NhbG9ubWFyeWV2YW5zMTAwNjcxODZjcm9wcGVkLmpwZ4kBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA2LzA1L3RvLWdpbGQtb3Itbm90LXRvLWdpbGQvcGFyaXNzYWxvbm1hcnlldmFuczEwMDY3MTg2Y3JvcHBlZC5qcGeJAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wNi8wNS90by1naWxkLW9yLW5vdC10by1naWxkL3Bhcmlzc2Fsb25tYXJ5ZXZhbnMxMDA2NzE4NmNyb3BwZWQuanBniQFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDYvMDUvdG8tZ2lsZC1vci1ub3QtdG8tZ2lsZC9wYXJpc3NhbG9ubWFyeWV2YW5zMTAwNjcxODZjcm9wcGVkLmpwZ4kBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA2LzA1L3RvLWdpbGQtb3Itbm90LXRvLWdpbGQvcGFyaXNzYWxvbm1hcnlldmFuczEwMDY3MTg2Y3JvcHBlZC5qcGeJAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wNi8wNS90by1naWxkLW9yLW5vdC10by1naWxkL3Bhcmlzc2Fsb25tYXJ5ZXZhbnMxMDA2NzE4NmNyb3BwZWQuanBniQFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDYvMDUvdG8tZ2lsZC1vci1ub3QtdG8tZ2lsZC9wYXJpc3NhbG9ubWFyeWV2YW5zMTAwNjcxODZjcm9wcGVkLmpwZ4kBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA2LzA1L3RvLWdpbGQtb3Itbm90LXRvLWdpbGQvcGFyaXNzYWxvbm1hcnlldmFuczEwMDY3MTg2Y3JvcHBlZC5qcGeJAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wNi8wNS90by1naWxkLW9yLW5vdC10by1naWxkL3Bhcmlzc2Fsb25tYXJ5ZXZhbnMxMDA2NzE4NmNyb3BwZWQuanBnIFRvIGdpbGQgb3Igbm90IHRvIGdpbGQg4oCUIHRoYXQgiQFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDYvMDUvdG8tZ2lsZC1vci1ub3QtdG8tZ2lsZC9wYXJpc3NhbG9ubWFyeWV2YW5zMTAwNjcxODZjcm9wcGVkLmpwZy9UbyBnaWxkIG9yIG5vdCB0byBnaWxkIOKAlCB0aGF0IGlzIHRoZSBxdWVzdGlvbqYBQXJ0aXN0cywgcGF0cm9ucyBhbmQgY3JpdGljcyBoYXZlIGFyZ3VlZCBmb3IgY2VudHVyaWVzIG92ZXIgdGhlIHJpZ2h0IHdheSB0byBmcmFtZSBhIHBhaW50aW5nLiBVbHRpbWF0ZWx5LCBpdOKAmXMgYSBtYXR0ZXIgb2YgcGVyc29uYWwgdGFzdGUsIHNheXMgQW5kcmV3IEdyYWhhbS1EaXhvbmQCBQ9kFgJmDxUTUmh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vRmVhdHVyZXMvNS1rZXktbW9tZW50cy1pbi1BbWVyaWNhbi1Nb2Rlcm5pc20tOTUxOC0xLmFzcHgHQVJUSUNMRQCQAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8xMC8zMS81LWtleS1tb21lbnRzLWluLWFtZXJpY2FuLW1vZGVybmlzbS9tYWluLTNyZC1kcmFmdC11cGRhdGVkLWltYWdlLmpwZ5ABaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzEwLzMxLzUta2V5LW1vbWVudHMtaW4tYW1lcmljYW4tbW9kZXJuaXNtL21haW4tM3JkLWRyYWZ0LXVwZGF0ZWQtaW1hZ2UuanBnkAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTAvMzEvNS1rZXktbW9tZW50cy1pbi1hbWVyaWNhbi1tb2Rlcm5pc20vbWFpbi0zcmQtZHJhZnQtdXBkYXRlZC1pbWFnZS5qcGeQAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8xMC8zMS81LWtleS1tb21lbnRzLWluLWFtZXJpY2FuLW1vZGVybmlzbS9tYWluLTNyZC1kcmFmdC11cGRhdGVkLWltYWdlLmpwZ5ABaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzEwLzMxLzUta2V5LW1vbWVudHMtaW4tYW1lcmljYW4tbW9kZXJuaXNtL21haW4tM3JkLWRyYWZ0LXVwZGF0ZWQtaW1hZ2UuanBnkAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTAvMzEvNS1rZXktbW9tZW50cy1pbi1hbWVyaWNhbi1tb2Rlcm5pc20vbWFpbi0zcmQtZHJhZnQtdXBkYXRlZC1pbWFnZS5qcGeQAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8xMC8zMS81LWtleS1tb21lbnRzLWluLWFtZXJpY2FuLW1vZGVybmlzbS9tYWluLTNyZC1kcmFmdC11cGRhdGVkLWltYWdlLmpwZ5ABaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzEwLzMxLzUta2V5LW1vbWVudHMtaW4tYW1lcmljYW4tbW9kZXJuaXNtL21haW4tM3JkLWRyYWZ0LXVwZGF0ZWQtaW1hZ2UuanBnkAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTAvMzEvNS1rZXktbW9tZW50cy1pbi1hbWVyaWNhbi1tb2Rlcm5pc20vbWFpbi0zcmQtZHJhZnQtdXBkYXRlZC1pbWFnZS5qcGeQAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8xMC8zMS81LWtleS1tb21lbnRzLWluLWFtZXJpY2FuLW1vZGVybmlzbS9tYWluLTNyZC1kcmFmdC11cGRhdGVkLWltYWdlLmpwZ5ABaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzEwLzMxLzUta2V5LW1vbWVudHMtaW4tYW1lcmljYW4tbW9kZXJuaXNtL21haW4tM3JkLWRyYWZ0LXVwZGF0ZWQtaW1hZ2UuanBnkAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTAvMzEvNS1rZXktbW9tZW50cy1pbi1hbWVyaWNhbi1tb2Rlcm5pc20vbWFpbi0zcmQtZHJhZnQtdXBkYXRlZC1pbWFnZS5qcGceQW1lcmljYW4gTW9kZXJuaXNtIGluIDUgdGhlbWVzkAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTAvMzEvNS1rZXktbW9tZW50cy1pbi1hbWVyaWNhbi1tb2Rlcm5pc20vbWFpbi0zcmQtZHJhZnQtdXBkYXRlZC1pbWFnZS5qcGceQW1lcmljYW4gTW9kZXJuaXNtIGluIDUgdGhlbWVzngFGcm9tIGluZHVzdHJpYWwgbGFuZHNjYXBlcyB0byBkZXNlcnQgdmlzdGFzIHZpYSBQYXJpcyBhbmQgYWJzdHJhY3Rpb24sIGlsbHVzdHJhdGVkIHdpdGggd29ya3MgZnJvbSBUaGUgQmFybmV5IEEuIEVic3dvcnRoIENvbGxlY3Rpb24gYW5kIG91ciBBbWVyaWNhbiBBcnQgc2FsZWQCBg9kFgJmDxUTVWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vRmVhdHVyZXMvTGUtQmFzc2luLWF1eC1ueW1waGVhcy1ieS1DbGF1ZGUtTW9uZXQtOTQyNC0xLmFzcHgHQVJUSUNMRQCqAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi9sZS1iYXNzaW4tYXV4LW55bXBoZWFzLWJ5LWNsYXVkZS1tb25ldC9jbGF1ZGVtb25ldDE4NDAxOTI2bGViYXNzaW5hdXhueW1waGVhczE5MTcxOTE3NjVhbHQuanBnqgFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvbGUtYmFzc2luLWF1eC1ueW1waGVhcy1ieS1jbGF1ZGUtbW9uZXQvY2xhdWRlbW9uZXQxODQwMTkyNmxlYmFzc2luYXV4bnltcGhlYXMxOTE3MTkxNzY1YWx0LmpwZ6oBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L2xlLWJhc3Npbi1hdXgtbnltcGhlYXMtYnktY2xhdWRlLW1vbmV0L2NsYXVkZW1vbmV0MTg0MDE5MjZsZWJhc3NpbmF1eG55bXBoZWFzMTkxNzE5MTc2NWFsdC5qcGeqAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi9sZS1iYXNzaW4tYXV4LW55bXBoZWFzLWJ5LWNsYXVkZS1tb25ldC9jbGF1ZGVtb25ldDE4NDAxOTI2bGViYXNzaW5hdXhueW1waGVhczE5MTcxOTE3NjVhbHQuanBnqgFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvbGUtYmFzc2luLWF1eC1ueW1waGVhcy1ieS1jbGF1ZGUtbW9uZXQvY2xhdWRlbW9uZXQxODQwMTkyNmxlYmFzc2luYXV4bnltcGhlYXMxOTE3MTkxNzY1YWx0LmpwZ6oBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L2xlLWJhc3Npbi1hdXgtbnltcGhlYXMtYnktY2xhdWRlLW1vbmV0L2NsYXVkZW1vbmV0MTg0MDE5MjZsZWJhc3NpbmF1eG55bXBoZWFzMTkxNzE5MTc2NWFsdC5qcGeqAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi9sZS1iYXNzaW4tYXV4LW55bXBoZWFzLWJ5LWNsYXVkZS1tb25ldC9jbGF1ZGVtb25ldDE4NDAxOTI2bGViYXNzaW5hdXhueW1waGVhczE5MTcxOTE3NjVhbHQuanBnqgFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvbGUtYmFzc2luLWF1eC1ueW1waGVhcy1ieS1jbGF1ZGUtbW9uZXQvY2xhdWRlbW9uZXQxODQwMTkyNmxlYmFzc2luYXV4bnltcGhlYXMxOTE3MTkxNzY1YWx0LmpwZ6oBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L2xlLWJhc3Npbi1hdXgtbnltcGhlYXMtYnktY2xhdWRlLW1vbmV0L2NsYXVkZW1vbmV0MTg0MDE5MjZsZWJhc3NpbmF1eG55bXBoZWFzMTkxNzE5MTc2NWFsdC5qcGeqAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi9sZS1iYXNzaW4tYXV4LW55bXBoZWFzLWJ5LWNsYXVkZS1tb25ldC9jbGF1ZGVtb25ldDE4NDAxOTI2bGViYXNzaW5hdXhueW1waGVhczE5MTcxOTE3NjVhbHQuanBnqgFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvbGUtYmFzc2luLWF1eC1ueW1waGVhcy1ieS1jbGF1ZGUtbW9uZXQvY2xhdWRlbW9uZXQxODQwMTkyNmxlYmFzc2luYXV4bnltcGhlYXMxOTE3MTkxNzY1YWx0LmpwZ6oBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L2xlLWJhc3Npbi1hdXgtbnltcGhlYXMtYnktY2xhdWRlLW1vbmV0L2NsYXVkZW1vbmV0MTg0MDE5MjZsZWJhc3NpbmF1eG55bXBoZWFzMTkxNzE5MTc2NWFsdC5qcGck4oCYV2l0aG91dCBiZWdpbm5pbmcgb3IgZW5k4oCZIOKAlCBNqgFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvbGUtYmFzc2luLWF1eC1ueW1waGVhcy1ieS1jbGF1ZGUtbW9uZXQvY2xhdWRlbW9uZXQxODQwMTkyNmxlYmFzc2luYXV4bnltcGhlYXMxOTE3MTkxNzY1YWx0LmpwZ0TigJhXaXRob3V0IGJlZ2lubmluZyBvciBlbmTigJkg4oCUIE1vbmV04oCZcyBMZSBiYXNzaW4gYXV4IG55bXBow6lhc39JZiB0aGUgR3JhbmRlcyBEw6ljb3JhdGlvbnMgcmVwcmVzZW50IHRoZSBwZWFrIG9mIE1vbmV04oCZcyBjYXJlZXIsIExlIGJhc3NpbiBhdXggbnltcGjDqWFzIGlzIGEgdml0YWwgc3RhZ2UgaW4gdGhlaXIgZXZvbHV0aW9uZAJSDxYGHg5kYXRhLXRpdGxlLWxvdAUeQXJpc3RpZGUgTWFpbGxvbCAoMTg2MS0xOTQ0KQ0KHhRkYXRhLWRlc2NyaXB0aW9uLWxvdAUpRXR1ZGUgcG91ciBMZSBtb251bWVudCDDoCBQYXVsIEPDqXphbm5lDQoeEmRhdGEtaW1hZ2VwYXRoLWxvdAWEAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wNDM1XzAwMChhcmlzdGlkZV9tYWlsbG9sX2V0dWRlX3BvdXJfbGVfbW9udW1lbnRfYV9wYXVsX2NlemFubmUpLmpwZ2QCBA9kFgJmD2QWAgIBDxYCHgRUZXh0BVBzLnByb3A1ID0gJ05ldyc7DQpzLnByb3A2ID0gJ05vdCBMb2dnZWQgSW4vTm8gQWNjb3VudCc7DQpzLmVWYXIyMiA9ICdFbmdsaXNoJzsNCmRk6kqlwpqwx0aOKJ7gXv+NAthas3M=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="69F1BA53" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAsJd3HX5FIHPbjI/e2QrLwBrHbl+IhCFSfgrEx0rkzICt/x0sK7Le6HoRia6eLO9k3leYFT8cQoZhJmf0W4HrBPgUyycGk603xSJxd52nk8g6zUj0qVrhMZV+tDz7vws51Gx4NeQ8dCQ80SJo/uRVjAeXQE5YAdIvc8kl63SPAZNDk8AbSic8KLhs/iV3KPAFZvjbAnhk/Y6L1jqhvgzkgwPuaSeVJ/TNj9fJsIYhDKZ/lYSjQTWtvhNd4OlvbS6/bISunq" />
+</div>
+        
+            <!--<div id="main-container" class="container main-container">-->
+            
+<script src="/static/scripts/CommonFunctionality/jCallWebService.js" type="text/javascript"></script>
+<script src="/static/scripts/CommonFunctionality/FollowSaleAndLot.js" type="text/javascript"></script>
+
+<!-- do not load flash detect if user is on android or ios -->
+<script src="/static/scripts/vendor/flash_detect_min.js"></script>
+<script src="/js/BidContainerPopUp.js" type="text/javascript"></script>
+<script src="/static/scripts/Lot/LotDetails.js" type="text/javascript"></script>
+<script src="https://widgets.interests.christies.com/js/interestSaveDialog.js" id="interestSaveDialogJs" type="text/javascript"></script>
+<script type="text/javascript" id="idGigya" src="https://cdns.gigya.com/JS/socialize.js?apikey=2_NsqQWOfVjp_4yuA7paAzYbdyyyHE03dA3DzJDkS-pA8CVIiTwM93o-nDE4Ys2gFI"></script>
+
+
+<script type="text/javascript">
+    var FollowLotAPI = "https://www.christies.com/webservices/mobile/Followlot.asmx/";
+    var LotDetailsAPI = "https://www.christies.com/ChristiesAPIServices/lotdetailsapi/Api/LotDetails/";
+    var SecureRootPath = "https://www.christies.com/";
+    var RootPath = "https://www.christies.com";
+    var COAItemCatVal = "20th Century, Sculptures, Statues & Figures";
+    var sFollowURL = "https://www.christies.com/MyChristies/loginAJAX.aspx?action=tracklotandreturntolotdetail&newobjectid=";
+    var ArrayVariable = "SignInToBid:Sign in to bid|PlaceBid:Place Bid|EditAbsenteeBid:Edit Bid|EnterChristiesLive:Join auction|RegistertoBid:Register to bid|Lot:Lot|Sale:Sale|PriceOnRequest:Estimate On Request|Estimate:Estimate|SalePrice:Sale Price";
+    var AkamaiCaching = "true";
+    var hdnLangID = "main_center_0_hdnLanguageID"
+
+    var dtm = {
+clientGuid: '',
+cultureCode: 'en-us',
+languageName: 'ENGLISH'
+};
+dtm['saleNumber']='15006';
+dtm['saleId']='27255';
+dtm['saleTitle']='Impressionist and Modern Art Day Sale';
+dtm['objectId']='6109986';
+dtm['pageType']='lot-details';
+dtm['lotNumber']='435  ';
+dtm['lotTitle']= 'Aristide Maillol (1861-1944)';
+
+
+    function RedirectURL(URL) {
+        window.location.href = URL;
+    }
+
+    function AccountSettingRedirection() {
+        window.location.href = SecureRootPath + '/MyChristies/my_settings_currency.aspx';
+    }
+
+    //document.domain="christies.com";
+
+</script>
+
+
+
+<ul class="container container-modules">
+    <li class="no-margin-bottom">
+        <div class="column column-12 no-padding pull-left" id="MainLotHeader">
+            
+            <div class="column column-2 column-md-2 column-lg-1 column-xl-1 no-padding" id="MainLotImage">
+                <div class="image-preview-container center">
+                    <div class="image-preview">
+                        <picture>
+                    <img src="https://www.christies.com/img/SaleImages/nyr-15006-11142017.jpg?width=300" id="main_center_0_imgSaleImage" data-id="imgSaleImage" alt="Impressionist and Modern Art D auction at Christies" />
+                </picture>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column column-9 column-md-7 column-lg-9 column-xl-9" id="MainLotTitle">
+                
+                <p class="category-title">
+                    Sale
+                    <span id="main_center_0_lnkSaleNumber">15006</span>
+                </p>
+                <div id="main_center_0_lblSaleTitle" class="sale-title">Impressionist and Modern Art Day Sale</div>
+            </div>
+            <div class="column column-12 column-md-7 column-lg-9 column-xl-9 no-padding" id="MainLotSubheader">
+                <p id="main_center_0_lblSaleLocation" class="sale-header--location">New York</p>
+                    <p class="sale-header--seperator">|</p>
+                    <p id="main_center_0_lblSaleDate" class="sale-header--date">14 November 2017</p>
+                
+            </div>
+            <div class="column is-not-mobile column-md-3 column-lg-2 column-xl-2" id="MainLotCTA">
+                
+                <div class="column column-12">
+                    <a href="https://www.christies.com/SaleLanding/Index.aspx?intSaleID=27255&lid=1" id="main_center_0_lnkBrowseSale" class="cta black hidden-print">
+                        Browse Sale
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </li>
+</ul>
+
+
+
+
+<div class="search-wrapper hidden-print">
+    <div class="search-2 reset-height">
+        <a href="https://www.christies.com/lotfinder/lot_details.aspx?intObjectID=6109985&lid=1&From=salesummery&sid=b10ea8b5-0c60-42c9-b7da-e6dfa2c8bae4" id="main_center_0_lnkPreviousLot" class="icon christies-icon_left-arrow button-icon icon_mask-text square">
+            Previous Lot
+        </a>
+        <div id="main_center_0_SearchContainer" class="search-container">
+            <input name="main_center_0$idSearch" type="text" id="main_center_0_idSearch" class="input_text" placeholder="Search by lot # in this sale" />
+            <a class="christies-icon_search button-icon icon_mask-text square" href="#" class="icon christies-icon_magnifying-glass" onclick="GetObjectID()">
+                Search
+            </a>
+        </div>
+        <a href="https://www.christies.com/lotfinder/lot_details.aspx?intObjectID=6109987&lid=1&From=salesummery&sid=b10ea8b5-0c60-42c9-b7da-e6dfa2c8bae4" id="main_center_0_lnkNextLot" class="icon christies-icon_right-arrow button-icon icon_mask-text square">
+            Next Lot
+        </a>
+    </div>
+</div>
+
+
+<ul class="container container-modules allContent">
+    <li>
+        
+        <div id="MainContent">
+            
+            <div class="column column-12 column-md-6 column-lg-5 column-xl-5 no-padding" id="MainContentImage">
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 no-padding">
+                    <div class="carousel-1 carousel-slider-container">
+                        <div class="image-preview-container image-preview-container-for-size carousel-buttons-container">
+                            
+                        </div>
+<!-- TODO: remove js code which replaces carousel-slider-count-x. carousel-slider-count-x should be dynamically changed via serverside variable based on the number of items in the carousel. only the number should come from the backend, not the whole class name. -->
+                        <ul id="main_center_0_imgCarouselMain" class="carousel-slider carousel-slider-count-1 no-padding" style="left: 0;">
+                            
+                                    <li class="box-link">
+                                        <a class="panzoom--link" data-zoom-enabled="true"
+											href="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg"
+                                            data-large-url="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg"
+                                            data-medium-url="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg"
+                                            data-small-url="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg"
+                                            data-zoom-enabled="panzoom--link">
+                                            <div class="image-preview-container center">
+                                                <picture>										
+													<source media="(max-width: 320px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=320&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=640&q=70 2x">
+													
+													<source media="(max-width: 375px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=375&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=750&q=70 2x, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=1125&q=70 3x">
+													
+													<source media="(max-width: 414px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=414&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=828&q=70 2x, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=1242&q=70 3x">
+													
+													<source media="(max-width: 768px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=265&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=530&q=70 2x, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=795&q=70 3x">
+													
+													<source media="(max-width: 1024px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=290&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=580&q=70 2x">
+													
+													<source media="(max-width: 1152px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=290&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=580&q=70 2x">
+													
+													<img class="image" src="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?w=400" alt="Aristide Maillol (1861-1944) ">
+												</picture>
+                                            </div>
+                                        </a>
+                                    </li>
+                                
+                                    
+                        </ul>
+
+                        <div class="carousel-enhancements hidden-print">
+                            <a href="../sublayouts/Components/PageSections/LotFinder/LotDetails/#" id="main_center_0_panZoomIcon" class="christies-icon_plus-magnification button-icon" data-carousel-lg="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg" data-carousel-zoom="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg?height=150"></a>
+                            <a href="#" class="christies-icon_connect button-icon" id="openConnectModal" data-toggle="modal" data-target="#connectModal" title="Share"></a>
+                        </div>
+
+                        <ul id="imgCarouselThumb" class="column column-12 column-md-12 column-lg-12 column-xl-12 no-padding carousel-slider-thumbnails hidden-print">
+                            
+                            
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+            <div class="column column-12 column-md-6 column-lg-7 column-xl-7 no-padding" id="MainContentDetails">
+
+                <div class="column column-10 column-md-11 column-lg-11 column-xl-11 lotNumberContainer">
+                    <h6 class="category-title grey lotNumber" id="lotNumber">
+                        <span class="text-transform_uppercase">
+                            Lot
+                        </span>
+                        <span id="main_center_0_lblLotNumber">435  </span>
+						<p id="main_center_0_lblPreLotHeaderText" style="display:none;">PROPERTY FROM THE COLLECTION OF NANCY LEE AND PERRY R. BASS</p>
+                    </h6>
+
+                </div>
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 container lot-details--title-container">
+                    <div class="lotName--container clear-fix">
+                        <h1 class="lotName header-4" >
+	                        <span id="main_center_0_lblLotPrimaryTitle" data-lotStatus="Past">Aristide Maillol (1861-1944)
+</span>
+                                
+                        </h1>
+                    </div>
+                    <h2 id="main_center_0_lblLotSecondaryTitle" class="itemName"><i>Etude pour</i> Le monument à Paul Cézanne
+</h2>
+
+
+                </div>
+            <div class="lot-details--price-container">
+                
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 container overflow">
+                    <div class="price clearfix">
+                        <p class="p--primary_large estimate-realised">
+                            <span id="main_center_0_lblPriceRealizedLabel">Price realised</span>
+                            
+                            <div class="info hidden-print">
+                                <span id="main_center_0_buyerinfo" class="lot-details--tooltip-icon lot-details--tooltip-icon_h40 christies-icon_information" data-toggle="tooltip" data-original-title="Price Realised is hammer price plus buyer’s premium, net of any applicable fees."></span>
+                            </div>
+                            <p id="main_center_0_lblPriceRealizedPrimary" class="p--primary_large lot-details--lot-value" style="display:none;">USD 50,000</p>
+
+                    </div>
+                    
+                </div>
+                
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 container overflow">
+                    <div class="price clearfix">
+                        <p class="p--primary_large estimate-realised">
+                            <span id="main_center_0_lblPriceEstimatedLabel">Estimate</span>
+                            
+                            <div class="info hidden-print">
+                            	<span id="main_center_0_buyerinfoEstimated" class="lot-details--tooltip-icon lot-details--tooltip-icon_h40 christies-icon_information" data-toggle="tooltip" data-original-title="Estimates do not reflect the final hammer price and do not include buyer&#39;s premium, any applicable taxes or artist’s resale right. Please see Section D of the Conditions of Sale for full details. "></span>
+                            </div>
+                            <span id="main_center_0_lblPriceEstimatedPrimary" class="p--primary_large lot-details--lot-value" style="display:none;">USD 50,000 - USD 70,000</span>
+
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+			 
+                <div class="cta-container">
+                   
+                    
+                    <div class="column column-12 column-md-12 column-lg-4 column-xl-4 follow-lot cta-button hidden-print">
+                        <a id="main_center_0_lnkFavourite" data-unfollow-text="Unfollow lot" data-url="https://www.christies.com/MyChristies/loginAJAX.aspx?action=tracklotandreturntolotdetail&amp;newobjectid=6109986" class="cta full-width black no-margin-bottom follow-lot-ldp" data-follow-text="Follow lot" data-objectid="6109986" style="display:none;" data-id="0" data-target="#basicModal" data-remote="https://www.christies.com/MyChristies/loginAJAX.aspx?action=tracklotandreturntolotdetail&amp;newobjectid=6109986" data-follow="N" data-toggle="modal">Follow lot</a>
+                    </div>
+                    
+                </div>
+
+                
+                <div class="clear-both">
+                    <div id="main_center_0_dvAddToInterest" data-target="#basicModal" class="column column-12 column-md-12 column-lg-5 column-xl-4 interests login-user hidden-print" data-url="https://www.christies.com/MyChristies/loginAJAX.aspx?action=conditionreport&amp;intObjectID=6109986" data-categoryid="7801" style="display:none;" data-coaid="33640,8307,2218,495,340,5862" data-buttonupdatetext="Added to Interests" data-remote="https://www.christies.com/MyChristies/loginAJAX.aspx?action=conditionreport&amp;intObjectID=6109986" data-showmorerefinements="false" data-toggle="modal">
+                        <div class="christies-icon_plus body_p followThisSearch">
+                            Add to Interests
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+            
+            <div class="column column-12 column-md-12  column-lg-7 column-xl-7 no-padding lotDetails">
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 no-padding">
+                    <p class="p--primary_large no-margins lotDescription"><span id="main_center_0_lblLotDescription">Aristide Maillol (1861-1944)<br>
+<i>Etude pour</i> Le monument à Paul Cézanne<br>
+signed with monogram, numbered and inscribed with foundry mark '3/6 Alexis Rudier. .Fondeur. Paris.' (on the back of the base)<br>
+bronze with brown and green patina<br>
+Height: 8 3/8 in. (23.5 cm.)<br>
+Length: 13 ¼ in. (35.5 cm.)<br>
+Conceived in 1912<br>
+</span></p>
+                </div>
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 no-padding lot-details--provenance">
+                
+                <p class="p--primary_large"><strong>
+                    Provenance
+                </strong></p>
+                <p id="main_center_0_lblLotProvenance" class="p--primary_large">Estate of the artist.<br>
+Private collection, New York (acquired from the above).<br>
+Jason McCoy, Inc., New York.<br>
+Acquired from the above by the late owners, May 1990.</p>
+                
+                </div>
+                
+            </div>
+            
+        </div>
+        
+
+        
+        <div class="column column-12 col-md-6 col-lg-6 col-xl-6 container">
+            <div class="column column-12 container">
+                <section id="ContactDepartment">
+                    <header>
+                        <div class="header-content">
+                            <h4 class="title">
+                                Contact us
+                            </h4>
+                        </div>
+                    </header>
+                    <div id="ulDepartmentContact">
+                        <div class="content column column-12 column-md-12 column-lg-12 column-xl-12 no-padding">
+							<ul class="box-link-type-1 reset-height">
+								<li class="column column-12 column-md-6 column-lg-6 column-xl-4">
+									<div class="box-item-container  no-highlight">
+										<p class="font_medium">Contact Client Service</p>
+										<p><a href="mailto:info@christies.com">info@christies.com</a></p>
+<p>New York +1 212 636 2000</p>
+<p>London +44 (0)20 7839 9060</p>
+<p><a href="mailto:infoasia@christies.com">infoasia@christies.com</a></p>
+<p>Asia +852 2760 1766</p>
+									</div>
+								</li>
+                            
+
+                                
+                                    <li class="column column-12 column-md-6 column-lg-6 column-xl-4">
+                                        <div class="box-item-container  no-highlight">
+                                            <p class="itemHeader">Vanessa Fusco</p>
+                                            <p></p>
+                                            <p><a href="mailto:vfusco@christies.com" class="underline">vfusco@christies.com</a></p>
+                                            <p>+1 212 636 2050</p>
+                                        </div>
+                                    </li>
+                                
+							</ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+		
+        
+
+        
+        
+        
+        <div class="column column-12 container literature-exhibitions">
+            <div class="accordion">
+                <section>
+                    <header>
+                        <div class="header-content collapsed" data-toggle="collapse" data-target="#literature">
+                            <h4 class="title">
+                                Literature and exhibited
+                            </h4>
+                            <span class="controls hidden-print">
+                                <span class="open christies-icon_plus button-icon icon-circle pull-right"></span>
+                                <span class="close christies-icon_minus button-icon icon-circle pull-right"></span>
+                            </span>
+                        </div>
+                    </header>
+                    <div class="collapse" id="literature">
+                  <div class="content column column-12 column-md-offset-1 column-md-10 column-lg-offset-1 column-lg-10 column-xl-offset-3 column-xl-6">
+                            
+                            <p><strong>
+                                Literature
+                            </strong></p>
+                            <p id="main_center_0_lblLiterature">J. Rewald, <i>Maillol</i>, Paris, 1939, p. 166 (terracotta version illustrated, pp. 82 and 83).</p>
+                            <br />
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        
+
+        
+        <div class="column column-12 container additional-details">
+            <div class="accordion">
+                
+                <section>
+
+                    <header>
+                        <div class="header-content collapsed" data-toggle="collapse" data-target="#lotNotes">
+                            <h4 class="title">
+                                Lot Essay
+                            </h4>
+                            <span class="controls hidden-print">
+                                <span class="open christies-icon_plus button-icon icon-circle pull-right"></span>
+                                <span class="close christies-icon_minus button-icon icon-circle pull-right"></span>
+                            </span>
+                        </div>
+                    </header>
+                    <div id="lotNotes" class="collapse">
+                      <div class="content column column-12 column-md-offset-1 column-md-10 column-lg-offset-1 column-lg-10 column-lg-6 column-xl-offset-3 column-xl-6">
+                            <p id="main_center_0_lblLotNotes">Olivier Lorquin has confirmed the authenticity of this work.</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section>
+
+                    <header>
+                        <div class="header-content collapsed" data-toggle="collapse" data-target="#otherInfo">
+                            <h4 class="title">
+                                Other information
+                            </h4>
+                            <span class="controls hidden-print">
+                                <span class="open christies-icon_plus button-icon icon-circle pull-right"></span>
+                                <span class="close christies-icon_minus button-icon icon-circle pull-right"></span>
+                            </span>
+                        </div>
+                    </header>
+                    <div class="collapse" id="otherInfo">
+                  <div class="content column column-12 column-md-offset-1 column-md-10 column-lg-offset-1 column-lg-10 column-xl-offset-3 column-xl-6">
+                            
+                            <p><strong>
+                                Pre-Lot Text
+                            </strong></p>
+                            <p id="main_center_0_lblPreLotText">PROPERTY FROM THE COLLECTION OF NANCY LEE AND PERRY R. BASS</p>
+                            
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+        </div>
+        
+        
+        <div class="seperator seperator-5 hidden-print"></div>
+        
+        <div class="column column-12 container overflow hidden-print">
+            <div class="column column-12 container" id="RelatedFeatures">
+                <h4 class="title_h5_small atlas-medium">
+                    Recommended features
+                </h4>
+                
+                <ul id="ulRelatedFeature" class="column box-link-type-4">
+                    
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/The-life-and-art-of-Sir-Alfred-Munnings-9538-1.aspx" data-template="ARTICLE" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="From war horses to royalty: th"
+    src="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">From war horses to royalty: the art of Sir Alfred Munnings</h3>
+                                                <p class="p--primary">An expert guide to the British artist best known for his depiction of horses, but also a skilled portraitist. Illustrated with works offered in November and December</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/Van-Gogh-Coin-de-jardin-avec-papillons-9423-3.aspx" data-template="VIDEO" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    <span class='play-icon-overlay'></span>
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="‘Something very much alive’ — "
+    src="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">‘Something very much alive’ — Coin de jardin avec papillons by Van Gogh</h3>
+                                                <p class="p--primary">Join us on a remarkable journey into a painting that marks the moment the artist ‘crossed the divide into contemporary art’ </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/Picasso-ceramics-An-essential-guide-to-stamps-and-markings-9346-3.aspx" data-template="VIDEO" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    <span class='play-icon-overlay'></span>
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="Picasso ceramics: An essential"
+    src="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">Picasso ceramics: An essential guide to stamps and markings</h3>
+                                                <p class="p--primary">Specialist Imogen Kerr on why the artist wanted everyone to be able to own one of his works</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/Andrew-Graham-Dixon-to-gild-or-not-to-gild-9246-1.aspx" data-template="ARTICLE" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="To gild or not to gild — that "
+    src="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">To gild or not to gild — that is the question</h3>
+                                                <p class="p--primary">Artists, patrons and critics have argued for centuries over the right way to frame a painting. Ultimately, it’s a matter of personal taste, says Andrew Graham-Dixon</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/5-key-moments-in-American-Modernism-9518-1.aspx" data-template="ARTICLE" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="American Modernism in 5 themes"
+    src="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">American Modernism in 5 themes</h3>
+                                                <p class="p--primary">From industrial landscapes to desert vistas via Paris and abstraction, illustrated with works from The Barney A. Ebsworth Collection and our American Art sale</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/Le-Bassin-aux-nympheas-by-Claude-Monet-9424-1.aspx" data-template="ARTICLE" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="‘Without beginning or end’ — M"
+    src="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">‘Without beginning or end’ — Monet’s Le bassin aux nymphéas</h3>
+                                                <p class="p--primary">If the Grandes Décorations represent the peak of Monet’s career, Le bassin aux nymphéas is a vital stage in their evolution</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        
+        
+    </li>
+</ul>
+
+
+
+<section class="panzoom--wrapper">
+    <div class="loader">
+        <div class="loader--inner"></div>
+    </div>
+    <div class="panzoom--container">
+        <div class="panzoom--inner">
+            <img class="panzoom" src="" />
+        </div>
+        <div class="buttons--container">
+            <button class="zoom-out button-icon christies-icon_minus"></button>
+            <input type="range" class="zoom-range">
+            <button class="zoom-in button-icon christies-icon_plus"></button>
+        </div>
+    </div>
+
+    <button class="btn--close button-icon christies-icon_close"></button>
+</section>
+
+
+
+<script async type="text/javascript" src="/static/scripts/gigya/DynamicGigya_LDP.js?date=20180508115623"> </script>
+<link href="/inc/css/modules/paramPopup.css?101120181920" class="x-leave" rel="stylesheet" type="text/css" />
+<script async type="text/javascript" src="/static/scripts/ldp.js?date=20171128043318"> </script>
+<link href="/static/css/ldp.css?101120181920" class="x-leave" rel="stylesheet" type="text/css" />
+<div id="dialog" style="display: none" class="container"></div>
+
+<link href="/static/css/panzoom/panzoom.css" rel="stylesheet" />
+<script src="/static/scripts/jquery/jquery.mousewheel_3.1.13.min.js"></script>
+<script src="/static/scripts/vendor/panzoom/jquery.panzoom_v3.2.2.min.js"></script>
+<script src="/static/scripts/panzoom/panzoom.js"></script>
+
+<input type="hidden" name="main_center_0$hdnSaleID" id="main_center_0_hdnSaleID" value="27255" />
+<input type="hidden" name="main_center_0$hdnObjectID" id="main_center_0_hdnObjectID" value="6109986" />
+<input type="hidden" name="main_center_0$hdnGeoCountryCode" id="main_center_0_hdnGeoCountryCode" value="US" />
+<input type="hidden" name="main_center_0$hdnLanguageID" id="main_center_0_hdnLanguageID" value="1" />
+<input type="hidden" name="main_center_0$hdnContactDetails" id="main_center_0_hdnContactDetails" />
+<input type="hidden" name="main_center_0$lblLotCondition" id="main_center_0_lblLotCondition" value="Slight rubbing to the high points. Light surface dirt to the cervices. Scattered pitting and faint surface scratches." />
+<input type="hidden" name="main_center_0$lblCreatedOn" id="main_center_0_lblCreatedOn" value="26 October 2017" />
+<input type="hidden" name="main_center_0$lblModifiedOn" id="main_center_0_lblModifiedOn" value="4 December 2017" />
+<input type="hidden" name="main_center_0$Session" id="main_center_0_Session" value="02:00 PM" />
+
+<script src="/static/scripts/modules/carousel/carousel-1.js" async type="text/javascript"></script>
+
+<!-- BOF: If a lot has a video -->		
+
+<!-- EOF: If a lot has a video -->
+
+<div class="modal fade in" id="connectModal" tabindex="-1" role="dialog" aria-labelledby="connectModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title header-4">Share</h5>
+            </div>
+            <div id="main_center_0_ch_social_block" class="SocialBlock_LotSale" data-containerid-lot="ShareDiv" data-icons-lot="Facebook,Twitter,Pinterest" data-title-lot="Aristide Maillol (1861-1944)
+" data-description-lot="Etude pour Le monument à Paul Cézanne
+" data-imagepath-lot="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0435_000(aristide_maillol_etude_pour_le_monument_a_paul_cezanne).jpg">
+                <ul class="share-tags">
+                    <li>
+                        <div id="ShareDiv"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="connect_modal--container_vertical" data-toggle="modal" data-target="#emailAFriendModal" id="idEmailAFriend" title="Email">
+                <span class="christies-icon_email button-icon connect_modal--icon"></span><span class="connect_modal--label">Email</span>
+            </div>
+            <div class="connect_modal--container_vertical" onclick="CopyToClipboard();">
+                <span class="christies-icon_link button-icon connect_modal--icon" id="idCopyLink" title="Copy Link"></span><span class="connect_modal--label">Copy link</span>
+            </div>
+
+            <button type="button" class="close christies-icon_close" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+    </div>
+    <textarea name="copyUrl" id="copyUrl" rows="8" cols="80" style="position: fixed;opacity: 0;"></textarea>
+</div>
+            <!--</div>-->
+        
+    </form>
+    <!--/main-container-->
+
+    <script type="text/javascript">
+        document.cookie = 'CurrentLanguage=; path=/; Domain=.www.christies.com; expires=' + new Date(0).toUTCString();
+        document.cookie = 'CurrentLanguage=; path=/; expires=' + new Date(0).toUTCString();
+    </script>
+    
+    <!--<div class="widget--christies-footer">
+    </div>-->
+	
+
+
+
+<footer>
+    <div class='christies widget--christies-footer'></div>
+</footer>
+
+
+<div id="iSignUp">
+   <!-- <script type="text/javascript" language="javascript" src="/js/LoadFastSignUp.js"></script>
+    <iframe id="signupFrame" class="cssFrame" scrolling="no" src=''></iframe> -->
+</div>
+
+
+
+<div class="modal fade in" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content load-modal-data">
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade in" id="onPageModal" tabindex="-1" role="dialog" aria-labelledby="onPageModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title header-4"></h5>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+            </div>
+            <button type="button" class="close christies-icon_close" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img class="drag" id="imageModal_content" src="">
+            <button type="button" class="close christies-icon_close" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-fullscreen force-fullscreen" id="carouselModal" tabindex="-1" role="dialog" aria-labelledby="carouselModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img class="drag" id="carouselModal_content" src="">
+            <button type="button" class="close cta" data-dismiss="modal" aria-hidden="true">Tap to Close</button>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade in" id="iframeModal" tabindex="-1" role="dialog" aria-labelledby="iframeModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <iframe src=""></iframe>
+
+            </div>
+
+            <button type="button" class="close christies-icon_close" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+    </div>
+</div>
+<a id="back-to-top" href="#" class="back-to-top hidden-print" role="button" title="Back to top"><span class="button-icon christies-icon_top-of-page"></span></a>
+
+
+
+
+<div class="modal fade in" id="emailAFriendModal" tabindex="-1" role="dialog" aria-labelledby="emailAFriendModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade in" id="conditionReportModal" tabindex="-1" role="dialog" aria-labelledby="conditionReportModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade in" id="viewCatalogueModal" tabindex="-1" role="dialog" aria-labelledby="viewCatalogueModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>
+
+
+<!--
+<div class="modal fade in" id="connectModal" tabindex="-1" role="dialog" aria-labelledby="connectModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title header-4">Share</h5>
+            </div>
+            <div id="main_footer_0_ch_social_block" class="SocialBlock_LotSale" data-containerid-lot="ShareDiv" data-icons-lot="Facebook,Twitter,Pinterest">
+                <ul class="share-tags">
+                    <li>
+                        <div id="ShareDiv"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="connect_modal--container_vertical" data-toggle="modal" data-target="#emailAFriendModal" id="idEmailAFriend" title="Email">
+                <span class="christies-icon_email button-icon connect_modal--icon"></span><span class="connect_modal--label">Email</span>
+            </div>
+            <div class="connect_modal--container_vertical" onclick="CopyToClipboard();">
+                <span class="christies-icon_link button-icon connect_modal--icon" id="idCopyLink" title="Copy Link"></span><span class="connect_modal--label">Copy link</span>
+            </div>
+
+            <button type="button" class="close christies-icon_close" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+    </div>
+    <textarea name="copyUrl" id="copyUrl" rows="8" cols="80" style="position: fixed; opacity: 0;"></textarea>
+</div>
+-->
+
+
+    
+<!-- ===========================================
+OMNITURE CODE SECTION-B BEGIN
+===========================================-->
+<!-- SiteCatalyst code version: H.14.
+Copyright 1997-2007 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script  type='text/javascript'><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.prop5 = 'New';
+s.prop6 = 'Not Logged In/No Account';
+s.eVar22 = 'English';
+
+//--></script>
+<!-- End SiteCatalyst code version: H.14. -->
+<!-- ===========================================
+OMNITURE CODE SECTION-B END
+===========================================-->
+<!-- Machine Name: MAC02 -->
+
+    <!--</div>-->
+
+    
+<!-- ===========================================
+    This should be the last thing just before the END Body Tag
+     OMNITURE CODE SECTION-C BEGIN
+     ===========================================-->
+
+<!--- DTM TAG -->
+<script type="text/javascript" language="javascript">_satellite.pageBottom();</script>
+<!--- DTM TAG -->
+	 
+<!-- ===========================================
+    OMNITURE CODE SECTION-C END
+     ===========================================-->
+
+    
+    <div class="overlayBG"></div>
+    
+    <!-- Page Body -->
+    <!-- Numberly Tag START -->
+    
+
+    <script type="text/javascript">
+
+        window._troq = window._troq || [];
+
+        _troq.push(['tagid', '6563497-0edcf87c71ee419912249c25b0ebb928'],
+
+
+        
+            ['_rtgpg', 'product'],
+            ['_rtgidproductit', 'product_id'],
+            ['_rtgidcat', '6109986'],
+        
+
+        ['_email', ''],
+        ['_rtgidcountry', 'US'],
+        ['_rtglanguage', 'en'],
+        ['_rtgcustomerid', ''],
+               
+        
+		        ['_rtgregistered', '0']
+        
+
+        );
+
+        (function () {
+            if (window._troqck !== 1) {
+                var a = document.createElement("script");
+                a.type = "text/javascript";
+                a.async = !0;
+                a.src = "//mmtro.com/tro.js";
+                var b = document.getElementsByTagName("script")[0];
+                b.parentNode.insertBefore(a, b);
+            }
+        })();
+    </script>
+    
+    <!-- Numberly Tag END -->
+
+    
+    <!-- Google Code for Remarketing tag -->
+    <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1004977320;
+        var google_conversion_label = "3UvnCPii8QMQqPma3wM";
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <div style="display: none">
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+    </div>
+    <!-- End of Segment Pixel -->
+    
+    <script src="/static/Scripts/modules/accordion/accordion.js" type="text/javascript" defer></script>
+    <script src="/static/Scripts/modules/modal/modals.js" type="text/javascript" defer></script>
+    <script src="/static/Scripts/modules/tooltip/tooltip.js" type="text/javascript" defer></script>
+    <script src="/static/Scripts/hp/detectIE.js" type="text/javascript"></script>
+
+    
+		<link rel="stylesheet" type="text/css" href="/css/FastSignup.css?101120181920" />	
+		<script type="text/javascript" language="javascript" src="/js/LoadFastSignUp.js" async></script>
+    
+
+    <script>
+        (function () {
+            'use strict'; var f, g = []; function l(a) { g.push(a); 1 == g.length && f() } function m() { for (; g.length;) g[0](), g.shift() } f = function () { setTimeout(m) }; function n(a) { this.a = p; this.b = void 0; this.f = []; var b = this; try { a(function (a) { q(b, a) }, function (a) { r(b, a) }) } catch (c) { r(b, c) } } var p = 2; function t(a) { return new n(function (b, c) { c(a) }) } function u(a) { return new n(function (b) { b(a) }) } function q(a, b) { if (a.a == p) { if (b == a) throw new TypeError; var c = !1; try { var d = b && b.then; if (null != b && "object" == typeof b && "function" == typeof d) { d.call(b, function (b) { c || q(a, b); c = !0 }, function (b) { c || r(a, b); c = !0 }); return } } catch (e) { c || r(a, e); return } a.a = 0; a.b = b; v(a) } }
+            function r(a, b) { if (a.a == p) { if (b == a) throw new TypeError; a.a = 1; a.b = b; v(a) } } function v(a) { l(function () { if (a.a != p) for (; a.f.length;) { var b = a.f.shift(), c = b[0], d = b[1], e = b[2], b = b[3]; try { 0 == a.a ? "function" == typeof c ? e(c.call(void 0, a.b)) : e(a.b) : 1 == a.a && ("function" == typeof d ? e(d.call(void 0, a.b)) : b(a.b)) } catch (h) { b(h) } } }) } n.prototype.g = function (a) { return this.c(void 0, a) }; n.prototype.c = function (a, b) { var c = this; return new n(function (d, e) { c.f.push([a, b, d, e]); v(c) }) };
+            function w(a) { return new n(function (b, c) { function d(c) { return function (d) { h[c] = d; e += 1; e == a.length && b(h) } } var e = 0, h = []; 0 == a.length && b(h); for (var k = 0; k < a.length; k += 1) u(a[k]).c(d(k), c) }) } function x(a) { return new n(function (b, c) { for (var d = 0; d < a.length; d += 1) u(a[d]).c(b, c) }) }; window.Promise || (window.Promise = n, window.Promise.resolve = u, window.Promise.reject = t, window.Promise.race = x, window.Promise.all = w, window.Promise.prototype.then = n.prototype.c, window.Promise.prototype["catch"] = n.prototype.g);
+        }());
+
+        (function () {
+            function l(a, b) { document.addEventListener ? a.addEventListener("scroll", b, !1) : a.attachEvent("scroll", b) } function m(a) { document.body ? a() : document.addEventListener ? document.addEventListener("DOMContentLoaded", function c() { document.removeEventListener("DOMContentLoaded", c); a() }) : document.attachEvent("onreadystatechange", function k() { if ("interactive" == document.readyState || "complete" == document.readyState) document.detachEvent("onreadystatechange", k), a() }) }; function q(a) {
+                this.a = document.createElement("div"); this.a.setAttribute("aria-hidden", "true"); this.a.appendChild(document.createTextNode(a)); this.b = document.createElement("span"); this.c = document.createElement("span"); this.h = document.createElement("span"); this.f = document.createElement("span"); this.g = -1; this.b.style.cssText = "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;"; this.c.style.cssText = "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";
+                this.f.style.cssText = "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;"; this.h.style.cssText = "display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;"; this.b.appendChild(this.h); this.c.appendChild(this.f); this.a.appendChild(this.b); this.a.appendChild(this.c)
+            }
+            function w(a, b) { a.a.style.cssText = "max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:" + b + ";" } function x(a) { var b = a.a.offsetWidth, c = b + 100; a.f.style.width = c + "px"; a.c.scrollLeft = c; a.b.scrollLeft = a.b.scrollWidth + 100; return a.g !== b ? (a.g = b, !0) : !1 } function z(a, b) { function c() { var a = k; x(a) && null !== a.a.parentNode && b(a.g) } var k = a; l(a.b, c); l(a.c, c); x(a) }; function A(a, b) { var c = b || {}; this.family = a; this.style = c.style || "normal"; this.weight = c.weight || "normal"; this.stretch = c.stretch || "normal" } var B = null, C = null, D = null; function H() { if (null === C) { var a = document.createElement("div"); try { a.style.font = "condensed 100px sans-serif" } catch (b) { } C = "" !== a.style.font } return C } function I(a, b) { return [a.style, a.weight, H() ? a.stretch : "", "100px", b].join(" ") }
+            A.prototype.load = function (a, b) {
+                var c = this, k = a || "BESbswy", y = b || 3E3, E = (new Date).getTime(); return new Promise(function (a, b) {
+                    null === D && (D = !!window.FontFace); if (D) { var J = new Promise(function (a, b) { function e() { (new Date).getTime() - E >= y ? b() : document.fonts.load(I(c, c.family), k).then(function (c) { 1 <= c.length ? a() : setTimeout(e, 25) }, function () { b() }) } e() }), K = new Promise(function (a, c) { setTimeout(c, y) }); Promise.race([K, J]).then(function () { a(c) }, function () { b(c) }) } else m(function () {
+                        function r() {
+                            var b; if (b = -1 != f &&
+                            -1 != g || -1 != f && -1 != h || -1 != g && -1 != h) (b = f != g && f != h && g != h) || (null === B && (b = /AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent), B = !!b && (536 > parseInt(b[1], 10) || 536 === parseInt(b[1], 10) && 11 >= parseInt(b[2], 10))), b = B && (f == t && g == t && h == t || f == u && g == u && h == u || f == v && g == v && h == v)), b = !b; b && (null !== d.parentNode && d.parentNode.removeChild(d), clearTimeout(G), a(c))
+                        } function F() {
+                            if ((new Date).getTime() - E >= y) null !== d.parentNode && d.parentNode.removeChild(d), b(c); else {
+                                var a = document.hidden; if (!0 === a || void 0 ===
+                                a) f = e.a.offsetWidth, g = n.a.offsetWidth, h = p.a.offsetWidth, r(); G = setTimeout(F, 50)
+                            }
+                        } var e = new q(k), n = new q(k), p = new q(k), f = -1, g = -1, h = -1, t = -1, u = -1, v = -1, d = document.createElement("div"), G = 0; d.dir = "ltr"; w(e, I(c, "sans-serif")); w(n, I(c, "serif")); w(p, I(c, "monospace")); d.appendChild(e.a); d.appendChild(n.a); d.appendChild(p.a); document.body.appendChild(d); t = e.a.offsetWidth; u = n.a.offsetWidth; v = p.a.offsetWidth; F(); z(e, function (a) { f = a; r() }); w(e, I(c, '"' + c.family + '",sans-serif')); z(n, function (a) { g = a; r() }); w(n, I(c, '"' +
+                        c.family + '",serif')); z(p, function (a) { h = a; r() }); w(p, I(c, '"' + c.family + '",monospace'))
+                    })
+                })
+            }; "undefined" !== typeof module ? module.exports = A : (window.FontFaceObserver = A, window.FontFaceObserver.prototype.load = A.prototype.load);
+        }());
+        /*
+        Fonts are loaded through @font-face rules in the CSS whenever an element references them.
+        FontFaceObserver creates a referencing element to trigger the font request, and lsisten for font load events.
+        When all 3 fonts are loaded, we enable them by adding a class to the html element
+    */
+
+
+        var fontB = new FontFaceObserver("Christies");
+
+        fontB.load().then(function () {
+            document.getElementsByTagName('body')[0].className += ' webfont-loaded ';
+            console.log('Font is available');
+        }, function () {            
+            console.log('Font is not available');
+        });
+        if (detectIE()) {
+        document.getElementsByTagName('body')[0].className += ' webfont-loaded ';
+        }
+
+    </script>
+    
+
+    <script src="/static/Scripts/modules/paramPopup-global.js"></script>
+    <script src="/static/Scripts/modules/initialize-plugins-global.js"></script>
+
+    
+    
+        <script type="text/javascript" src="/app_build/widgetBuilder.js?v=5"></script>
+     
+
+    <script type="text/javascript">
+        var CSCInactivityTime = '900000';
+        var rootSecurePath = 'https://www.christies.com/';
+        var EnableCSCInactivityLogout = 'Y';
+	
+    </script>
+    <script src="/static/Scripts/CSCUserInteraction.js"></script>
+
+
+    <script type="text/javascript">
+        document.cookie = 'CurrentLanguage=; path=/; Domain=.www.christies.com; expires=' + new Date(0).toUTCString();
+        document.cookie = 'CurrentLanguage=; path=/; expires=' + new Date(0).toUTCString();
+		jQuery(document).ready(function(){
+		// this part disables the right click
+			jQuery('img','image-preview-container').on('contextmenu', function(e) {
+			return false;
+			});
+			//this part disables dragging of image
+			jQuery('img','image-preview-container').on('dragstart', function(e) {
+			return false;
+			});
+
+		});
+    </script>
+    <script type='text/javascript'>
+	//<![CDATA[
+	function nocontext(e) {
+		var clickedTag = (e==null) ? event.srcElement.tagName : e.target.tagName;
+		if (clickedTag == "IMG") {
+			return false;
+		}
+	}
+	document.oncontextmenu = nocontext;
+	//]]>
+	</script>
+	
+</body>
+</html>
+

@@ -1,0 +1,1504 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- mainHEaderFooter -->
+<head>
+    <script type="text/javascript" src="/ruxitagentjs_ICA27SVfghjoqrx_10155181025135642.js" data-dtconfig="rid=RID_-1273939236|rpid=-1678157892|domain=christies.com|reportUrl=/rb_bf49921zcg|srms=1,1,,,|bp2=1|featureHash=ICA27SVfghjoqrx|dpvc=1|md=1=cWebClient_Id2|lastModification=1541686052003|dtVersion=10155181025135642|tp=500,50,0,1|rdnt=1|agentUri=/ruxitagentjs_ICA27SVfghjoqrx_10155181025135642.js"></script><style media="screen">
+        .widget--christies-header {display:block;height:54px;} @media (min-width:768px) {.widget--christies-header {height:58px;}} @media (min-width:1280px) {.widget--christies-header {height:109px;}}
+    </style>
+	 
+	    <!-- OneTrust Cookies Consent Notice (Staging, staging.christies.com, en-GB) start -->
+	     
+		
+		 
+			<script src="https://cdn.cookielaw.org/consent/1d0e237c-19a3-4077-bea6-ecb56a0c3401.js" type="text/javascript" data-document-language="true" charset="UTF-8"></script>
+		
+	    <script type="text/javascript">
+		    function OptanonWrapper() {
+          Optanon.InsertScript('/js/performance-cookies.js', 'head', null, null, 2);
+			    Optanon.InsertScript('/js/targeting-cookies.js', 'head', null, null, 4);
+		    }
+	    </script>
+	    <!-- OneTrust Cookies Consent Notice (Staging, staging.christies.com, en-GB) end -->
+    
+
+    <script type="text/javascript">
+        document.cookie = 'CurrentLanguage=; path=/; Domain=.www.christies.com; expires=' + new Date(0).toUTCString();
+        document.cookie = 'CurrentLanguage=; path=/; expires=' + new Date(0).toUTCString();
+    </script>
+    <script type="text/javascript">
+
+
+        function getParameterByName(StrURL, name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(StrURL.toLocaleLowerCase());
+            return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+        function getLanguage() {
+            var loc = window.location.href.toLowerCase();
+            var patt = /departments\/.*-(\d{1,3})-(\d{1,2})\.aspx/;
+            var lang;
+            var IsDepartment = patt.test(loc);
+            if (loc.indexOf(".com/zh-cn") > -1 || getParameterByName(loc, "sc_lang") == "zh-cn" || getParameterByName(loc, "lid") == "4" || getParameterByName(loc, "languageid") == "4" || (IsDepartment && loc.indexOf("-4.aspx") > -1)) {
+                lang = "zh-cn";
+            }
+            else if (loc.indexOf(".com/zh") > -1 || getParameterByName(loc, "sc_lang") == "zh" || getParameterByName(loc, "lid") == "3" || getParameterByName(loc, "languageid") == "3" || (IsDepartment && loc.indexOf("-3.aspx") > -1)) {
+                lang = "zh";
+            }
+            else {
+                lang = "en";
+            }
+            return lang;
+        }
+
+
+        var _val = getLanguage();
+        /*var d = new Date();
+        d.setTime(d.getTime() + (1 * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();*/
+        document.cookie = "CurrentLanguage=" + _val + ";Domain=.christies.com;path=/";
+        //document.cookie = "CurrentLanguage=" + _val + ";Domain=www.christies.com;path=/";
+
+        function setCookie(name, value, expires, path, domain, secure) {
+            cookieStr = name + "=" + escape(value) + "; ";
+
+            if (expires) {
+                expires = setExpiration(expires);
+                cookieStr += "expires=" + expires + "; ";
+            }
+            if (path) {
+                cookieStr += "path=" + path + "; ";
+            }
+            if (domain) {
+                cookieStr += "domain=" + domain + "; ";
+            }
+            if (secure) {
+                cookieStr += "secure; ";
+            }
+
+            document.cookie = cookieStr;
+        }
+
+        function setExpiration(cookieLife) {
+            var today = new Date();
+            var expr = new Date(today.getTime() + cookieLife * 24 * 60 * 60 * 1000);
+            return expr.toGMTString();
+        }
+
+        setCookie("CurrentLanguage", "", "-100", "/", "www.christies.com", false);
+        setCookie("CurrentLanguage", "", "-100", "/", "staging.christies.com", false);
+        setCookie("CurrentLanguage", "", "-100", "/", "artist.christies.com", false);
+
+
+
+
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style media="all">
+        /* Baskerville 10 Pro */
+        body:not(.webfont-loaded) {
+            font-family: 'Helvetica;',Arial,sans-serif !important;
+        }
+
+        /* Lyon */
+        @font-face {
+            font-family: "Lyon";
+            font-weight: normal;
+            font-style: normal;
+            src: url("/build/assets/fonts/Lyon/LyonDisplay-Regular-Web.eot");
+            src: url("/build/assets/fonts/Lyon/LyonDisplay-Regular-Web.eot?#iefix") format("embedded-opentype"), url("/build/assets/fonts/Lyon/LyonDisplay-Regular-Web.woff") format("woff"), url("/build/assets/fonts/Lyon/LyonDisplay-Regular-Web.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "Christies";
+            font-weight: normal;
+            font-style: normal;
+            src: url("/build/assets/fonts/Christies/Christies.eot");
+            src: url("/build/assets/fonts/Christies/Christies.eot?#iefix") format("embedded-opentype"), url("/build/assets/fonts/Christies/Christies.woff") format("woff"), url("/build/assets/fonts/Christies/Christies.ttf") format("truetype");
+        }
+
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.15);
+            z-index: 9999999;
+        }
+
+        .loader--inner {
+            height: 60px;
+            width: 60px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            position: fixed;
+            margin: auto;
+            border: 6px solid #fff;
+            border-right-color: #B30900;
+            border-top-color: #B30900;
+            border-radius: 100%;
+            animation: spin 800ms infinite linear;
+            z-index: 1200;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(359deg);
+            }
+        }
+    </style>
+    <link href="/build/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="/build/css/styles.min.css" rel="stylesheet" />
+
+   
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta charset="UTF-8" />
+        
+
+        <script type="text/javascript" src="/static/scripts/jquery/jquery-2.1.4.min.js"></script>
+		<script src="/static/Scripts/jquery/jquery.cookie.js" type="text/javascript"></script>
+        <script src="/static/Scripts/vendor/bootstrap.min.js" type="text/javascript"></script>
+		
+        <script src="/static/Scripts/vendor/jquery.mobile.custom.min.js" type="text/javascript" async></script>
+        <script type="text/javascript" src="/static/Scripts/christies/viewportSize-min.js"></script>
+		
+        <script src="/static/Scripts/winWidthTest.js" type="text/javascript" async></script>
+        <script src="/static/Scripts/vendor/flash_detect_min.js?v=1" type="text/javascript"></script>
+
+        <link href="//www.christies.com/static/images/favicon.ico?v=1" rel="shortcut icon" type="image/x-icon">
+
+        <link rel="stylesheet" type="text/css" href="https://www.christies.com//inc/css/modules/paramPopup-global.css?date=20150421063417" />
+
+        <script type="text/javascript">
+            var sOmnitureEnvironment = 'christiesprod';
+            var APIKey_caption = "APIKey";
+            var mychristies_key = '03F16AEC-B8DB-4697-97EC-A729544223A8';
+			 var mychristies_url = 'https://www.christies.com/ChristiesAPIServices/mychristiesapi/api/MyChristies/';
+			
+        </script>
+        
+        <meta name="og:title" property="og:title" content="Rembrandt Bugatti (1884-1916)
+, Deux petits léopards l'un derrière l'autre
+" />
+        <meta name="og:description" property="og:description" content="Deux petits léopards l'un derrière l'autre
+" />
+        <meta name="og:image" property="og:image" content="https://www.christies.com/LotFinderImages/D61098/D6109853r.jpg" />
+        <meta name="og:url" property="og:url" content="https://www.christies.com/lotfinder/lot_details2.aspx?intObjectID=6109853" />
+        <meta name="og:type" property="og:type" content="website" />
+        <meta id="meta_keywords" name="keywords" content="Christies,auction" />
+
+        <meta name="google-site-verification" content="2pm6xoJkRM_9TezjADtdaKy43hAcMXqYJWwwxc1viVY" />
+        
+        <meta name="apple-itunes-app" content="app-id=322000464,app-argument= christies://christies.app/lot?saleID=27255&lotID=6109853" />
+        
+        <link rel="canonical" href="https://www.christies.com/lotfinder/Lot/rembrandt-bugatti-1884-1916-deux-petits-leopards-lun-6109853-details.aspx" />
+        
+        <title>
+            Rembrandt Bugatti (1884-1916)
+, Deux petits léopards l'un derrière l'autre
+ | Christie's
+        	 
+        </title>
+        </head>
+<body id="lot_details2" class='x-responsive-section  English'>
+    <!-- Page body -->
+    <!--<div id="wrapper">-->
+    
+<!-- ===========================================
+    This should be the first thing just after the  Body Tag
+        OMNITURE CODE SECTION-A BEGIN
+     ===========================================-->
+<script type="text/javascript" language="javascript" src="//assets.adobedtm.com/2816ee5076772aae086bc7eee9f12e8219e0ff4e/satelliteLib-6a012b2adc503a0bca6cad156554efbcfc5b3bf8.js"></script> 
+<script type="text/javascript" language="javascript">var s = s || {};</script>
+
+<script  type='text/javascript' language='JavaScript'><!--
+s.prop37 = window.location.href;
+var _userLanguage = "English";
+   var _userLanguageID = "1";
+ var _OmnitureEnvironment = "christiesprod";
+//--></script>
+<!-- ===========================================
+    OMNITURE CODE SECTION-A END
+     ===========================================-->
+
+    
+    <div class="widget--christies-header">
+    </div>
+    <form method="post" action="/lotfinder/lot_details2.aspx?intObjectID=6109853" id="mainform">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc1MTE0MjAyDxYCHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWBAICEGRkFgICAQ9kFgICAQ9kFgJmD2QWAmYPDxYCHwACAWQWTGYPFgQeA3NyYwVJaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvU2FsZUltYWdlcy9ueXItMTUwMDYtMTExNDIwMTcuanBnP3dpZHRoPTMwMB4DYWx0BTNJbXByZXNzaW9uaXN0IGFuZCBNb2Rlcm4gQXJ0IEQgYXVjdGlvbiBhdCBDaHJpc3RpZXNkAgIPFgIeCWlubmVyaHRtbAUFMTUwMDZkAgMPFgIfAwUlSW1wcmVzc2lvbmlzdCBhbmQgTW9kZXJuIEFydCBEYXkgU2FsZWQCBA8WAh8DBQhOZXcgWW9ya2QCBQ8WAh8DBRAxNCBOb3ZlbWJlciAyMDE3ZAIGDxYCHgRocmVmBUZodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL1NhbGVMYW5kaW5nL0luZGV4LmFzcHg/aW50U2FsZUlEPTI3MjU1JmxpZD0xZAIHDxYEHghkaXNhYmxlZAUIZGlzYWJsZWQfBAVBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9sb3RmaW5kZXIvbG90X2RldGFpbHMuYXNweD9pbnRPYmplY3RJRD1kAggPZBYCAgEPD2QWAh4LcGxhY2Vob2xkZXIFHFNlYXJjaCBieSBsb3QgIyBpbiB0aGlzIHNhbGVkAgkPFgQfBWQfBAVOaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9sb3RmaW5kZXIvbG90X2RldGFpbHMuYXNweD9pbnRPYmplY3RJRD02MTA5ODU0JmxpZD0xZAIKDxYCHgVjbGFzcwUyY2Fyb3VzZWwtc2xpZGVyIGNhcm91c2VsLXNsaWRlci1jb3VudC0xIG5vLXBhZGRpbmcWAgIBDxYCHgtfIUl0ZW1Db3VudAIBFgICAQ9kFgJmDxUXDXBhbnpvb20tLWxpbmuIAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wMzAxXzAwMChyZW1icmFuZHRfYnVnYXR0aV9kZXV4X3BldGl0c19sZW9wYXJkc19sdW5fZGVycmllcmVfbGF1dHJlKS5qcGeIAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wMzAxXzAwMChyZW1icmFuZHRfYnVnYXR0aV9kZXV4X3BldGl0c19sZW9wYXJkc19sdW5fZGVycmllcmVfbGF1dHJlKS5qcGeIAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wMzAxXzAwMChyZW1icmFuZHRfYnVnYXR0aV9kZXV4X3BldGl0c19sZW9wYXJkc19sdW5fZGVycmllcmVfbGF1dHJlKS5qcGeIAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vaW1nL0xvdEltYWdlcy8yMDE3L05ZUi8yMDE3X05ZUl8xNTAwNl8wMzAxXzAwMChyZW1icmFuZHRfYnVnYXR0aV9kZXV4X3BldGl0c19sZW9wYXJkc19sdW5fZGVycmllcmVfbGF1dHJlKS5qcGcNcGFuem9vbS0tbGlua4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZ4gBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9pbWcvTG90SW1hZ2VzLzIwMTcvTllSLzIwMTdfTllSXzE1MDA2XzAzMDFfMDAwKHJlbWJyYW5kdF9idWdhdHRpX2RldXhfcGV0aXRzX2xlb3BhcmRzX2x1bl9kZXJyaWVyZV9sYXV0cmUpLmpwZx5SZW1icmFuZHQgQnVnYXR0aSAoMTg4NC0xOTE2KSBkAgsPFgQeEGRhdGEtY2Fyb3VzZWwtbGcFiAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL2ltZy9Mb3RJbWFnZXMvMjAxNy9OWVIvMjAxN19OWVJfMTUwMDZfMDMwMV8wMDAocmVtYnJhbmR0X2J1Z2F0dGlfZGV1eF9wZXRpdHNfbGVvcGFyZHNfbHVuX2RlcnJpZXJlX2xhdXRyZSkuanBnHhJkYXRhLWNhcm91c2VsLXpvb20FkwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL2ltZy9Mb3RJbWFnZXMvMjAxNy9OWVIvMjAxN19OWVJfMTUwMDZfMDMwMV8wMDAocmVtYnJhbmR0X2J1Z2F0dGlfZGV1eF9wZXRpdHNfbGVvcGFyZHNfbHVuX2RlcnJpZXJlX2xhdXRyZSkuanBnP2hlaWdodD0xNTBkAhEPFgIfAwUFMzAxICBkAhIPFgIfAwXYJFRoZSBzY3VscHRvciBSZW1icmFuZHQgQnVnYXR0aSB3YXMgdHdlbnR5IHllYXJzIG9sZCBpbiAxOTA0LCB0aGUgeWVhciBoZSBtZXQgdGhlIG1hbiB3aG8gd291bGQgb3ZlcnNlZSB0aGUgY2FzdGluZyBvZiBoaXMgYnJvbnplcywgQWRyaWVuIEF1cmVsaWVuIEjDqWJyYXJkOjxicj4iVXBvbiB0aGUgcmVjb21tZW5kYXRpb24gb2YgYSBmcmllbmQgdG8gZ28gc2VlIHRoZSB3b3JrcyBvZiB0aGUgeW91bmcgYXJ0aXN0LCBoaXMgcHJldHR5IG5hbWUgd2FzLCBhdCBmaXJzdCBtZXQgd2l0aCBkaXN0cnVzdCBhcyBJIGZvdW5kIGl0IGV2b2NhdGl2ZSBvZiB0b28gbXVjaCBnbG9yeSBhbmQgdG9vIG11Y2ggYXJ04oCmSW5zdGVhZCBvZiBhIHNtYWxsIEl0YWxpYW4gd2l0aCBkZXh0ZXJvdXMgaGFuZHMsIEkgZm91bmQgYSB0cnVlIGFydGlzdC4gVGhpcyB0YWxsIGJveSwgc2tpbm55LCBibHVzaGluZywgYW5kIHF1aWV0IHRoYXQgTXVzZXVtIHJlZ3VsYXJzIGNhbGwgJ3RoZSBBbWVyaWNhbicgc2hvd2VkIG1lLCB3aXRob3V0IHNheWluZyBhIHdvcmQsIHRoZSBtb2RlbGVkIGNsYXlzIHdoaWNoIHJlcHJlc2VudGVkIGEgeWVhcuKAmXMgd29ydGggb2YgZGVkaWNhdGVkIGF0dGVudGlvbiBhbmQgd29yay4gVGhlc2UgYXJlIHRoZSB0aGluZ3MgSSBsaWtlIHRvIHByZXNlbnQgdG8gYXJ0IGxvdmVycy4gSW4gdGhlc2UgdGhleSB3aWxsIGZpbmQgdGhlIHB1bHNlIG9mIGxpZmUgd2hpY2ggYW5pbWF0ZXMgc2luY2VyZSB3b3Jrcy4gVGhleSB3aWxsIGFsc28gZmluZCBhbiBleHRyYW9yZGluYXJ5IGFjY291bnQgb2YgdGhlIGVudmlyb25tZW50IGluIHdoaWNoIHRoZSBzdWJqZWN0cyB3ZXJlIHNlZW4uLi5Ub28gcmFyZWx5IGRvIEkgZmluZCBhIHNpbmNlcmUgYW5kIHBlcnNvbmFibGUgYXJ0aXN0IGZvciBpdCBub3QgYmUgYSBqb3kgb2YgbWluZSB0byBpbnRyb2R1Y2UgaGltIHRvIHRoZSBwdWJsaWMiIChIw6licmFyZCwgMTkwNCkuPGJyPkZyb20gSMOpYnJhcmTigJlzIGZpcnN0IGVhcmx5IGNhc3RpbmdzLCBCdWdhdHRp4oCZcyBzdWNjZXNzIHdhcyBpbW1lZGlhdGUuIENyaXRpY3Mgd2VyZSB1bmFuaW1vdXMgaW4gdGhlaXIgcHJhaXNlOiAiSGVyZSBpcyBhIHRydWx5IGV4Y2VwdGlvbmFsIHlvdW5nIHNjdWxwdG9y4oCmdGhlIHNlbnNlIG9mIG9ic2VydmF0aW9uIG9mIGhpcyBleWUgYW5kIHNwaXJpdCBoYXMgZ2l2ZW4gd2F5IHRvIGEgZ3JlYXQgZGVhbCBvZiB0YWxlbnTigKZpbiB3aGljaCBib3RoIHBvZXRyeSBhbmQgcmVhbGlzbSBhcmUgcGxhY2VkIGFuZCB1bml0ZWQgdW5kZXIgdGhlIHNpZ24gb2YgaGlzIG1hcnZlbG91cyBzZW5zaXRpdml0eeKApkVhY2ggYW5kIGV2ZXJ5IGFuaW1hbCBoYXMgaXRzIG93biB0cmFpdHMsIGl0cyBvd24gcGFydGljdWxhciBwaHlzaW9nbm9teeKAplJlbWJyYW5kdCBCdWdhdHRpIGlzIHRydWx5IGEgcmV2ZWxhdGlvbiBmb3IgYWxsIHdobyBsb3ZlIGFuZCBhcHByZWNpYXRlIGltcHJlc3Npb25pc3Qgc2N1bHB0dXJlIiAoPGk+TGUgRmlnYXJvPC9pPiwgMjIgSnVuZSAxOTA0KS48YnI+QXQgdGhlIDxpPkphcmRpbiBkZXMgUGxhbnRlczwvaT4sIGhpcyBnaWFudCBzaWxob3VldHRlLCBoaXMgZGVtZWFub3IsIGhpcyBlbGVnYW5jZSB3aGljaCBhcHBlYXJlZCBib3RoIGlubmF0ZSBhbmQgc29waGlzdGljYXRlZCBtYWRlIGhpbSBhcHBlYXIgYSBjaGFyYWN0ZXIgb2YgbGVnZW5kLCBhIG1hbiBvZiB0aGUg4oCcTmV3IFdvcmxkLuKAnSBXaGlsZSB3ZSBkb27igJl0IGtub3cgaGlzIHJlYWRpbmcgcHJlZmVyZW5jZXMsIEJ1Z2F0dGkgY291bGQgaGF2ZSBiZWVuIGFuIGFzc2lkdW91cyByZWFkZXIgb2YgdGhlIGVzc2F5aXN0IGFuZCBuYXR1cmFsaXN0IEpvaG4gQnVycm91Z2hzLCBhcyB3ZWxsIGFzIExlbyBUb2xzdG95IGFuZCBwZXJoYXBzIEdpb3Zhbm5pIFNlZ2FudGluaSwgaGlzIHVuY2xlLiBBbmQgaWYgSm9obiBCdXJyb3VnaHMgaGFkIG1ldCBCdWdhdHRpLCBoZSBjb3VsZCBoYXZlIHdyaXR0ZW4gdGhlIGZvbGxvd2luZyBhYm91dCBoaW06ICLigKZ0byBkaXNjb3ZlciB3aGF0IHlvdSB3ZXJlIG5vdCBzZWFyY2hpbmcgZm9yLCB0byB3aXRuZXNzIHRoZSBibGlua2luZyBhbmQgdGhlIHNoeSBzaGl2ZXJpbmcs4oCmdG8gY2F0Y2ggdGhlIG5vdGUgb3IgdGhlIHJldmVhbGluZyBtb3ZlbWVudHMsIHRvIHBpZXJjZSBhbGwgdGhlIHNjcmVlbnMgdGhhbmtzIHRvIHRoZSBwb3dlciBvZiB5b3VyIHZpc3VhbCBiZWFtcyBhbmQgdG8gaGF2ZSBhbiBleWUgYXMgYWN1dGUgYXMgYSBibGluZCBtYW7igJlzIGhhbmRzLCB0aGF0IGlzIHdoYXQgb25lIHdvdWxkIGNhbGwgYSBnb29kIG9ic2VydmVyLiI8YnI+SW4gMTkwNiwgYW4gYXJ0aWNsZSBieSBNYXJjZWwgSG9ydGVsb3VwIHdhcyBwdWJsaXNoZWQgaW4gdGhlIExvbmRvbi1iYXNlZCByZXZpZXcgPGk+U3R1ZGlvIEludGVybmF0aW9uYWwgPC9pPndoaWNoIHByb2NsYWltZWQgdGhhdCBCdWdhdHRpIHdhbnRlZCBmaXJzdCBhbmQgZm9yZW1vc3QgdG8gYmUgYSAibmFycmF0b3Igb2YgYW5pbWFsIHBzeWNob2xvZ3kuIiBJbmRlZWQsIHRoZSBzY3VscHRvciBzcGVudCBmaWZ0ZWVuIHllYXJzIG9mIGhpcyBsaWZlIGxpdmluZyB3aXRoIHdpbGQgYW5pbWFscyBiZXR3ZWVuIFBhcmlzIGFuZCBBbnZlcnMsIG5vdCBpbiB0aGUgZ29hbCB0byBjbGFzc2lmeSBidXQgdG8gb2JzZXJ2ZSB0aGVtIGxlbmd0aHksIG9uZSBvbiBvbmUsIHRvIHN0dWR5IGFuZCBkZWNpcGhlciB0aGVpciBiZWhhdmlvciwgdGhlaXIgc2lnbmFscywgdGhlaXIgc29ub3JpdHksIHRoZWlyIGF0dGl0dWRlcywgb25lIGF0IGEgdGltZSBpbiB0aGVpciB3b3JsZCBvZiBzZW5zZXMuIEhpcyBlbnRpcmUgd29yayBmbG93cyBmcm9tIHRoaXMgcHJvY2VzcyBvZiBkYWlseSBjb250YWN0LCBmcm9tIHRoaXMgZGlhbG9ndWUgYmV0d2VlbiBtYW4gYW5kIGJlYXN0LCBiZSBpdCB3aWxkIG9yIHRhbWVkLCB3aGljaCB2ZXJnZXMgb24gY29tbXVuaW9uLiA8YnI+VGhpcyBjb2xsZWN0aW9uIG9mIHdvcmtzIGJ5IFJlbWJyYW5kdCBCdWdhdHRpIHByZXNlbnRlZCBoZXJlIG9mZmVycyBhIHJhcmUgb3ZlcnZpZXcgb2YgaGlzIDxpPsWTPC9pPjxpPnV2cmU8L2k+LiBJbiB0ZW4geWVhcnMgb2YgZGl6enlpbmcgcHJvZHVjdGlvbiwgaW4gdGhlIGZldmVyIG9mIGNyZWF0aW9uLCBCdWdhdHRpIGV4cGVyaW1lbnRlZCB3aXRoIGltcHJlc3Npb25pc20sIGV4cHJlc3Npb25pc20sIHN5bnRoZXNpcyBvZiBmb3JtIGFuZCBtYXR0ZXIsIGFuZCB0aGUgZHluYW1pc20gb2YgZnV0dXJpc20uIFRoZSBvcmlnaW5hbCBwbGFzdGVyIG1vZGVscyBmb3IgPGk+R3JhbmQgw4lsw6lwaGFudCBkdSBNdXPDqXVtICJSYWNoZWwsIiAiRGl4IG1pbnV0ZXMgZGUgcmVwb3MiIG91IExlIEdyYW5kIEZhcmRpZXIsIEp1bWVudCBldCBzb24gcG91bGFpbiwgU2VycGVudCBQeXRob24gcm95YWwsIFJoaW5vY8Opcm9zIGRlIHRyb2lzIGFucywgQnJlYmlzIG1lcmlub3MsIFBldGl0cyBMw6k8L2k+PGk+b3BhcmRzIGw8L2k+PGk+4oCZdW4gZGVycmnDqDwvaT48aT5yZSBsPC9pPjxpPuKAmTwvaT48aT5hdXRyZTwvaT4gd2VyZSBhbGwgY29uY2VpdmVkIGJldHdlZW4gMTkwMyBhbmQgMTkxMi4gV2hpbGUgZ2l2aW5nIGZyZWUgcmVpZ24gdG8gaGlzIGludHVpdGlvbiwgQnVnYXR0aSBtZWxkZWQgYWJzdHJhY3Rpb24gYW5kIGZpZ3VyYXRpb24gdGhyb3VnaCBsaW5lcywgdm9sdW1lcywgYW5kIGhpcyB2aXNpb24gb2YgdGhlIGFuaW1hbCwgd2lsZCBvciBkb21lc3RpY2F0ZWQsIHRvIGV2b2x2ZSBmcm9tIGEgcmFwaWQgYW5kIGZpZXJ5IGV4ZWN1dGlvbiBvZiBzYWlkIHZvbHVtZXMgdG93YXJkcyBhbiBhcHByb2FjaCB0aGF0IHdhcyBib3RoIHByZWNpc2UgYW5kIGNvbXBsZXguIDxicj5UaGUgeW91bmcgQnVnYXR0aSBldmVudHVhbGx5IGdhdmUgaGlzIG9yaWdpbmFsIHBsYXN0ZXIgbW9kZWxzIHRvIEjDqWJyYXJkIGFsb25nIHdpdGggZ3JhbnRpbmcgaGltIHRoZSByaWdodHMgb2YgcmVwcm9kdWN0aW9uIGFuZCBkaXN0cmlidXRpb24uIFRoZSBjb250cmFjdCBmb3I8aT4gbDwvaT48aT7igJnDiTwvaT48aT5kaXRpb24gb3JpZ2luYWxlIFJlbWJyYW5kdCBCdWdhdHRpIDwvaT5jYW1lIGludG8gZWZmZWN0IHVwb24gdGhhdCBmaXJzdCBtZWV0aW5nIGluIDE5MDQuIDxicj5Gb3IgdGhlIGZpcnN0IHRpbWUsIHRoZSBicm9uemVzIHdlcmUgcHJvZHVjZWQgaW4gYSBsaW1pdGVkIGVkaXRpb24sIHRoZSBicm9uemVzIHdlcmUgbnVtYmVyZWQgYW5kIHN0YW1wZWQgd2l0aCB0aGUgZm91bmRyeSBtYXJrICJDaXJlIFBlcmR1ZSBBLi1BLiBIw6licmFyZC4iIEl0IGlzIGFsc28gdGhlIGZpcnN0IHRpbWUgaW4gdGhlIGhpc3Rvcnkgb2YgYnJvbnplIGNhc3RpbmcgdGhhdCBjZXJ0YWluIG1vZGVscyB3ZXJlIGNhc3QgYXMgdW5pcXVlIG9iamVjdHMuIEluIHRoZSBiZWdpbm5pbmcgb2YgdGhlIDIwdGggY2VudHVyeSwgYXMgcGFydCBvZiBoaXMgcGxhbiB0byBwcm9wZWwgQnVnYXR0aeKAmXMgd29yayBpbnRvIHRoZSBwdWJsaWMgZG9tYWluLCBIw6licmFyZCByZXZvbHV0aW9uaXplZCB0aGUgd29ybGQgb2YgYnJvbnplLjxicj48YnI+VGV4dCBieSBWw6lyb25pcXVlIEZyb21hbmdlciwgQXVndXN0IDIwMTcgPGJyPjxicj48YnI+UHJvcGVydHkgZnJvbSBhIFByaXZhdGUgRnJlbmNoIENvbGxlY3Rpb25kAhMPFgQfAwUfUmVtYnJhbmR0IEJ1Z2F0dGkgKDE4ODQtMTkxNikNCh4OZGF0YS1sb3RTdGF0dXMFBFBhc3RkAhUPFgIfAwUuRGV1eCBwZXRpdHMgbMOpb3BhcmRzIGwndW4gZGVycmnDqHJlIGwnYXV0cmUNCmQCFg8WAh8DBQ5QcmljZSByZWFsaXNlZGQCFw8WAh4TZGF0YS1vcmlnaW5hbC10aXRsZQVSUHJpY2UgUmVhbGlzZWQgaXMgaGFtbWVyIHByaWNlIHBsdXMgYnV5ZXLigJlzIHByZW1pdW0sIG5ldCBvZiBhbnkgYXBwbGljYWJsZSBmZWVzLmQCGA8WBB8DBQtVU0QgNTUyLDUwMB4Fc3R5bGUFDWRpc3BsYXk6bm9uZTtkAhkPFgQfA2UfDQUNZGlzcGxheTpub25lO2QCGg8WAh8DBQhFc3RpbWF0ZWQCGw8WAh8MBcYBRXN0aW1hdGVzIGRvIG5vdCByZWZsZWN0IHRoZSBmaW5hbCBoYW1tZXIgcHJpY2UgYW5kIGRvIG5vdCBpbmNsdWRlIGJ1eWVyJ3MgcHJlbWl1bSwgYW55IGFwcGxpY2FibGUgdGF4ZXMgb3IgYXJ0aXN04oCZcyByZXNhbGUgcmlnaHQuIFBsZWFzZSBzZWUgU2VjdGlvbiBEIG9mIHRoZSBDb25kaXRpb25zIG9mIFNhbGUgZm9yIGZ1bGwgZGV0YWlscy4gZAIcDxYEHwMFGVVTRCAzMDAsMDAwIC0gVVNEIDUwMCwwMDAfDQUNZGlzcGxheTpub25lO2QCHQ8WAh8NBQ1kaXNwbGF5Om5vbmU7ZAIiDxYMHwcFKmN0YSBmdWxsLXdpZHRoIG5vLW1hcmdpbi1ib3R0b20gbG9naW4tdXNlch4IZGF0YS11cmwFamh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vTXlDaHJpc3RpZXMvbG9naW5BSkFYLmFzcHg/YWN0aW9uPWJpZGxvdGFuZHJldHVybnRvbG90ZGV0YWlsJmludE9iamVjdElEPTYxMDk4NTMeC2RhdGEtcmVtb3RlBWpodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL015Q2hyaXN0aWVzL2xvZ2luQUpBWC5hc3B4P2FjdGlvbj1iaWRsb3RhbmRyZXR1cm50b2xvdGRldGFpbCZpbnRPYmplY3RJRD02MTA5ODUzHgtkYXRhLXRvZ2dsZQUFbW9kYWweC2RhdGEtdGFyZ2V0BQsjYmFzaWNNb2RhbB8NBQ1kaXNwbGF5Om5vbmU7ZAIjDxYGHw4FX2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vTXlDaHJpc3RpZXMvbG9naW5BSkFYLmFzcHg/YWN0aW9uPWNvbmRpdGlvbnJlcG9ydCZpbnRPYmplY3RJRD02MTA5ODUzHw8FX2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vTXlDaHJpc3RpZXMvbG9naW5BSkFYLmFzcHg/YWN0aW9uPWNvbmRpdGlvbnJlcG9ydCZpbnRPYmplY3RJRD02MTA5ODUzHw0FDWRpc3BsYXk6bm9uZTtkAiUPFhYeEmRhdGEtdW5mb2xsb3ctdGV4dAUMVW5mb2xsb3cgbG90Hw4FbGh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vTXlDaHJpc3RpZXMvbG9naW5BSkFYLmFzcHg/YWN0aW9uPXRyYWNrbG90YW5kcmV0dXJudG9sb3RkZXRhaWwmbmV3b2JqZWN0aWQ9NjEwOTg1Mx4QZGF0YS1mb2xsb3ctdGV4dAUKRm9sbG93IGxvdB8DBQpGb2xsb3cgbG90Hg1kYXRhLW9iamVjdGlkBQc2MTA5ODUzHw0FDWRpc3BsYXk6bm9uZTseB2RhdGEtaWQFATAfEQULI2Jhc2ljTW9kYWwfDwVsaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9NeUNocmlzdGllcy9sb2dpbkFKQVguYXNweD9hY3Rpb249dHJhY2tsb3RhbmRyZXR1cm50b2xvdGRldGFpbCZuZXdvYmplY3RpZD02MTA5ODUzHgtkYXRhLWZvbGxvdwUBTh8QBQVtb2RhbGQCJg8WDh8OBV9odHRwczovL3d3dy5jaHJpc3RpZXMuY29tL015Q2hyaXN0aWVzL2xvZ2luQUpBWC5hc3B4P2FjdGlvbj1jb25kaXRpb25yZXBvcnQmaW50T2JqZWN0SUQ9NjEwOTg1Mx4PZGF0YS1jYXRlZ29yeWlkBQQ3ODAxHw0FDWRpc3BsYXk6bm9uZTseCmRhdGEtY29haWQFHTE0MTUzLDgzMDcsMjIxOCw1MTcsMzQwLDU1MDA4HhVkYXRhLWJ1dHRvbnVwZGF0ZXRleHQFEkFkZGVkIHRvIEludGVyZXN0cx8PBV9odHRwczovL3d3dy5jaHJpc3RpZXMuY29tL015Q2hyaXN0aWVzL2xvZ2luQUpBWC5hc3B4P2FjdGlvbj1jb25kaXRpb25yZXBvcnQmaW50T2JqZWN0SUQ9NjEwOTg1Mx4YZGF0YS1zaG93bW9yZXJlZmluZW1lbnRzBQVmYWxzZWQCJw8WAh8DBdACUmVtYnJhbmR0IEJ1Z2F0dGkgKDE4ODQtMTkxNik8YnI+DQpEZXV4IHBldGl0cyBsw6lvcGFyZHMgbCd1biBkZXJyacOocmUgbCdhdXRyZTxicj4NCnNpZ25lZCwgbnVtYmVyZWQgYW5kIHN0YW1wZWQgd2l0aCBmb3VuZHJ5IG1hcmsgJ1IuQnVnYXR0aS4gKDgpIEEuQS4gSMOJQlJBUkQgQ0lSRSBQRVJEVUUnIChvbiB0aGUgdG9wIG9mIHRoZSBiYXNlKTxicj4NCmJyb256ZSB3aXRoIGRhcmsgYnJvd24gcGF0aW5hPGJyPg0KSGVpZ2h0OiAxNSBpbi4gKDM4IGNtLikgPGJyPg0KTGVuZ3RoOiAyNSAxLzggaW4uICg2NCBjbS4pPGJyPg0KQ29uY2VpdmVkIDxpPmNpcmNhPC9pPiAxOTEyPGJyPg0KZAIpDxYCHwMFcUFub24uIHNhbGUsIEFkZXIgUGljYXJkIFRhamFuLCBQYXJpcywgOCBBcHJpbCAxOTg5LCBsb3QgMzAuPGJyPg0KQWNxdWlyZWQgYXQgdGhlIGFib3ZlIHNhbGUgYnkgdGhlIHByZXNlbnQgb3duZXIuZAIqD2QWAgIDDxYCHwQFN2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vem1hZ3M/Wm1hZ3NQdWJsaXNoSUQ9NWM4ZTcyMjcWAmYPFgIfAwVAU3BlY2lhbCBQdWJsaWNhdGlvbjogUmVtYnJhbmR0IEJ1Z2F0dGksIExlIHNjdWxwdGV1ciBkZXMgYW5pbWF1eGQCLg8WAh8IAgEWAgIBD2QWAmYPFQUNVmFuZXNzYSBGdXNjbwAUdmZ1c2NvQGNocmlzdGllcy5jb20UdmZ1c2NvQGNocmlzdGllcy5jb20PKzEgMjEyIDYzNiAyMDUwZAIxDxYCHwMF0wVNLiBIYXJ2ZXksIDxpPlRoZSBCcm9uemVzIG9mIFJlbWJyYW5kdCBCdWdhdHRpPC9pPiwgTG9uZG9uLCAxOTc5LCBwLiAzNiwgbm8uIDI3IChhbm90aGVyIGNhc3QgaWxsdXN0cmF0ZWQpLjxicj4NClAuIERlamVhbjxpPiwgQ2FybG8tUmVtYnJhbmR0LUV0dG9yZS1KZWFuIEJ1Z2F0dGk8L2k+LCBQYXJpcywgMTk4MSwgcC4gMTQ5IChhbm90aGVyIGNhc3QgaWxsdXN0cmF0ZWQpLjxicj4NCkouLUMuIGRlcyBDb3JkZXMgYW5kIFYuIEZyb21hbmdlciBkZXMgQ29yZGVzLCA8aT5SZW1icmFuZHQgQnVnYXR0aSwgQ2F0YWxvZ3VlIHJhaXNvbm7DqTwvaT4sIFBhcmlzLCAxOTg3LCBwLiAyNzAgKGFub3RoZXIgY2FzdCBpbGx1c3RyYXRlZCwgcHAuIDI3MC0yNzEpLjxicj4NCkUuIEhvcnN3ZWxsPGk+LCBSZW1icmFuZHQgQnVnYXR0aSwgPC9pPkxvbmRvbiwgMjAwNCwgcC4gODUgKGFub3RoZXIgY2FzdCBpbGx1c3RyYXRlZCBpbiBjb2xvciwgcHAuIDg4LTg5OyB0aXRsZWQgPGk+VHdvIExlb3BhcmRzLCBPbmUgV2l0aCBUYWlsIFJhaXNlZDwvaT4gYW5kIGRhdGVkIDE5MTEpLjxicj4NClYuIEZyb21hbmdlciwgPGk+UmVtYnJhbmR0IEJ1Z2F0dGksIFVuZSB0cmFqZWN0b2lyZSBmb3Vkcm95YW50ZSwgUsOpcGVydG9pcmUgbW9ub2dyYXBoaXF1ZTwvaT4sIFBhcmlzLCAyMDE2LCBwcC4gMzY1LTM2Niwgbm8uIDMwNCAoYW5vdGhlciBjYXN0IGlsbHVzdHJhdGVkIGluIGNvbG9yKS5kAjUPFgIfAwW/BVbDqXJvbmlxdWUgRnJvbWFuZ2VyIGhhcyBjb25maXJtZWQgdGhlIGF1dGhlbnRpY2l0eSBvZiB0aGlzIHdvcmsuPGJyPg0KPGJyPg0KQnVnYXR0aSBzcGVudCB0aGUgZW5kIG9mIDE5MTMgd2l0aCB0aGUgYmlnIGNhdHMgb2YgdGhlIEFudHdlcnAgWm9vLCBhdCB0aGUgdGltZSB0aGUgbGFyZ2VzdCB6b28gaW4gRXVyb3BlLiBUaGUgem9vIGhhZCByZWNlbnRseSBpbnN0YWxsZWQgbmV3IGVuY2xvc3VyZXMgd2l0aG91dCBiYXJzIGZvciB0aGVpciBsZW9wYXJkcyBhbmQgdGlnZXJzLCB3aGljaCB3YXMgdGhlbiBhIGN1dHRpbmctZWRnZSBpbm5vdmF0aW9uIHRvIHNlZSBhbmltYWxzIHJvYW0gdG9nZXRoZXIgd2l0aGluIHRoZWlyIGNhZ2VzLiBDYXJsIEhhZ2VuYmVjaywgYSBwcm9taW5lbnQgZGVhbGVyIGluIHdpbGQgYW5pbWFscywgaGFkIGVmZmVjdGl2ZWx5IGludmVudGVkIGEgc3lzdGVtIG9mIHRyYWluaW5nIHdpdGhvdXQgcmVzdHJhaW50cywgd2hpY2ggc3VjY2VlZGVkIGluIHVzaW5nIHZlcmJhbCBjdWVzIHRvIGluc3RpbGwgYSBzZW5zZSBvZiBoaWVyYXJjaHkgaW4gdGhlIGFuaW1hbHMgaW4gd2hpY2ggaHVtYW5zIG9jY3VwaWVkIHRoZSB0b3AgcnVuZy4gVGhlIGNhdHMgZXZpZGVudGx5IG9iZXllZCB0aGVpciB0cmFpbmVycywgYW5kIHdlcmUgdGh1cyBmcmVlZCBmcm9tIHRoZWlyIHRyYWRpdGlvbmFsIGNhZ2VzLiA8YnI+DQpkAjwPFgIfAwXYJFRoZSBzY3VscHRvciBSZW1icmFuZHQgQnVnYXR0aSB3YXMgdHdlbnR5IHllYXJzIG9sZCBpbiAxOTA0LCB0aGUgeWVhciBoZSBtZXQgdGhlIG1hbiB3aG8gd291bGQgb3ZlcnNlZSB0aGUgY2FzdGluZyBvZiBoaXMgYnJvbnplcywgQWRyaWVuIEF1cmVsaWVuIEjDqWJyYXJkOjxicj4iVXBvbiB0aGUgcmVjb21tZW5kYXRpb24gb2YgYSBmcmllbmQgdG8gZ28gc2VlIHRoZSB3b3JrcyBvZiB0aGUgeW91bmcgYXJ0aXN0LCBoaXMgcHJldHR5IG5hbWUgd2FzLCBhdCBmaXJzdCBtZXQgd2l0aCBkaXN0cnVzdCBhcyBJIGZvdW5kIGl0IGV2b2NhdGl2ZSBvZiB0b28gbXVjaCBnbG9yeSBhbmQgdG9vIG11Y2ggYXJ04oCmSW5zdGVhZCBvZiBhIHNtYWxsIEl0YWxpYW4gd2l0aCBkZXh0ZXJvdXMgaGFuZHMsIEkgZm91bmQgYSB0cnVlIGFydGlzdC4gVGhpcyB0YWxsIGJveSwgc2tpbm55LCBibHVzaGluZywgYW5kIHF1aWV0IHRoYXQgTXVzZXVtIHJlZ3VsYXJzIGNhbGwgJ3RoZSBBbWVyaWNhbicgc2hvd2VkIG1lLCB3aXRob3V0IHNheWluZyBhIHdvcmQsIHRoZSBtb2RlbGVkIGNsYXlzIHdoaWNoIHJlcHJlc2VudGVkIGEgeWVhcuKAmXMgd29ydGggb2YgZGVkaWNhdGVkIGF0dGVudGlvbiBhbmQgd29yay4gVGhlc2UgYXJlIHRoZSB0aGluZ3MgSSBsaWtlIHRvIHByZXNlbnQgdG8gYXJ0IGxvdmVycy4gSW4gdGhlc2UgdGhleSB3aWxsIGZpbmQgdGhlIHB1bHNlIG9mIGxpZmUgd2hpY2ggYW5pbWF0ZXMgc2luY2VyZSB3b3Jrcy4gVGhleSB3aWxsIGFsc28gZmluZCBhbiBleHRyYW9yZGluYXJ5IGFjY291bnQgb2YgdGhlIGVudmlyb25tZW50IGluIHdoaWNoIHRoZSBzdWJqZWN0cyB3ZXJlIHNlZW4uLi5Ub28gcmFyZWx5IGRvIEkgZmluZCBhIHNpbmNlcmUgYW5kIHBlcnNvbmFibGUgYXJ0aXN0IGZvciBpdCBub3QgYmUgYSBqb3kgb2YgbWluZSB0byBpbnRyb2R1Y2UgaGltIHRvIHRoZSBwdWJsaWMiIChIw6licmFyZCwgMTkwNCkuPGJyPkZyb20gSMOpYnJhcmTigJlzIGZpcnN0IGVhcmx5IGNhc3RpbmdzLCBCdWdhdHRp4oCZcyBzdWNjZXNzIHdhcyBpbW1lZGlhdGUuIENyaXRpY3Mgd2VyZSB1bmFuaW1vdXMgaW4gdGhlaXIgcHJhaXNlOiAiSGVyZSBpcyBhIHRydWx5IGV4Y2VwdGlvbmFsIHlvdW5nIHNjdWxwdG9y4oCmdGhlIHNlbnNlIG9mIG9ic2VydmF0aW9uIG9mIGhpcyBleWUgYW5kIHNwaXJpdCBoYXMgZ2l2ZW4gd2F5IHRvIGEgZ3JlYXQgZGVhbCBvZiB0YWxlbnTigKZpbiB3aGljaCBib3RoIHBvZXRyeSBhbmQgcmVhbGlzbSBhcmUgcGxhY2VkIGFuZCB1bml0ZWQgdW5kZXIgdGhlIHNpZ24gb2YgaGlzIG1hcnZlbG91cyBzZW5zaXRpdml0eeKApkVhY2ggYW5kIGV2ZXJ5IGFuaW1hbCBoYXMgaXRzIG93biB0cmFpdHMsIGl0cyBvd24gcGFydGljdWxhciBwaHlzaW9nbm9teeKAplJlbWJyYW5kdCBCdWdhdHRpIGlzIHRydWx5IGEgcmV2ZWxhdGlvbiBmb3IgYWxsIHdobyBsb3ZlIGFuZCBhcHByZWNpYXRlIGltcHJlc3Npb25pc3Qgc2N1bHB0dXJlIiAoPGk+TGUgRmlnYXJvPC9pPiwgMjIgSnVuZSAxOTA0KS48YnI+QXQgdGhlIDxpPkphcmRpbiBkZXMgUGxhbnRlczwvaT4sIGhpcyBnaWFudCBzaWxob3VldHRlLCBoaXMgZGVtZWFub3IsIGhpcyBlbGVnYW5jZSB3aGljaCBhcHBlYXJlZCBib3RoIGlubmF0ZSBhbmQgc29waGlzdGljYXRlZCBtYWRlIGhpbSBhcHBlYXIgYSBjaGFyYWN0ZXIgb2YgbGVnZW5kLCBhIG1hbiBvZiB0aGUg4oCcTmV3IFdvcmxkLuKAnSBXaGlsZSB3ZSBkb27igJl0IGtub3cgaGlzIHJlYWRpbmcgcHJlZmVyZW5jZXMsIEJ1Z2F0dGkgY291bGQgaGF2ZSBiZWVuIGFuIGFzc2lkdW91cyByZWFkZXIgb2YgdGhlIGVzc2F5aXN0IGFuZCBuYXR1cmFsaXN0IEpvaG4gQnVycm91Z2hzLCBhcyB3ZWxsIGFzIExlbyBUb2xzdG95IGFuZCBwZXJoYXBzIEdpb3Zhbm5pIFNlZ2FudGluaSwgaGlzIHVuY2xlLiBBbmQgaWYgSm9obiBCdXJyb3VnaHMgaGFkIG1ldCBCdWdhdHRpLCBoZSBjb3VsZCBoYXZlIHdyaXR0ZW4gdGhlIGZvbGxvd2luZyBhYm91dCBoaW06ICLigKZ0byBkaXNjb3ZlciB3aGF0IHlvdSB3ZXJlIG5vdCBzZWFyY2hpbmcgZm9yLCB0byB3aXRuZXNzIHRoZSBibGlua2luZyBhbmQgdGhlIHNoeSBzaGl2ZXJpbmcs4oCmdG8gY2F0Y2ggdGhlIG5vdGUgb3IgdGhlIHJldmVhbGluZyBtb3ZlbWVudHMsIHRvIHBpZXJjZSBhbGwgdGhlIHNjcmVlbnMgdGhhbmtzIHRvIHRoZSBwb3dlciBvZiB5b3VyIHZpc3VhbCBiZWFtcyBhbmQgdG8gaGF2ZSBhbiBleWUgYXMgYWN1dGUgYXMgYSBibGluZCBtYW7igJlzIGhhbmRzLCB0aGF0IGlzIHdoYXQgb25lIHdvdWxkIGNhbGwgYSBnb29kIG9ic2VydmVyLiI8YnI+SW4gMTkwNiwgYW4gYXJ0aWNsZSBieSBNYXJjZWwgSG9ydGVsb3VwIHdhcyBwdWJsaXNoZWQgaW4gdGhlIExvbmRvbi1iYXNlZCByZXZpZXcgPGk+U3R1ZGlvIEludGVybmF0aW9uYWwgPC9pPndoaWNoIHByb2NsYWltZWQgdGhhdCBCdWdhdHRpIHdhbnRlZCBmaXJzdCBhbmQgZm9yZW1vc3QgdG8gYmUgYSAibmFycmF0b3Igb2YgYW5pbWFsIHBzeWNob2xvZ3kuIiBJbmRlZWQsIHRoZSBzY3VscHRvciBzcGVudCBmaWZ0ZWVuIHllYXJzIG9mIGhpcyBsaWZlIGxpdmluZyB3aXRoIHdpbGQgYW5pbWFscyBiZXR3ZWVuIFBhcmlzIGFuZCBBbnZlcnMsIG5vdCBpbiB0aGUgZ29hbCB0byBjbGFzc2lmeSBidXQgdG8gb2JzZXJ2ZSB0aGVtIGxlbmd0aHksIG9uZSBvbiBvbmUsIHRvIHN0dWR5IGFuZCBkZWNpcGhlciB0aGVpciBiZWhhdmlvciwgdGhlaXIgc2lnbmFscywgdGhlaXIgc29ub3JpdHksIHRoZWlyIGF0dGl0dWRlcywgb25lIGF0IGEgdGltZSBpbiB0aGVpciB3b3JsZCBvZiBzZW5zZXMuIEhpcyBlbnRpcmUgd29yayBmbG93cyBmcm9tIHRoaXMgcHJvY2VzcyBvZiBkYWlseSBjb250YWN0LCBmcm9tIHRoaXMgZGlhbG9ndWUgYmV0d2VlbiBtYW4gYW5kIGJlYXN0LCBiZSBpdCB3aWxkIG9yIHRhbWVkLCB3aGljaCB2ZXJnZXMgb24gY29tbXVuaW9uLiA8YnI+VGhpcyBjb2xsZWN0aW9uIG9mIHdvcmtzIGJ5IFJlbWJyYW5kdCBCdWdhdHRpIHByZXNlbnRlZCBoZXJlIG9mZmVycyBhIHJhcmUgb3ZlcnZpZXcgb2YgaGlzIDxpPsWTPC9pPjxpPnV2cmU8L2k+LiBJbiB0ZW4geWVhcnMgb2YgZGl6enlpbmcgcHJvZHVjdGlvbiwgaW4gdGhlIGZldmVyIG9mIGNyZWF0aW9uLCBCdWdhdHRpIGV4cGVyaW1lbnRlZCB3aXRoIGltcHJlc3Npb25pc20sIGV4cHJlc3Npb25pc20sIHN5bnRoZXNpcyBvZiBmb3JtIGFuZCBtYXR0ZXIsIGFuZCB0aGUgZHluYW1pc20gb2YgZnV0dXJpc20uIFRoZSBvcmlnaW5hbCBwbGFzdGVyIG1vZGVscyBmb3IgPGk+R3JhbmQgw4lsw6lwaGFudCBkdSBNdXPDqXVtICJSYWNoZWwsIiAiRGl4IG1pbnV0ZXMgZGUgcmVwb3MiIG91IExlIEdyYW5kIEZhcmRpZXIsIEp1bWVudCBldCBzb24gcG91bGFpbiwgU2VycGVudCBQeXRob24gcm95YWwsIFJoaW5vY8Opcm9zIGRlIHRyb2lzIGFucywgQnJlYmlzIG1lcmlub3MsIFBldGl0cyBMw6k8L2k+PGk+b3BhcmRzIGw8L2k+PGk+4oCZdW4gZGVycmnDqDwvaT48aT5yZSBsPC9pPjxpPuKAmTwvaT48aT5hdXRyZTwvaT4gd2VyZSBhbGwgY29uY2VpdmVkIGJldHdlZW4gMTkwMyBhbmQgMTkxMi4gV2hpbGUgZ2l2aW5nIGZyZWUgcmVpZ24gdG8gaGlzIGludHVpdGlvbiwgQnVnYXR0aSBtZWxkZWQgYWJzdHJhY3Rpb24gYW5kIGZpZ3VyYXRpb24gdGhyb3VnaCBsaW5lcywgdm9sdW1lcywgYW5kIGhpcyB2aXNpb24gb2YgdGhlIGFuaW1hbCwgd2lsZCBvciBkb21lc3RpY2F0ZWQsIHRvIGV2b2x2ZSBmcm9tIGEgcmFwaWQgYW5kIGZpZXJ5IGV4ZWN1dGlvbiBvZiBzYWlkIHZvbHVtZXMgdG93YXJkcyBhbiBhcHByb2FjaCB0aGF0IHdhcyBib3RoIHByZWNpc2UgYW5kIGNvbXBsZXguIDxicj5UaGUgeW91bmcgQnVnYXR0aSBldmVudHVhbGx5IGdhdmUgaGlzIG9yaWdpbmFsIHBsYXN0ZXIgbW9kZWxzIHRvIEjDqWJyYXJkIGFsb25nIHdpdGggZ3JhbnRpbmcgaGltIHRoZSByaWdodHMgb2YgcmVwcm9kdWN0aW9uIGFuZCBkaXN0cmlidXRpb24uIFRoZSBjb250cmFjdCBmb3I8aT4gbDwvaT48aT7igJnDiTwvaT48aT5kaXRpb24gb3JpZ2luYWxlIFJlbWJyYW5kdCBCdWdhdHRpIDwvaT5jYW1lIGludG8gZWZmZWN0IHVwb24gdGhhdCBmaXJzdCBtZWV0aW5nIGluIDE5MDQuIDxicj5Gb3IgdGhlIGZpcnN0IHRpbWUsIHRoZSBicm9uemVzIHdlcmUgcHJvZHVjZWQgaW4gYSBsaW1pdGVkIGVkaXRpb24sIHRoZSBicm9uemVzIHdlcmUgbnVtYmVyZWQgYW5kIHN0YW1wZWQgd2l0aCB0aGUgZm91bmRyeSBtYXJrICJDaXJlIFBlcmR1ZSBBLi1BLiBIw6licmFyZC4iIEl0IGlzIGFsc28gdGhlIGZpcnN0IHRpbWUgaW4gdGhlIGhpc3Rvcnkgb2YgYnJvbnplIGNhc3RpbmcgdGhhdCBjZXJ0YWluIG1vZGVscyB3ZXJlIGNhc3QgYXMgdW5pcXVlIG9iamVjdHMuIEluIHRoZSBiZWdpbm5pbmcgb2YgdGhlIDIwdGggY2VudHVyeSwgYXMgcGFydCBvZiBoaXMgcGxhbiB0byBwcm9wZWwgQnVnYXR0aeKAmXMgd29yayBpbnRvIHRoZSBwdWJsaWMgZG9tYWluLCBIw6licmFyZCByZXZvbHV0aW9uaXplZCB0aGUgd29ybGQgb2YgYnJvbnplLjxicj48YnI+VGV4dCBieSBWw6lyb25pcXVlIEZyb21hbmdlciwgQXVndXN0IDIwMTcgPGJyPjxicj48YnI+UHJvcGVydHkgZnJvbSBhIFByaXZhdGUgRnJlbmNoIENvbGxlY3Rpb25kAkQPFgIfCAIHFg4CAQ9kFgJmDxUTVmh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vRmVhdHVyZXMvVGhlLWxpZmUtYW5kLWFydC1vZi1TaXItQWxmcmVkLU11bm5pbmdzLTk1MzgtMS5hc3B4B0FSVElDTEUAiwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBniwFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTEvMDcvdGhlLWxpZmUtYW5kLWFydC1vZi1zaXItYWxmcmVkLW11bm5pbmdzL2FsZnJlZC1tdW5uaW5ncy04ODAuanBnHkZyb20gd2FyIGhvcnNlcyB0byByb3lhbHR5OiB0aIsBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzExLzA3L3RoZS1saWZlLWFuZC1hcnQtb2Ytc2lyLWFsZnJlZC1tdW5uaW5ncy9hbGZyZWQtbXVubmluZ3MtODgwLmpwZzpGcm9tIHdhciBob3JzZXMgdG8gcm95YWx0eTogdGhlIGFydCBvZiBTaXIgQWxmcmVkIE11bm5pbmdzpQFBbiBleHBlcnQgZ3VpZGUgdG8gdGhlIEJyaXRpc2ggYXJ0aXN0IGJlc3Qga25vd24gZm9yIGhpcyBkZXBpY3Rpb24gb2YgaG9yc2VzLCBidXQgYWxzbyBhIHNraWxsZWQgcG9ydHJhaXRpc3QuIElsbHVzdHJhdGVkIHdpdGggd29ya3Mgb2ZmZXJlZCBpbiBOb3ZlbWJlciBhbmQgRGVjZW1iZXJkAgIPZBYCZg8VE1VodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL0ZlYXR1cmVzL1Zhbi1Hb2doLUNvaW4tZGUtamFyZGluLWF2ZWMtcGFwaWxsb25zLTk0MjMtMy5hc3B4BVZJREVPJzxzcGFuIGNsYXNzPSdwbGF5LWljb24tb3ZlcmxheSc+PC9zcGFuPnlodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvdmFuLWdvZ2gtY29ybmVyLWdhcmRlbi13aXRoLWZsb3dlcnMvdmlkZW8uanBneWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi92YW4tZ29naC1jb3JuZXItZ2FyZGVuLXdpdGgtZmxvd2Vycy92aWRlby5qcGd5aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L3Zhbi1nb2doLWNvcm5lci1nYXJkZW4td2l0aC1mbG93ZXJzL3ZpZGVvLmpwZ3lodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvdmFuLWdvZ2gtY29ybmVyLWdhcmRlbi13aXRoLWZsb3dlcnMvdmlkZW8uanBneWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi92YW4tZ29naC1jb3JuZXItZ2FyZGVuLXdpdGgtZmxvd2Vycy92aWRlby5qcGd5aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L3Zhbi1nb2doLWNvcm5lci1nYXJkZW4td2l0aC1mbG93ZXJzL3ZpZGVvLmpwZ3lodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvdmFuLWdvZ2gtY29ybmVyLWdhcmRlbi13aXRoLWZsb3dlcnMvdmlkZW8uanBneWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi92YW4tZ29naC1jb3JuZXItZ2FyZGVuLXdpdGgtZmxvd2Vycy92aWRlby5qcGd5aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L3Zhbi1nb2doLWNvcm5lci1nYXJkZW4td2l0aC1mbG93ZXJzL3ZpZGVvLmpwZ3lodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvdmFuLWdvZ2gtY29ybmVyLWdhcmRlbi13aXRoLWZsb3dlcnMvdmlkZW8uanBneWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi92YW4tZ29naC1jb3JuZXItZ2FyZGVuLXdpdGgtZmxvd2Vycy92aWRlby5qcGd5aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L3Zhbi1nb2doLWNvcm5lci1nYXJkZW4td2l0aC1mbG93ZXJzL3ZpZGVvLmpwZyTigJhTb21ldGhpbmcgdmVyeSBtdWNoIGFsaXZl4oCZIOKAlCB5aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L3Zhbi1nb2doLWNvcm5lci1nYXJkZW4td2l0aC1mbG93ZXJzL3ZpZGVvLmpwZ03igJhTb21ldGhpbmcgdmVyeSBtdWNoIGFsaXZl4oCZIOKAlCBDb2luIGRlIGphcmRpbiBhdmVjIHBhcGlsbG9ucyBieSBWYW4gR29naIABSm9pbiB1cyBvbiBhIHJlbWFya2FibGUgam91cm5leSBpbnRvIGEgcGFpbnRpbmcgdGhhdCBtYXJrcyB0aGUgbW9tZW50IHRoZSBhcnRpc3Qg4oCYY3Jvc3NlZCB0aGUgZGl2aWRlIGludG8gY29udGVtcG9yYXJ5IGFydOKAmSBkAgMPZBYCZg8VE1hodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL0ZlYXR1cmVzLzEwLXRoaW5ncy10by1rbm93LWFib3V0LVJlbWJyYW5kdC1CdWdhdHRpLTg2MzktMS5hc3B4B0FSVElDTEUAd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnIFJlbWJyYW5kdCBCdWdhdHRpOiBIZSBrbmV3IOKAmG1vd2h0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxNy8xMC8yNC9yZW1icmFuZHQtYnVnYXR0aS9tYWluLTU1MzYxNTQ1X2NvbXAwMjAuanBnN1JlbWJyYW5kdCBCdWdhdHRpOiBIZSBrbmV3IOKAmG1vcmUgYW5pbWFscyB0aGFuIE5vYWjigJmnAVRoZSBlbGRlciBicm90aGVyIG9mIEV0dG9yZSBCdWdhdHRpLCB0aGUgYXV0byBwaW9uZWVyLCBzcGVudCBoaXMgZGF5cyBhdCBBbnR3ZXJwIFpvbyBzY3VscHRpbmcgaXRzIGluaGFiaXRhbnRzLiBTZXZlbiBvZiBoaXMgd29ya3MgYXJlIG9mZmVyZWQgaW4gTmV3IFlvcmsgaW4gTm92ZW1iZXIgZAIED2QWAmYPFRNpaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9GZWF0dXJlcy9QaWNhc3NvLWNlcmFtaWNzLUFuLWVzc2VudGlhbC1ndWlkZS10by1zdGFtcHMtYW5kLW1hcmtpbmdzLTkzNDYtMy5hc3B4BVZJREVPJzxzcGFuIGNsYXNzPSdwbGF5LWljb24tb3ZlcmxheSc+PC9zcGFuPp4BaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA4LzE3L3BpY2Fzc28tY2VyYW1pY3MtZ3VpZGUtdG8tc3RhbXBzLWFuZC1tYXJraW5ncy9lZGl0aW9uLXBpY2Fzc28tbWFkb3VyYS1udW1iZXJlZC5qcGeeAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOC8xNy9waWNhc3NvLWNlcmFtaWNzLWd1aWRlLXRvLXN0YW1wcy1hbmQtbWFya2luZ3MvZWRpdGlvbi1waWNhc3NvLW1hZG91cmEtbnVtYmVyZWQuanBnngFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDgvMTcvcGljYXNzby1jZXJhbWljcy1ndWlkZS10by1zdGFtcHMtYW5kLW1hcmtpbmdzL2VkaXRpb24tcGljYXNzby1tYWRvdXJhLW51bWJlcmVkLmpwZ54BaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA4LzE3L3BpY2Fzc28tY2VyYW1pY3MtZ3VpZGUtdG8tc3RhbXBzLWFuZC1tYXJraW5ncy9lZGl0aW9uLXBpY2Fzc28tbWFkb3VyYS1udW1iZXJlZC5qcGeeAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOC8xNy9waWNhc3NvLWNlcmFtaWNzLWd1aWRlLXRvLXN0YW1wcy1hbmQtbWFya2luZ3MvZWRpdGlvbi1waWNhc3NvLW1hZG91cmEtbnVtYmVyZWQuanBnngFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDgvMTcvcGljYXNzby1jZXJhbWljcy1ndWlkZS10by1zdGFtcHMtYW5kLW1hcmtpbmdzL2VkaXRpb24tcGljYXNzby1tYWRvdXJhLW51bWJlcmVkLmpwZ54BaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA4LzE3L3BpY2Fzc28tY2VyYW1pY3MtZ3VpZGUtdG8tc3RhbXBzLWFuZC1tYXJraW5ncy9lZGl0aW9uLXBpY2Fzc28tbWFkb3VyYS1udW1iZXJlZC5qcGeeAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOC8xNy9waWNhc3NvLWNlcmFtaWNzLWd1aWRlLXRvLXN0YW1wcy1hbmQtbWFya2luZ3MvZWRpdGlvbi1waWNhc3NvLW1hZG91cmEtbnVtYmVyZWQuanBnngFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDgvMTcvcGljYXNzby1jZXJhbWljcy1ndWlkZS10by1zdGFtcHMtYW5kLW1hcmtpbmdzL2VkaXRpb24tcGljYXNzby1tYWRvdXJhLW51bWJlcmVkLmpwZ54BaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA4LzE3L3BpY2Fzc28tY2VyYW1pY3MtZ3VpZGUtdG8tc3RhbXBzLWFuZC1tYXJraW5ncy9lZGl0aW9uLXBpY2Fzc28tbWFkb3VyYS1udW1iZXJlZC5qcGeeAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOC8xNy9waWNhc3NvLWNlcmFtaWNzLWd1aWRlLXRvLXN0YW1wcy1hbmQtbWFya2luZ3MvZWRpdGlvbi1waWNhc3NvLW1hZG91cmEtbnVtYmVyZWQuanBnngFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDgvMTcvcGljYXNzby1jZXJhbWljcy1ndWlkZS10by1zdGFtcHMtYW5kLW1hcmtpbmdzL2VkaXRpb24tcGljYXNzby1tYWRvdXJhLW51bWJlcmVkLmpwZx5QaWNhc3NvIGNlcmFtaWNzOiBBbiBlc3NlbnRpYWyeAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOC8xNy9waWNhc3NvLWNlcmFtaWNzLWd1aWRlLXRvLXN0YW1wcy1hbmQtbWFya2luZ3MvZWRpdGlvbi1waWNhc3NvLW1hZG91cmEtbnVtYmVyZWQuanBnO1BpY2Fzc28gY2VyYW1pY3M6IEFuIGVzc2VudGlhbCBndWlkZSB0byBzdGFtcHMgYW5kIG1hcmtpbmdzW1NwZWNpYWxpc3QgSW1vZ2VuIEtlcnIgb24gd2h5IHRoZSBhcnRpc3Qgd2FudGVkIGV2ZXJ5b25lIHRvIGJlIGFibGUgdG8gb3duIG9uZSBvZiBoaXMgd29ya3NkAgUPZBYCZg8VE1lodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL0ZlYXR1cmVzL0FuZHJldy1HcmFoYW0tRGl4b24tdG8tZ2lsZC1vci1ub3QtdG8tZ2lsZC05MjQ2LTEuYXNweAdBUlRJQ0xFAIkBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA2LzA1L3RvLWdpbGQtb3Itbm90LXRvLWdpbGQvcGFyaXNzYWxvbm1hcnlldmFuczEwMDY3MTg2Y3JvcHBlZC5qcGeJAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wNi8wNS90by1naWxkLW9yLW5vdC10by1naWxkL3Bhcmlzc2Fsb25tYXJ5ZXZhbnMxMDA2NzE4NmNyb3BwZWQuanBniQFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDYvMDUvdG8tZ2lsZC1vci1ub3QtdG8tZ2lsZC9wYXJpc3NhbG9ubWFyeWV2YW5zMTAwNjcxODZjcm9wcGVkLmpwZ4kBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA2LzA1L3RvLWdpbGQtb3Itbm90LXRvLWdpbGQvcGFyaXNzYWxvbm1hcnlldmFuczEwMDY3MTg2Y3JvcHBlZC5qcGeJAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wNi8wNS90by1naWxkLW9yLW5vdC10by1naWxkL3Bhcmlzc2Fsb25tYXJ5ZXZhbnMxMDA2NzE4NmNyb3BwZWQuanBniQFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDYvMDUvdG8tZ2lsZC1vci1ub3QtdG8tZ2lsZC9wYXJpc3NhbG9ubWFyeWV2YW5zMTAwNjcxODZjcm9wcGVkLmpwZ4kBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA2LzA1L3RvLWdpbGQtb3Itbm90LXRvLWdpbGQvcGFyaXNzYWxvbm1hcnlldmFuczEwMDY3MTg2Y3JvcHBlZC5qcGeJAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wNi8wNS90by1naWxkLW9yLW5vdC10by1naWxkL3Bhcmlzc2Fsb25tYXJ5ZXZhbnMxMDA2NzE4NmNyb3BwZWQuanBniQFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDYvMDUvdG8tZ2lsZC1vci1ub3QtdG8tZ2lsZC9wYXJpc3NhbG9ubWFyeWV2YW5zMTAwNjcxODZjcm9wcGVkLmpwZ4kBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA2LzA1L3RvLWdpbGQtb3Itbm90LXRvLWdpbGQvcGFyaXNzYWxvbm1hcnlldmFuczEwMDY3MTg2Y3JvcHBlZC5qcGeJAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wNi8wNS90by1naWxkLW9yLW5vdC10by1naWxkL3Bhcmlzc2Fsb25tYXJ5ZXZhbnMxMDA2NzE4NmNyb3BwZWQuanBniQFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDYvMDUvdG8tZ2lsZC1vci1ub3QtdG8tZ2lsZC9wYXJpc3NhbG9ubWFyeWV2YW5zMTAwNjcxODZjcm9wcGVkLmpwZyBUbyBnaWxkIG9yIG5vdCB0byBnaWxkIOKAlCB0aGF0IIkBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA2LzA1L3RvLWdpbGQtb3Itbm90LXRvLWdpbGQvcGFyaXNzYWxvbm1hcnlldmFuczEwMDY3MTg2Y3JvcHBlZC5qcGcvVG8gZ2lsZCBvciBub3QgdG8gZ2lsZCDigJQgdGhhdCBpcyB0aGUgcXVlc3Rpb26mAUFydGlzdHMsIHBhdHJvbnMgYW5kIGNyaXRpY3MgaGF2ZSBhcmd1ZWQgZm9yIGNlbnR1cmllcyBvdmVyIHRoZSByaWdodCB3YXkgdG8gZnJhbWUgYSBwYWludGluZy4gVWx0aW1hdGVseSwgaXTigJlzIGEgbWF0dGVyIG9mIHBlcnNvbmFsIHRhc3RlLCBzYXlzIEFuZHJldyBHcmFoYW0tRGl4b25kAgYPZBYCZg8VE1JodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL0ZlYXR1cmVzLzUta2V5LW1vbWVudHMtaW4tQW1lcmljYW4tTW9kZXJuaXNtLTk1MTgtMS5hc3B4B0FSVElDTEUAkAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTAvMzEvNS1rZXktbW9tZW50cy1pbi1hbWVyaWNhbi1tb2Rlcm5pc20vbWFpbi0zcmQtZHJhZnQtdXBkYXRlZC1pbWFnZS5qcGeQAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8xMC8zMS81LWtleS1tb21lbnRzLWluLWFtZXJpY2FuLW1vZGVybmlzbS9tYWluLTNyZC1kcmFmdC11cGRhdGVkLWltYWdlLmpwZ5ABaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzEwLzMxLzUta2V5LW1vbWVudHMtaW4tYW1lcmljYW4tbW9kZXJuaXNtL21haW4tM3JkLWRyYWZ0LXVwZGF0ZWQtaW1hZ2UuanBnkAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTAvMzEvNS1rZXktbW9tZW50cy1pbi1hbWVyaWNhbi1tb2Rlcm5pc20vbWFpbi0zcmQtZHJhZnQtdXBkYXRlZC1pbWFnZS5qcGeQAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8xMC8zMS81LWtleS1tb21lbnRzLWluLWFtZXJpY2FuLW1vZGVybmlzbS9tYWluLTNyZC1kcmFmdC11cGRhdGVkLWltYWdlLmpwZ5ABaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzEwLzMxLzUta2V5LW1vbWVudHMtaW4tYW1lcmljYW4tbW9kZXJuaXNtL21haW4tM3JkLWRyYWZ0LXVwZGF0ZWQtaW1hZ2UuanBnkAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTAvMzEvNS1rZXktbW9tZW50cy1pbi1hbWVyaWNhbi1tb2Rlcm5pc20vbWFpbi0zcmQtZHJhZnQtdXBkYXRlZC1pbWFnZS5qcGeQAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8xMC8zMS81LWtleS1tb21lbnRzLWluLWFtZXJpY2FuLW1vZGVybmlzbS9tYWluLTNyZC1kcmFmdC11cGRhdGVkLWltYWdlLmpwZ5ABaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzEwLzMxLzUta2V5LW1vbWVudHMtaW4tYW1lcmljYW4tbW9kZXJuaXNtL21haW4tM3JkLWRyYWZ0LXVwZGF0ZWQtaW1hZ2UuanBnkAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMTAvMzEvNS1rZXktbW9tZW50cy1pbi1hbWVyaWNhbi1tb2Rlcm5pc20vbWFpbi0zcmQtZHJhZnQtdXBkYXRlZC1pbWFnZS5qcGeQAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8xMC8zMS81LWtleS1tb21lbnRzLWluLWFtZXJpY2FuLW1vZGVybmlzbS9tYWluLTNyZC1kcmFmdC11cGRhdGVkLWltYWdlLmpwZ5ABaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzEwLzMxLzUta2V5LW1vbWVudHMtaW4tYW1lcmljYW4tbW9kZXJuaXNtL21haW4tM3JkLWRyYWZ0LXVwZGF0ZWQtaW1hZ2UuanBnHkFtZXJpY2FuIE1vZGVybmlzbSBpbiA1IHRoZW1lc5ABaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzEwLzMxLzUta2V5LW1vbWVudHMtaW4tYW1lcmljYW4tbW9kZXJuaXNtL21haW4tM3JkLWRyYWZ0LXVwZGF0ZWQtaW1hZ2UuanBnHkFtZXJpY2FuIE1vZGVybmlzbSBpbiA1IHRoZW1lc54BRnJvbSBpbmR1c3RyaWFsIGxhbmRzY2FwZXMgdG8gZGVzZXJ0IHZpc3RhcyB2aWEgUGFyaXMgYW5kIGFic3RyYWN0aW9uLCBpbGx1c3RyYXRlZCB3aXRoIHdvcmtzIGZyb20gVGhlIEJhcm5leSBBLiBFYnN3b3J0aCBDb2xsZWN0aW9uIGFuZCBvdXIgQW1lcmljYW4gQXJ0IHNhbGVkAgcPZBYCZg8VE1VodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL0ZlYXR1cmVzL0xlLUJhc3Npbi1hdXgtbnltcGhlYXMtYnktQ2xhdWRlLU1vbmV0LTk0MjQtMS5hc3B4B0FSVElDTEUAqgFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvbGUtYmFzc2luLWF1eC1ueW1waGVhcy1ieS1jbGF1ZGUtbW9uZXQvY2xhdWRlbW9uZXQxODQwMTkyNmxlYmFzc2luYXV4bnltcGhlYXMxOTE3MTkxNzY1YWx0LmpwZ6oBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L2xlLWJhc3Npbi1hdXgtbnltcGhlYXMtYnktY2xhdWRlLW1vbmV0L2NsYXVkZW1vbmV0MTg0MDE5MjZsZWJhc3NpbmF1eG55bXBoZWFzMTkxNzE5MTc2NWFsdC5qcGeqAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi9sZS1iYXNzaW4tYXV4LW55bXBoZWFzLWJ5LWNsYXVkZS1tb25ldC9jbGF1ZGVtb25ldDE4NDAxOTI2bGViYXNzaW5hdXhueW1waGVhczE5MTcxOTE3NjVhbHQuanBnqgFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvbGUtYmFzc2luLWF1eC1ueW1waGVhcy1ieS1jbGF1ZGUtbW9uZXQvY2xhdWRlbW9uZXQxODQwMTkyNmxlYmFzc2luYXV4bnltcGhlYXMxOTE3MTkxNzY1YWx0LmpwZ6oBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L2xlLWJhc3Npbi1hdXgtbnltcGhlYXMtYnktY2xhdWRlLW1vbmV0L2NsYXVkZW1vbmV0MTg0MDE5MjZsZWJhc3NpbmF1eG55bXBoZWFzMTkxNzE5MTc2NWFsdC5qcGeqAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi9sZS1iYXNzaW4tYXV4LW55bXBoZWFzLWJ5LWNsYXVkZS1tb25ldC9jbGF1ZGVtb25ldDE4NDAxOTI2bGViYXNzaW5hdXhueW1waGVhczE5MTcxOTE3NjVhbHQuanBnqgFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvbGUtYmFzc2luLWF1eC1ueW1waGVhcy1ieS1jbGF1ZGUtbW9uZXQvY2xhdWRlbW9uZXQxODQwMTkyNmxlYmFzc2luYXV4bnltcGhlYXMxOTE3MTkxNzY1YWx0LmpwZ6oBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L2xlLWJhc3Npbi1hdXgtbnltcGhlYXMtYnktY2xhdWRlLW1vbmV0L2NsYXVkZW1vbmV0MTg0MDE5MjZsZWJhc3NpbmF1eG55bXBoZWFzMTkxNzE5MTc2NWFsdC5qcGeqAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi9sZS1iYXNzaW4tYXV4LW55bXBoZWFzLWJ5LWNsYXVkZS1tb25ldC9jbGF1ZGVtb25ldDE4NDAxOTI2bGViYXNzaW5hdXhueW1waGVhczE5MTcxOTE3NjVhbHQuanBnqgFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL21lZGlhLWxpYnJhcnkvaW1hZ2VzL2ZlYXR1cmVzL2FydGljbGVzLzIwMTgvMDkvMjYvbGUtYmFzc2luLWF1eC1ueW1waGVhcy1ieS1jbGF1ZGUtbW9uZXQvY2xhdWRlbW9uZXQxODQwMTkyNmxlYmFzc2luYXV4bnltcGhlYXMxOTE3MTkxNzY1YWx0LmpwZ6oBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L2xlLWJhc3Npbi1hdXgtbnltcGhlYXMtYnktY2xhdWRlLW1vbmV0L2NsYXVkZW1vbmV0MTg0MDE5MjZsZWJhc3NpbmF1eG55bXBoZWFzMTkxNzE5MTc2NWFsdC5qcGeqAWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvZmVhdHVyZXMvYXJ0aWNsZXMvMjAxOC8wOS8yNi9sZS1iYXNzaW4tYXV4LW55bXBoZWFzLWJ5LWNsYXVkZS1tb25ldC9jbGF1ZGVtb25ldDE4NDAxOTI2bGViYXNzaW5hdXhueW1waGVhczE5MTcxOTE3NjVhbHQuanBnJOKAmFdpdGhvdXQgYmVnaW5uaW5nIG9yIGVuZOKAmSDigJQgTaoBaHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS9tZWRpYS1saWJyYXJ5L2ltYWdlcy9mZWF0dXJlcy9hcnRpY2xlcy8yMDE4LzA5LzI2L2xlLWJhc3Npbi1hdXgtbnltcGhlYXMtYnktY2xhdWRlLW1vbmV0L2NsYXVkZW1vbmV0MTg0MDE5MjZsZWJhc3NpbmF1eG55bXBoZWFzMTkxNzE5MTc2NWFsdC5qcGdE4oCYV2l0aG91dCBiZWdpbm5pbmcgb3IgZW5k4oCZIOKAlCBNb25ldOKAmXMgTGUgYmFzc2luIGF1eCBueW1waMOpYXN/SWYgdGhlIEdyYW5kZXMgRMOpY29yYXRpb25zIHJlcHJlc2VudCB0aGUgcGVhayBvZiBNb25ldOKAmXMgY2FyZWVyLCBMZSBiYXNzaW4gYXV4IG55bXBow6lhcyBpcyBhIHZpdGFsIHN0YWdlIGluIHRoZWlyIGV2b2x1dGlvbmQCRQ8WAh8IAgEWAgIBD2QWBGYPFQNdaHR0cHM6Ly9jZi5jLm9veWFsYS5jb20vVXpObkU0WkRFNmF1ZjhtVWxMQmJGSVNVVDA2bmVHcmgvRE9jSi1GeGFGclJnNGd0REV3T2pOME9qQTdwN0JBcXYubTRhhgFWYW5lc3NhIEZ1c2NvLCBIZWFkIG9mIFdvcmtzIG9uIFBhcGVyIGFuZCBEYXkgU2FsZSwgSW1wcmVzc2lvbmlzdCBhbmQgTW9kZXJuIEFydCwgZGlzY3Vzc2VzIFByb3BlcnR5IGZyb20gYSBQcml2YXRlIEZyZW5jaCBDb2xsZWN0aW9uLjRodHRwOi8vd3d3LmNocmlzdGllcy5jb20vaW1hZ2VzL25vLWNhdC1jb3Zlcjc3OTkuanBnZAICDxUBhgFWYW5lc3NhIEZ1c2NvLCBIZWFkIG9mIFdvcmtzIG9uIFBhcGVyIGFuZCBEYXkgU2FsZSwgSW1wcmVzc2lvbmlzdCBhbmQgTW9kZXJuIEFydCwgZGlzY3Vzc2VzIFByb3BlcnR5IGZyb20gYSBQcml2YXRlIEZyZW5jaCBDb2xsZWN0aW9uLmQCRg8WAh8IAgEWAgIBD2QWAmYPFQY3aHR0cHM6Ly93d3cuY2hyaXN0aWVzLmNvbS96bWFncz9abWFnc1B1Ymxpc2hJRD01YzhlNzIyNw1WQU5JVFlDQVRBTE9HYWh0dHBzOi8vd3d3LmNocmlzdGllcy5jb20vbWVkaWEtbGlicmFyeS9pbWFnZXMvc2FsZWxhbmRpbmdwYWdlLzIwMTcvMjB0aGNlbnR1cnkxMTIwMTcvYnVnYXR0aS5qcGdAU3BlY2lhbCBQdWJsaWNhdGlvbjogUmVtYnJhbmR0IEJ1Z2F0dGksIExlIHNjdWxwdGV1ciBkZXMgYW5pbWF1eEBTcGVjaWFsIFB1YmxpY2F0aW9uOiBSZW1icmFuZHQgQnVnYXR0aSwgTGUgc2N1bHB0ZXVyIGRlcyBhbmltYXV4AGQCUg8WBh4OZGF0YS10aXRsZS1sb3QFH1JlbWJyYW5kdCBCdWdhdHRpICgxODg0LTE5MTYpDQoeFGRhdGEtZGVzY3JpcHRpb24tbG90BS5EZXV4IHBldGl0cyBsw6lvcGFyZHMgbCd1biBkZXJyacOocmUgbCdhdXRyZQ0KHhJkYXRhLWltYWdlcGF0aC1sb3QFiAFodHRwczovL3d3dy5jaHJpc3RpZXMuY29tL2ltZy9Mb3RJbWFnZXMvMjAxNy9OWVIvMjAxN19OWVJfMTUwMDZfMDMwMV8wMDAocmVtYnJhbmR0X2J1Z2F0dGlfZGV1eF9wZXRpdHNfbGVvcGFyZHNfbHVuX2RlcnJpZXJlX2xhdXRyZSkuanBnZAIED2QWAmYPZBYCAgEPFgIeBFRleHQFUHMucHJvcDUgPSAnTmV3JzsNCnMucHJvcDYgPSAnTm90IExvZ2dlZCBJbi9ObyBBY2NvdW50JzsNCnMuZVZhcjIyID0gJ0VuZ2xpc2gnOw0KZGTSOtmABERFtEsK5LsxT3lxEOmyYA==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="69F1BA53" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAvHNFSt2UQmQb+W4cqdLx1LrHbl+IhCFSfgrEx0rkzICt/x0sK7Le6HoRia6eLO9k3leYFT8cQoZhJmf0W4HrBPgUyycGk603xSJxd52nk8g6zUj0qVrhMZV+tDz7vws51Gx4NeQ8dCQ80SJo/uRVjAeXQE5YAdIvc8kl63SPAZNDk8AbSic8KLhs/iV3KPAFZvjbAnhk/Y6L1jqhvgzkgwPuaSeVJ/TNj9fJsIYhDKZy38O6AR/+lcna3Boei8wq8JLhjv" />
+</div>
+        
+            <!--<div id="main-container" class="container main-container">-->
+            
+<script src="/static/scripts/CommonFunctionality/jCallWebService.js" type="text/javascript"></script>
+<script src="/static/scripts/CommonFunctionality/FollowSaleAndLot.js" type="text/javascript"></script>
+
+<!-- do not load flash detect if user is on android or ios -->
+<script src="/static/scripts/vendor/flash_detect_min.js"></script>
+<script src="/js/BidContainerPopUp.js" type="text/javascript"></script>
+<script src="/static/scripts/Lot/LotDetails.js" type="text/javascript"></script>
+<script src="https://widgets.interests.christies.com/js/interestSaveDialog.js" id="interestSaveDialogJs" type="text/javascript"></script>
+<script type="text/javascript" id="idGigya" src="https://cdns.gigya.com/JS/socialize.js?apikey=2_NsqQWOfVjp_4yuA7paAzYbdyyyHE03dA3DzJDkS-pA8CVIiTwM93o-nDE4Ys2gFI"></script>
+
+
+<script type="text/javascript">
+    var FollowLotAPI = "https://www.christies.com/webservices/mobile/Followlot.asmx/";
+    var LotDetailsAPI = "https://www.christies.com/ChristiesAPIServices/lotdetailsapi/Api/LotDetails/";
+    var SecureRootPath = "https://www.christies.com/";
+    var RootPath = "https://www.christies.com";
+    var COAItemCatVal = "20th Century, Sculptures, Statues & Figures";
+    var sFollowURL = "https://www.christies.com/MyChristies/loginAJAX.aspx?action=tracklotandreturntolotdetail&newobjectid=";
+    var ArrayVariable = "SignInToBid:Sign in to bid|PlaceBid:Place Bid|EditAbsenteeBid:Edit Bid|EnterChristiesLive:Join auction|RegistertoBid:Register to bid|Lot:Lot|Sale:Sale|PriceOnRequest:Estimate On Request|Estimate:Estimate|SalePrice:Sale Price";
+    var AkamaiCaching = "true";
+    var hdnLangID = "main_center_0_hdnLanguageID"
+
+    var dtm = {
+clientGuid: '',
+cultureCode: 'en-us',
+languageName: 'ENGLISH'
+};
+dtm['saleNumber']='15006';
+dtm['saleId']='27255';
+dtm['saleTitle']='Impressionist and Modern Art Day Sale';
+dtm['objectId']='6109853';
+dtm['pageType']='lot-details';
+dtm['lotNumber']='301  ';
+dtm['lotTitle']= 'Rembrandt Bugatti (1884-1916)';
+
+
+    function RedirectURL(URL) {
+        window.location.href = URL;
+    }
+
+    function AccountSettingRedirection() {
+        window.location.href = SecureRootPath + '/MyChristies/my_settings_currency.aspx';
+    }
+
+    //document.domain="christies.com";
+
+</script>
+
+
+
+<ul class="container container-modules">
+    <li class="no-margin-bottom">
+        <div class="column column-12 no-padding pull-left" id="MainLotHeader">
+            
+            <div class="column column-2 column-md-2 column-lg-1 column-xl-1 no-padding" id="MainLotImage">
+                <div class="image-preview-container center">
+                    <div class="image-preview">
+                        <picture>
+                    <img src="https://www.christies.com/img/SaleImages/nyr-15006-11142017.jpg?width=300" id="main_center_0_imgSaleImage" data-id="imgSaleImage" alt="Impressionist and Modern Art D auction at Christies" />
+                </picture>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column column-9 column-md-7 column-lg-9 column-xl-9" id="MainLotTitle">
+                
+                <p class="category-title">
+                    Sale
+                    <span id="main_center_0_lnkSaleNumber">15006</span>
+                </p>
+                <div id="main_center_0_lblSaleTitle" class="sale-title">Impressionist and Modern Art Day Sale</div>
+            </div>
+            <div class="column column-12 column-md-7 column-lg-9 column-xl-9 no-padding" id="MainLotSubheader">
+                <p id="main_center_0_lblSaleLocation" class="sale-header--location">New York</p>
+                    <p class="sale-header--seperator">|</p>
+                    <p id="main_center_0_lblSaleDate" class="sale-header--date">14 November 2017</p>
+                
+            </div>
+            <div class="column is-not-mobile column-md-3 column-lg-2 column-xl-2" id="MainLotCTA">
+                
+                <div class="column column-12">
+                    <a href="https://www.christies.com/SaleLanding/Index.aspx?intSaleID=27255&lid=1" id="main_center_0_lnkBrowseSale" class="cta black hidden-print">
+                        Browse Sale
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </li>
+</ul>
+
+
+
+
+<div class="search-wrapper hidden-print">
+    <div class="search-2 reset-height">
+        <a href="https://www.christies.com/lotfinder/lot_details.aspx?intObjectID=" id="main_center_0_lnkPreviousLot" class="icon christies-icon_left-arrow button-icon icon_mask-text square" disabled="disabled">
+            Previous Lot
+        </a>
+        <div id="main_center_0_SearchContainer" class="search-container">
+            <input name="main_center_0$idSearch" type="text" id="main_center_0_idSearch" class="input_text" placeholder="Search by lot # in this sale" />
+            <a class="christies-icon_search button-icon icon_mask-text square" href="#" class="icon christies-icon_magnifying-glass" onclick="GetObjectID()">
+                Search
+            </a>
+        </div>
+        <a href="https://www.christies.com/lotfinder/lot_details.aspx?intObjectID=6109854&lid=1" id="main_center_0_lnkNextLot" class="icon christies-icon_right-arrow button-icon icon_mask-text square">
+            Next Lot
+        </a>
+    </div>
+</div>
+
+
+<ul class="container container-modules allContent">
+    <li>
+        
+        <div id="MainContent">
+            
+            <div class="column column-12 column-md-6 column-lg-5 column-xl-5 no-padding" id="MainContentImage">
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 no-padding">
+                    <div class="carousel-1 carousel-slider-container">
+                        <div class="image-preview-container image-preview-container-for-size carousel-buttons-container">
+                            
+                        </div>
+<!-- TODO: remove js code which replaces carousel-slider-count-x. carousel-slider-count-x should be dynamically changed via serverside variable based on the number of items in the carousel. only the number should come from the backend, not the whole class name. -->
+                        <ul id="main_center_0_imgCarouselMain" class="carousel-slider carousel-slider-count-1 no-padding" style="left: 0;">
+                            
+                                    <li class="box-link">
+                                        <a class="panzoom--link" data-zoom-enabled="true"
+											href="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg"
+                                            data-large-url="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg"
+                                            data-medium-url="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg"
+                                            data-small-url="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg"
+                                            data-zoom-enabled="panzoom--link">
+                                            <div class="image-preview-container center">
+                                                <picture>										
+													<source media="(max-width: 320px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=320&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=640&q=70 2x">
+													
+													<source media="(max-width: 375px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=375&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=750&q=70 2x, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=1125&q=70 3x">
+													
+													<source media="(max-width: 414px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=414&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=828&q=70 2x, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=1242&q=70 3x">
+													
+													<source media="(max-width: 768px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=265&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=530&q=70 2x, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=795&q=70 3x">
+													
+													<source media="(max-width: 1024px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=290&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=580&q=70 2x">
+													
+													<source media="(max-width: 1152px)" srcset="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=290&q=70, https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=580&q=70 2x">
+													
+													<img class="image" src="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?w=400" alt="Rembrandt Bugatti (1884-1916) ">
+												</picture>
+                                            </div>
+                                        </a>
+                                    </li>
+                                
+                                    
+                        </ul>
+
+                        <div class="carousel-enhancements hidden-print">
+                            <a href="../sublayouts/Components/PageSections/LotFinder/LotDetails/#" id="main_center_0_panZoomIcon" class="christies-icon_plus-magnification button-icon" data-carousel-lg="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg" data-carousel-zoom="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg?height=150"></a>
+                            <a href="#" class="christies-icon_connect button-icon" id="openConnectModal" data-toggle="modal" data-target="#connectModal" title="Share"></a>
+                        </div>
+
+                        <ul id="imgCarouselThumb" class="column column-12 column-md-12 column-lg-12 column-xl-12 no-padding carousel-slider-thumbnails hidden-print">
+                            
+                            
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+            <div class="column column-12 column-md-6 column-lg-7 column-xl-7 no-padding" id="MainContentDetails">
+
+                <div class="column column-10 column-md-11 column-lg-11 column-xl-11 lotNumberContainer">
+                    <h6 class="category-title grey lotNumber" id="lotNumber">
+                        <span class="text-transform_uppercase">
+                            Lot
+                        </span>
+                        <span id="main_center_0_lblLotNumber">301  </span>
+						<p id="main_center_0_lblPreLotHeaderText" style="display:none;">The sculptor Rembrandt Bugatti was twenty years old in 1904, the year he met the man who would oversee the casting of his bronzes, Adrien Aurelien Hébrard:<br>"Upon the recommendation of a friend to go see the works of the young artist, his pretty name was, at first met with distrust as I found it evocative of too much glory and too much art…Instead of a small Italian with dexterous hands, I found a true artist. This tall boy, skinny, blushing, and quiet that Museum regulars call 'the American' showed me, without saying a word, the modeled clays which represented a year’s worth of dedicated attention and work. These are the things I like to present to art lovers. In these they will find the pulse of life which animates sincere works. They will also find an extraordinary account of the environment in which the subjects were seen...Too rarely do I find a sincere and personable artist for it not be a joy of mine to introduce him to the public" (Hébrard, 1904).<br>From Hébrard’s first early castings, Bugatti’s success was immediate. Critics were unanimous in their praise: "Here is a truly exceptional young sculptor…the sense of observation of his eye and spirit has given way to a great deal of talent…in which both poetry and realism are placed and united under the sign of his marvelous sensitivity…Each and every animal has its own traits, its own particular physiognomy…Rembrandt Bugatti is truly a revelation for all who love and appreciate impressionist sculpture" (<i>Le Figaro</i>, 22 June 1904).<br>At the <i>Jardin des Plantes</i>, his giant silhouette, his demeanor, his elegance which appeared both innate and sophisticated made him appear a character of legend, a man of the “New World.” While we don’t know his reading preferences, Bugatti could have been an assiduous reader of the essayist and naturalist John Burroughs, as well as Leo Tolstoy and perhaps Giovanni Segantini, his uncle. And if John Burroughs had met Bugatti, he could have written the following about him: "…to discover what you were not searching for, to witness the blinking and the shy shivering,…to catch the note or the revealing movements, to pierce all the screens thanks to the power of your visual beams and to have an eye as acute as a blind man’s hands, that is what one would call a good observer."<br>In 1906, an article by Marcel Horteloup was published in the London-based review <i>Studio International </i>which proclaimed that Bugatti wanted first and foremost to be a "narrator of animal psychology." Indeed, the sculptor spent fifteen years of his life living with wild animals between Paris and Anvers, not in the goal to classify but to observe them lengthy, one on one, to study and decipher their behavior, their signals, their sonority, their attitudes, one at a time in their world of senses. His entire work flows from this process of daily contact, from this dialogue between man and beast, be it wild or tamed, which verges on communion. <br>This collection of works by Rembrandt Bugatti presented here offers a rare overview of his <i>œ</i><i>uvre</i>. In ten years of dizzying production, in the fever of creation, Bugatti experimented with impressionism, expressionism, synthesis of form and matter, and the dynamism of futurism. The original plaster models for <i>Grand Éléphant du Muséum "Rachel," "Dix minutes de repos" ou Le Grand Fardier, Jument et son poulain, Serpent Python royal, Rhinocéros de trois ans, Brebis merinos, Petits Lé</i><i>opards l</i><i>’un derriè</i><i>re l</i><i>’</i><i>autre</i> were all conceived between 1903 and 1912. While giving free reign to his intuition, Bugatti melded abstraction and figuration through lines, volumes, and his vision of the animal, wild or domesticated, to evolve from a rapid and fiery execution of said volumes towards an approach that was both precise and complex. <br>The young Bugatti eventually gave his original plaster models to Hébrard along with granting him the rights of reproduction and distribution. The contract for<i> l</i><i>’É</i><i>dition originale Rembrandt Bugatti </i>came into effect upon that first meeting in 1904. <br>For the first time, the bronzes were produced in a limited edition, the bronzes were numbered and stamped with the foundry mark "Cire Perdue A.-A. Hébrard." It is also the first time in the history of bronze casting that certain models were cast as unique objects. In the beginning of the 20th century, as part of his plan to propel Bugatti’s work into the public domain, Hébrard revolutionized the world of bronze.<br><br>Text by Véronique Fromanger, August 2017 <br><br><br>Property from a Private French Collection</p>
+                    </h6>
+
+                </div>
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 container lot-details--title-container">
+                    <div class="lotName--container clear-fix">
+                        <h1 class="lotName header-4" >
+	                        <span id="main_center_0_lblLotPrimaryTitle" data-lotStatus="Past">Rembrandt Bugatti (1884-1916)
+</span>
+                                
+                        </h1>
+                    </div>
+                    <h2 id="main_center_0_lblLotSecondaryTitle" class="itemName">Deux petits léopards l'un derrière l'autre
+</h2>
+
+
+                </div>
+            <div class="lot-details--price-container">
+                
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 container overflow">
+                    <div class="price clearfix">
+                        <p class="p--primary_large estimate-realised">
+                            <span id="main_center_0_lblPriceRealizedLabel">Price realised</span>
+                            
+                            <div class="info hidden-print">
+                                <span id="main_center_0_buyerinfo" class="lot-details--tooltip-icon lot-details--tooltip-icon_h40 christies-icon_information" data-toggle="tooltip" data-original-title="Price Realised is hammer price plus buyer’s premium, net of any applicable fees."></span>
+                            </div>
+                            <p id="main_center_0_lblPriceRealizedPrimary" class="p--primary_large lot-details--lot-value" style="display:none;">USD 552,500</p>
+
+                    </div>
+                    
+                </div>
+                
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 container overflow">
+                    <div class="price clearfix">
+                        <p class="p--primary_large estimate-realised">
+                            <span id="main_center_0_lblPriceEstimatedLabel">Estimate</span>
+                            
+                            <div class="info hidden-print">
+                            	<span id="main_center_0_buyerinfoEstimated" class="lot-details--tooltip-icon lot-details--tooltip-icon_h40 christies-icon_information" data-toggle="tooltip" data-original-title="Estimates do not reflect the final hammer price and do not include buyer&#39;s premium, any applicable taxes or artist’s resale right. Please see Section D of the Conditions of Sale for full details. "></span>
+                            </div>
+                            <span id="main_center_0_lblPriceEstimatedPrimary" class="p--primary_large lot-details--lot-value" style="display:none;">USD 300,000 - USD 500,000</span>
+
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+			 
+                <div class="cta-container">
+                   
+                    
+                    <div class="column column-12 column-md-12 column-lg-4 column-xl-4 follow-lot cta-button hidden-print">
+                        <a id="main_center_0_lnkFavourite" data-unfollow-text="Unfollow lot" data-url="https://www.christies.com/MyChristies/loginAJAX.aspx?action=tracklotandreturntolotdetail&amp;newobjectid=6109853" class="cta full-width black no-margin-bottom follow-lot-ldp" data-follow-text="Follow lot" data-objectid="6109853" style="display:none;" data-id="0" data-target="#basicModal" data-remote="https://www.christies.com/MyChristies/loginAJAX.aspx?action=tracklotandreturntolotdetail&amp;newobjectid=6109853" data-follow="N" data-toggle="modal">Follow lot</a>
+                    </div>
+                    
+                </div>
+
+                
+                <div class="clear-both">
+                    <div id="main_center_0_dvAddToInterest" data-target="#basicModal" class="column column-12 column-md-12 column-lg-5 column-xl-4 interests login-user hidden-print" data-url="https://www.christies.com/MyChristies/loginAJAX.aspx?action=conditionreport&amp;intObjectID=6109853" data-categoryid="7801" style="display:none;" data-coaid="14153,8307,2218,517,340,55008" data-buttonupdatetext="Added to Interests" data-remote="https://www.christies.com/MyChristies/loginAJAX.aspx?action=conditionreport&amp;intObjectID=6109853" data-showmorerefinements="false" data-toggle="modal">
+                        <div class="christies-icon_plus body_p followThisSearch">
+                            Add to Interests
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+            
+            <div class="column column-12 column-md-12  column-lg-7 column-xl-7 no-padding lotDetails">
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 no-padding">
+                    <p class="p--primary_large no-margins lotDescription"><span id="main_center_0_lblLotDescription">Rembrandt Bugatti (1884-1916)<br>
+Deux petits léopards l'un derrière l'autre<br>
+signed, numbered and stamped with foundry mark 'R.Bugatti. (8) A.A. HÉBRARD CIRE PERDUE' (on the top of the base)<br>
+bronze with dark brown patina<br>
+Height: 15 in. (38 cm.) <br>
+Length: 25 1/8 in. (64 cm.)<br>
+Conceived <i>circa</i> 1912<br>
+</span></p>
+                </div>
+                <div class="column column-12 column-md-12 column-lg-12 column-xl-12 no-padding lot-details--provenance">
+                
+                <p class="p--primary_large"><strong>
+                    Provenance
+                </strong></p>
+                <p id="main_center_0_lblLotProvenance" class="p--primary_large">Anon. sale, Ader Picard Tajan, Paris, 8 April 1989, lot 30.<br>
+Acquired at the above sale by the present owner.</p>
+                
+                </div>
+                <div id="main_center_0_dvVanityCatalogue" class="column column-12 column-md-12 column-lg-12  column-xl-12 no-padding">
+                    <div class="vanity_link atlas-medium">
+                        View
+                      <a href="https://www.christies.com/zmags?ZmagsPublishID=5c8e7227" id="main_center_0_idVanityCatalogue" target="_blank" class="font-style_italic underline no-margins no-padding "><em id="main_center_0_idVanityTitle" class="">Special Publication: Rembrandt Bugatti, Le sculpteur des animaux</em></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        
+        <div class="column column-12 col-md-6 col-lg-6 col-xl-6 container">
+            <div class="column column-12 container">
+                <section id="ContactDepartment">
+                    <header>
+                        <div class="header-content">
+                            <h4 class="title">
+                                Contact us
+                            </h4>
+                        </div>
+                    </header>
+                    <div id="ulDepartmentContact">
+                        <div class="content column column-12 column-md-12 column-lg-12 column-xl-12 no-padding">
+							<ul class="box-link-type-1 reset-height">
+								<li class="column column-12 column-md-6 column-lg-6 column-xl-4">
+									<div class="box-item-container  no-highlight">
+										<p class="font_medium">Contact Client Service</p>
+										<p><a href="mailto:info@christies.com">info@christies.com</a></p>
+<p>New York +1 212 636 2000</p>
+<p>London +44 (0)20 7839 9060</p>
+<p><a href="mailto:infoasia@christies.com">infoasia@christies.com</a></p>
+<p>Asia +852 2760 1766</p>
+									</div>
+								</li>
+                            
+
+                                
+                                    <li class="column column-12 column-md-6 column-lg-6 column-xl-4">
+                                        <div class="box-item-container  no-highlight">
+                                            <p class="itemHeader">Vanessa Fusco</p>
+                                            <p></p>
+                                            <p><a href="mailto:vfusco@christies.com" class="underline">vfusco@christies.com</a></p>
+                                            <p>+1 212 636 2050</p>
+                                        </div>
+                                    </li>
+                                
+							</ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+		
+        
+
+        
+        
+        
+        <div class="column column-12 container literature-exhibitions">
+            <div class="accordion">
+                <section>
+                    <header>
+                        <div class="header-content collapsed" data-toggle="collapse" data-target="#literature">
+                            <h4 class="title">
+                                Literature and exhibited
+                            </h4>
+                            <span class="controls hidden-print">
+                                <span class="open christies-icon_plus button-icon icon-circle pull-right"></span>
+                                <span class="close christies-icon_minus button-icon icon-circle pull-right"></span>
+                            </span>
+                        </div>
+                    </header>
+                    <div class="collapse" id="literature">
+                  <div class="content column column-12 column-md-offset-1 column-md-10 column-lg-offset-1 column-lg-10 column-xl-offset-3 column-xl-6">
+                            
+                            <p><strong>
+                                Literature
+                            </strong></p>
+                            <p id="main_center_0_lblLiterature">M. Harvey, <i>The Bronzes of Rembrandt Bugatti</i>, London, 1979, p. 36, no. 27 (another cast illustrated).<br>
+P. Dejean<i>, Carlo-Rembrandt-Ettore-Jean Bugatti</i>, Paris, 1981, p. 149 (another cast illustrated).<br>
+J.-C. des Cordes and V. Fromanger des Cordes, <i>Rembrandt Bugatti, Catalogue raisonné</i>, Paris, 1987, p. 270 (another cast illustrated, pp. 270-271).<br>
+E. Horswell<i>, Rembrandt Bugatti, </i>London, 2004, p. 85 (another cast illustrated in color, pp. 88-89; titled <i>Two Leopards, One With Tail Raised</i> and dated 1911).<br>
+V. Fromanger, <i>Rembrandt Bugatti, Une trajectoire foudroyante, Répertoire monographique</i>, Paris, 2016, pp. 365-366, no. 304 (another cast illustrated in color).</p>
+                            <br />
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        
+
+        
+        <div class="column column-12 container additional-details">
+            <div class="accordion">
+                
+                <section>
+
+                    <header>
+                        <div class="header-content collapsed" data-toggle="collapse" data-target="#lotNotes">
+                            <h4 class="title">
+                                Lot Essay
+                            </h4>
+                            <span class="controls hidden-print">
+                                <span class="open christies-icon_plus button-icon icon-circle pull-right"></span>
+                                <span class="close christies-icon_minus button-icon icon-circle pull-right"></span>
+                            </span>
+                        </div>
+                    </header>
+                    <div id="lotNotes" class="collapse">
+                      <div class="content column column-12 column-md-offset-1 column-md-10 column-lg-offset-1 column-lg-10 column-lg-6 column-xl-offset-3 column-xl-6">
+                            <p id="main_center_0_lblLotNotes">Véronique Fromanger has confirmed the authenticity of this work.<br>
+<br>
+Bugatti spent the end of 1913 with the big cats of the Antwerp Zoo, at the time the largest zoo in Europe. The zoo had recently installed new enclosures without bars for their leopards and tigers, which was then a cutting-edge innovation to see animals roam together within their cages. Carl Hagenbeck, a prominent dealer in wild animals, had effectively invented a system of training without restraints, which succeeded in using verbal cues to instill a sense of hierarchy in the animals in which humans occupied the top rung. The cats evidently obeyed their trainers, and were thus freed from their traditional cages. <br>
+</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section>
+
+                    <header>
+                        <div class="header-content collapsed" data-toggle="collapse" data-target="#otherInfo">
+                            <h4 class="title">
+                                Other information
+                            </h4>
+                            <span class="controls hidden-print">
+                                <span class="open christies-icon_plus button-icon icon-circle pull-right"></span>
+                                <span class="close christies-icon_minus button-icon icon-circle pull-right"></span>
+                            </span>
+                        </div>
+                    </header>
+                    <div class="collapse" id="otherInfo">
+                  <div class="content column column-12 column-md-offset-1 column-md-10 column-lg-offset-1 column-lg-10 column-xl-offset-3 column-xl-6">
+                            
+                            <p><strong>
+                                Pre-Lot Text
+                            </strong></p>
+                            <p id="main_center_0_lblPreLotText">The sculptor Rembrandt Bugatti was twenty years old in 1904, the year he met the man who would oversee the casting of his bronzes, Adrien Aurelien Hébrard:<br>"Upon the recommendation of a friend to go see the works of the young artist, his pretty name was, at first met with distrust as I found it evocative of too much glory and too much art…Instead of a small Italian with dexterous hands, I found a true artist. This tall boy, skinny, blushing, and quiet that Museum regulars call 'the American' showed me, without saying a word, the modeled clays which represented a year’s worth of dedicated attention and work. These are the things I like to present to art lovers. In these they will find the pulse of life which animates sincere works. They will also find an extraordinary account of the environment in which the subjects were seen...Too rarely do I find a sincere and personable artist for it not be a joy of mine to introduce him to the public" (Hébrard, 1904).<br>From Hébrard’s first early castings, Bugatti’s success was immediate. Critics were unanimous in their praise: "Here is a truly exceptional young sculptor…the sense of observation of his eye and spirit has given way to a great deal of talent…in which both poetry and realism are placed and united under the sign of his marvelous sensitivity…Each and every animal has its own traits, its own particular physiognomy…Rembrandt Bugatti is truly a revelation for all who love and appreciate impressionist sculpture" (<i>Le Figaro</i>, 22 June 1904).<br>At the <i>Jardin des Plantes</i>, his giant silhouette, his demeanor, his elegance which appeared both innate and sophisticated made him appear a character of legend, a man of the “New World.” While we don’t know his reading preferences, Bugatti could have been an assiduous reader of the essayist and naturalist John Burroughs, as well as Leo Tolstoy and perhaps Giovanni Segantini, his uncle. And if John Burroughs had met Bugatti, he could have written the following about him: "…to discover what you were not searching for, to witness the blinking and the shy shivering,…to catch the note or the revealing movements, to pierce all the screens thanks to the power of your visual beams and to have an eye as acute as a blind man’s hands, that is what one would call a good observer."<br>In 1906, an article by Marcel Horteloup was published in the London-based review <i>Studio International </i>which proclaimed that Bugatti wanted first and foremost to be a "narrator of animal psychology." Indeed, the sculptor spent fifteen years of his life living with wild animals between Paris and Anvers, not in the goal to classify but to observe them lengthy, one on one, to study and decipher their behavior, their signals, their sonority, their attitudes, one at a time in their world of senses. His entire work flows from this process of daily contact, from this dialogue between man and beast, be it wild or tamed, which verges on communion. <br>This collection of works by Rembrandt Bugatti presented here offers a rare overview of his <i>œ</i><i>uvre</i>. In ten years of dizzying production, in the fever of creation, Bugatti experimented with impressionism, expressionism, synthesis of form and matter, and the dynamism of futurism. The original plaster models for <i>Grand Éléphant du Muséum "Rachel," "Dix minutes de repos" ou Le Grand Fardier, Jument et son poulain, Serpent Python royal, Rhinocéros de trois ans, Brebis merinos, Petits Lé</i><i>opards l</i><i>’un derriè</i><i>re l</i><i>’</i><i>autre</i> were all conceived between 1903 and 1912. While giving free reign to his intuition, Bugatti melded abstraction and figuration through lines, volumes, and his vision of the animal, wild or domesticated, to evolve from a rapid and fiery execution of said volumes towards an approach that was both precise and complex. <br>The young Bugatti eventually gave his original plaster models to Hébrard along with granting him the rights of reproduction and distribution. The contract for<i> l</i><i>’É</i><i>dition originale Rembrandt Bugatti </i>came into effect upon that first meeting in 1904. <br>For the first time, the bronzes were produced in a limited edition, the bronzes were numbered and stamped with the foundry mark "Cire Perdue A.-A. Hébrard." It is also the first time in the history of bronze casting that certain models were cast as unique objects. In the beginning of the 20th century, as part of his plan to propel Bugatti’s work into the public domain, Hébrard revolutionized the world of bronze.<br><br>Text by Véronique Fromanger, August 2017 <br><br><br>Property from a Private French Collection</p>
+                            
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+        </div>
+        
+        
+        <div class="seperator seperator-5 hidden-print"></div>
+        
+        <div class="column column-12 container overflow hidden-print">
+            <div class="column column-12 container" id="RelatedFeatures">
+                <h4 class="title_h5_small atlas-medium">
+                    Recommended features
+                </h4>
+                <a id="main_center_0_idViewAllRelatedFeatures" class="viewAllRelatedFeatures cta-link underline overflow">
+                    Load all features
+                </a>
+                <ul id="ulRelatedFeature" class="column box-link-type-4">
+                    
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/The-life-and-art-of-Sir-Alfred-Munnings-9538-1.aspx" data-template="ARTICLE" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="From war horses to royalty: th"
+    src="https://www.christies.com/media-library/images/features/articles/2018/11/07/the-life-and-art-of-sir-alfred-munnings/alfred-munnings-880.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">From war horses to royalty: the art of Sir Alfred Munnings</h3>
+                                                <p class="p--primary">An expert guide to the British artist best known for his depiction of horses, but also a skilled portraitist. Illustrated with works offered in November and December</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/Van-Gogh-Coin-de-jardin-avec-papillons-9423-3.aspx" data-template="VIDEO" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    <span class='play-icon-overlay'></span>
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="‘Something very much alive’ — "
+    src="https://www.christies.com/media-library/images/features/articles/2018/09/26/van-gogh-corner-garden-with-flowers/video.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">‘Something very much alive’ — Coin de jardin avec papillons by Van Gogh</h3>
+                                                <p class="p--primary">Join us on a remarkable journey into a painting that marks the moment the artist ‘crossed the divide into contemporary art’ </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/10-things-to-know-about-Rembrandt-Bugatti-8639-1.aspx" data-template="ARTICLE" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="Rembrandt Bugatti: He knew ‘mo"
+    src="https://www.christies.com/media-library/images/features/articles/2017/10/24/rembrandt-bugatti/main-55361545_comp020.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">Rembrandt Bugatti: He knew ‘more animals than Noah’</h3>
+                                                <p class="p--primary">The elder brother of Ettore Bugatti, the auto pioneer, spent his days at Antwerp Zoo sculpting its inhabitants. Seven of his works are offered in New York in November </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/Picasso-ceramics-An-essential-guide-to-stamps-and-markings-9346-3.aspx" data-template="VIDEO" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    <span class='play-icon-overlay'></span>
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="Picasso ceramics: An essential"
+    src="https://www.christies.com/media-library/images/features/articles/2018/08/17/picasso-ceramics-guide-to-stamps-and-markings/edition-picasso-madoura-numbered.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">Picasso ceramics: An essential guide to stamps and markings</h3>
+                                                <p class="p--primary">Specialist Imogen Kerr on why the artist wanted everyone to be able to own one of his works</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/Andrew-Graham-Dixon-to-gild-or-not-to-gild-9246-1.aspx" data-template="ARTICLE" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="To gild or not to gild — that "
+    src="https://www.christies.com/media-library/images/features/articles/2018/06/05/to-gild-or-not-to-gild/parissalonmaryevans10067186cropped.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">To gild or not to gild — that is the question</h3>
+                                                <p class="p--primary">Artists, patrons and critics have argued for centuries over the right way to frame a painting. Ultimately, it’s a matter of personal taste, says Andrew Graham-Dixon</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/5-key-moments-in-American-Modernism-9518-1.aspx" data-template="ARTICLE" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="American Modernism in 5 themes"
+    src="https://www.christies.com/media-library/images/features/articles/2018/10/31/5-key-moments-in-american-modernism/main-3rd-draft-updated-image.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">American Modernism in 5 themes</h3>
+                                                <p class="p--primary">From industrial landscapes to desert vistas via Paris and abstraction, illustrated with works from The Barney A. Ebsworth Collection and our American Art sale</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/Features/Le-Bassin-aux-nympheas-by-Claude-Monet-9424-1.aspx" data-template="ARTICLE" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    
+                                                    <picture>
+
+  <source
+    media="(max-width: 320px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=320&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=640&quality=70 2x">
+  <source
+    media="(max-width: 375px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=690&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=1035&quality=70 3x">
+  <source
+    media="(max-width: 414px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=736&quality=70 2x, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=1104&quality=70 3x">
+  <source
+    media="(max-width: 768px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=344&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=688&quality=70 2x">
+  <source
+    media="(max-width: 1024px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=332&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=664&quality=70 2x">
+  <source
+    media="(max-width: 1152px)"
+    srcset="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=348&quality=70, https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=696&quality=70 2x">
+
+  <!--Fallback and 1153+-->
+  <img
+    class="image-preview"
+    alt="‘Without beginning or end’ — M"
+    src="https://www.christies.com/media-library/images/features/articles/2018/09/26/le-bassin-aux-nympheas-by-claude-monet/claudemonet18401926lebassinauxnympheas1917191765alt.jpg?width=383&quality=70">
+</picture>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">‘Without beginning or end’ — Monet’s Le bassin aux nymphéas</h3>
+                                                <p class="p--primary">If the Grandes Décorations represent the peak of Monet’s career, Le bassin aux nymphéas is a vital stage in their evolution</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                    
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+
+                                <span class="cta-image audio-box" data-type="audio" data-toggle="modal" data-target="#onPageModal" data-audio="https://cf.c.ooyala.com/UzNnE4ZDE6auf8mUlLBbFISUT06neGrh/DOcJ-FxaFrRg4gtDEwOjN0OjA7p7BAqv.m4a" data-title="Vanessa Fusco, Head of Works on Paper and Day Sale, Impressionist and Modern Art, discusses Property from a Private French Collection." data-desc="">
+                                    <ul>
+                                        <li class="pull-left column  column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    <span class='play-icon-overlay'></span>
+                                                    <img class="image-preview" src="http://www.christies.com/images/no-cat-cover7799.jpg" />
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column  column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">
+                                                    Audio
+                                                </h3>
+                                                <p class="p--primary">Vanessa Fusco, Head of Works on Paper and Day Sale, Impressionist and Modern Art, discusses Property from a Private French Collection.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </span>
+                            </li>
+                        
+                    
+                            <li class="column column-12 column-md-6 column-lg-4 column-xl-4 features" style="display: none;">
+                                <a href="https://www.christies.com/zmags?ZmagsPublishID=5c8e7227" data-template="VANITYCATALOG" class="cta-image">
+                                    <ul class="clearfix">
+                                        <li class="pull-left column  column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div class="image-container landscape">
+                                                <div class="image-preview-container center">
+                                                    <img class="image-preview" src="https://www.christies.com/media-library/images/salelandingpage/2017/20thcentury112017/bugatti.jpg" alt="Special Publication: Rembrandt Bugatti, Le sculpteur des animaux" />
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="column column-12  column-12 column-md-12 column-lg-12 column-xl-12">
+                                            <div>
+                                                <h3 class="p--primary_large font_medium">Special Publication: Rembrandt Bugatti, Le sculpteur des animaux</h3>
+                                                <p class="ido"></p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+        
+        
+    </li>
+</ul>
+
+
+
+<section class="panzoom--wrapper">
+    <div class="loader">
+        <div class="loader--inner"></div>
+    </div>
+    <div class="panzoom--container">
+        <div class="panzoom--inner">
+            <img class="panzoom" src="" />
+        </div>
+        <div class="buttons--container">
+            <button class="zoom-out button-icon christies-icon_minus"></button>
+            <input type="range" class="zoom-range">
+            <button class="zoom-in button-icon christies-icon_plus"></button>
+        </div>
+    </div>
+
+    <button class="btn--close button-icon christies-icon_close"></button>
+</section>
+
+
+
+<script async type="text/javascript" src="/static/scripts/gigya/DynamicGigya_LDP.js?date=20180508115623"> </script>
+<link href="/inc/css/modules/paramPopup.css?091120181542" class="x-leave" rel="stylesheet" type="text/css" />
+<script async type="text/javascript" src="/static/scripts/ldp.js?date=20171128043318"> </script>
+<link href="/static/css/ldp.css?091120181542" class="x-leave" rel="stylesheet" type="text/css" />
+<div id="dialog" style="display: none" class="container"></div>
+
+<link href="/static/css/panzoom/panzoom.css" rel="stylesheet" />
+<script src="/static/scripts/jquery/jquery.mousewheel_3.1.13.min.js"></script>
+<script src="/static/scripts/vendor/panzoom/jquery.panzoom_v3.2.2.min.js"></script>
+<script src="/static/scripts/panzoom/panzoom.js"></script>
+
+<input type="hidden" name="main_center_0$hdnSaleID" id="main_center_0_hdnSaleID" value="27255" />
+<input type="hidden" name="main_center_0$hdnObjectID" id="main_center_0_hdnObjectID" value="6109853" />
+<input type="hidden" name="main_center_0$hdnGeoCountryCode" id="main_center_0_hdnGeoCountryCode" value="US" />
+<input type="hidden" name="main_center_0$hdnLanguageID" id="main_center_0_hdnLanguageID" value="1" />
+<input type="hidden" name="main_center_0$hdnContactDetails" id="main_center_0_hdnContactDetails" />
+<input type="hidden" name="main_center_0$lblLotCondition" id="main_center_0_lblLotCondition" value="Slight rubbing to the high points. Light surface dirt to the crevices. Scattered pitting and small nicks. A few minute flecks of patina loss to the front leopard&#39;s tail." />
+<input type="hidden" name="main_center_0$lblCreatedOn" id="main_center_0_lblCreatedOn" value="26 October 2017" />
+<input type="hidden" name="main_center_0$lblModifiedOn" id="main_center_0_lblModifiedOn" value="4 December 2017" />
+<input type="hidden" name="main_center_0$Session" id="main_center_0_Session" value="02:00 PM" />
+
+<script src="/static/scripts/modules/carousel/carousel-1.js" async type="text/javascript"></script>
+
+<!-- BOF: If a lot has a video -->		
+
+<!-- EOF: If a lot has a video -->
+
+<div class="modal fade in" id="connectModal" tabindex="-1" role="dialog" aria-labelledby="connectModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title header-4">Share</h5>
+            </div>
+            <div id="main_center_0_ch_social_block" class="SocialBlock_LotSale" data-containerid-lot="ShareDiv" data-icons-lot="Facebook,Twitter,Pinterest" data-title-lot="Rembrandt Bugatti (1884-1916)
+" data-description-lot="Deux petits léopards l&#39;un derrière l&#39;autre
+" data-imagepath-lot="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15006_0301_000(rembrandt_bugatti_deux_petits_leopards_lun_derriere_lautre).jpg">
+                <ul class="share-tags">
+                    <li>
+                        <div id="ShareDiv"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="connect_modal--container_vertical" data-toggle="modal" data-target="#emailAFriendModal" id="idEmailAFriend" title="Email">
+                <span class="christies-icon_email button-icon connect_modal--icon"></span><span class="connect_modal--label">Email</span>
+            </div>
+            <div class="connect_modal--container_vertical" onclick="CopyToClipboard();">
+                <span class="christies-icon_link button-icon connect_modal--icon" id="idCopyLink" title="Copy Link"></span><span class="connect_modal--label">Copy link</span>
+            </div>
+
+            <button type="button" class="close christies-icon_close" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+    </div>
+    <textarea name="copyUrl" id="copyUrl" rows="8" cols="80" style="position: fixed;opacity: 0;"></textarea>
+</div>
+            <!--</div>-->
+        
+    </form>
+    <!--/main-container-->
+
+    <script type="text/javascript">
+        document.cookie = 'CurrentLanguage=; path=/; Domain=.www.christies.com; expires=' + new Date(0).toUTCString();
+        document.cookie = 'CurrentLanguage=; path=/; expires=' + new Date(0).toUTCString();
+    </script>
+    
+    <!--<div class="widget--christies-footer">
+    </div>-->
+	
+
+
+
+<footer>
+    <div class='christies widget--christies-footer'></div>
+</footer>
+
+
+<div id="iSignUp">
+   <!-- <script type="text/javascript" language="javascript" src="/js/LoadFastSignUp.js"></script>
+    <iframe id="signupFrame" class="cssFrame" scrolling="no" src=''></iframe> -->
+</div>
+
+
+
+<div class="modal fade in" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content load-modal-data">
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade in" id="onPageModal" tabindex="-1" role="dialog" aria-labelledby="onPageModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title header-4"></h5>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+            </div>
+            <button type="button" class="close christies-icon_close" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img class="drag" id="imageModal_content" src="">
+            <button type="button" class="close christies-icon_close" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-fullscreen force-fullscreen" id="carouselModal" tabindex="-1" role="dialog" aria-labelledby="carouselModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img class="drag" id="carouselModal_content" src="">
+            <button type="button" class="close cta" data-dismiss="modal" aria-hidden="true">Tap to Close</button>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade in" id="iframeModal" tabindex="-1" role="dialog" aria-labelledby="iframeModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <iframe src=""></iframe>
+
+            </div>
+
+            <button type="button" class="close christies-icon_close" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+    </div>
+</div>
+<a id="back-to-top" href="#" class="back-to-top hidden-print" role="button" title="Back to top"><span class="button-icon christies-icon_top-of-page"></span></a>
+
+
+
+
+<div class="modal fade in" id="emailAFriendModal" tabindex="-1" role="dialog" aria-labelledby="emailAFriendModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade in" id="conditionReportModal" tabindex="-1" role="dialog" aria-labelledby="conditionReportModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade in" id="viewCatalogueModal" tabindex="-1" role="dialog" aria-labelledby="viewCatalogueModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>
+
+
+<!--
+<div class="modal fade in" id="connectModal" tabindex="-1" role="dialog" aria-labelledby="connectModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title header-4">Share</h5>
+            </div>
+            <div id="main_footer_0_ch_social_block" class="SocialBlock_LotSale" data-containerid-lot="ShareDiv" data-icons-lot="Facebook,Twitter,Pinterest">
+                <ul class="share-tags">
+                    <li>
+                        <div id="ShareDiv"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="connect_modal--container_vertical" data-toggle="modal" data-target="#emailAFriendModal" id="idEmailAFriend" title="Email">
+                <span class="christies-icon_email button-icon connect_modal--icon"></span><span class="connect_modal--label">Email</span>
+            </div>
+            <div class="connect_modal--container_vertical" onclick="CopyToClipboard();">
+                <span class="christies-icon_link button-icon connect_modal--icon" id="idCopyLink" title="Copy Link"></span><span class="connect_modal--label">Copy link</span>
+            </div>
+
+            <button type="button" class="close christies-icon_close" data-dismiss="modal" aria-hidden="true"></button>
+        </div>
+    </div>
+    <textarea name="copyUrl" id="copyUrl" rows="8" cols="80" style="position: fixed; opacity: 0;"></textarea>
+</div>
+-->
+
+
+    
+<!-- ===========================================
+OMNITURE CODE SECTION-B BEGIN
+===========================================-->
+<!-- SiteCatalyst code version: H.14.
+Copyright 1997-2007 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script  type='text/javascript'><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.prop5 = 'New';
+s.prop6 = 'Not Logged In/No Account';
+s.eVar22 = 'English';
+
+//--></script>
+<!-- End SiteCatalyst code version: H.14. -->
+<!-- ===========================================
+OMNITURE CODE SECTION-B END
+===========================================-->
+<!-- Machine Name: MAC02 -->
+
+    <!--</div>-->
+
+    
+<!-- ===========================================
+    This should be the last thing just before the END Body Tag
+     OMNITURE CODE SECTION-C BEGIN
+     ===========================================-->
+
+<!--- DTM TAG -->
+<script type="text/javascript" language="javascript">_satellite.pageBottom();</script>
+<!--- DTM TAG -->
+	 
+<!-- ===========================================
+    OMNITURE CODE SECTION-C END
+     ===========================================-->
+
+    
+    <div class="overlayBG"></div>
+    
+    <!-- Page Body -->
+    <!-- Numberly Tag START -->
+    
+
+    <script type="text/javascript">
+
+        window._troq = window._troq || [];
+
+        _troq.push(['tagid', '6563497-0edcf87c71ee419912249c25b0ebb928'],
+
+
+        
+            ['_rtgpg', 'product'],
+            ['_rtgidproductit', 'product_id'],
+            ['_rtgidcat', '6109853'],
+        
+
+        ['_email', ''],
+        ['_rtgidcountry', 'US'],
+        ['_rtglanguage', 'en'],
+        ['_rtgcustomerid', ''],
+               
+        
+		        ['_rtgregistered', '0']
+        
+
+        );
+
+        (function () {
+            if (window._troqck !== 1) {
+                var a = document.createElement("script");
+                a.type = "text/javascript";
+                a.async = !0;
+                a.src = "//mmtro.com/tro.js";
+                var b = document.getElementsByTagName("script")[0];
+                b.parentNode.insertBefore(a, b);
+            }
+        })();
+    </script>
+    
+    <!-- Numberly Tag END -->
+
+    
+    <!-- Google Code for Remarketing tag -->
+    <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1004977320;
+        var google_conversion_label = "3UvnCPii8QMQqPma3wM";
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <div style="display: none">
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+    </div>
+    <!-- End of Segment Pixel -->
+    
+    <script src="/static/Scripts/modules/accordion/accordion.js" type="text/javascript" defer></script>
+    <script src="/static/Scripts/modules/modal/modals.js" type="text/javascript" defer></script>
+    <script src="/static/Scripts/modules/tooltip/tooltip.js" type="text/javascript" defer></script>
+    <script src="/static/Scripts/hp/detectIE.js" type="text/javascript"></script>
+
+    
+		<link rel="stylesheet" type="text/css" href="/css/FastSignup.css?091120181542" />	
+		<script type="text/javascript" language="javascript" src="/js/LoadFastSignUp.js" async></script>
+    
+
+    <script>
+        (function () {
+            'use strict'; var f, g = []; function l(a) { g.push(a); 1 == g.length && f() } function m() { for (; g.length;) g[0](), g.shift() } f = function () { setTimeout(m) }; function n(a) { this.a = p; this.b = void 0; this.f = []; var b = this; try { a(function (a) { q(b, a) }, function (a) { r(b, a) }) } catch (c) { r(b, c) } } var p = 2; function t(a) { return new n(function (b, c) { c(a) }) } function u(a) { return new n(function (b) { b(a) }) } function q(a, b) { if (a.a == p) { if (b == a) throw new TypeError; var c = !1; try { var d = b && b.then; if (null != b && "object" == typeof b && "function" == typeof d) { d.call(b, function (b) { c || q(a, b); c = !0 }, function (b) { c || r(a, b); c = !0 }); return } } catch (e) { c || r(a, e); return } a.a = 0; a.b = b; v(a) } }
+            function r(a, b) { if (a.a == p) { if (b == a) throw new TypeError; a.a = 1; a.b = b; v(a) } } function v(a) { l(function () { if (a.a != p) for (; a.f.length;) { var b = a.f.shift(), c = b[0], d = b[1], e = b[2], b = b[3]; try { 0 == a.a ? "function" == typeof c ? e(c.call(void 0, a.b)) : e(a.b) : 1 == a.a && ("function" == typeof d ? e(d.call(void 0, a.b)) : b(a.b)) } catch (h) { b(h) } } }) } n.prototype.g = function (a) { return this.c(void 0, a) }; n.prototype.c = function (a, b) { var c = this; return new n(function (d, e) { c.f.push([a, b, d, e]); v(c) }) };
+            function w(a) { return new n(function (b, c) { function d(c) { return function (d) { h[c] = d; e += 1; e == a.length && b(h) } } var e = 0, h = []; 0 == a.length && b(h); for (var k = 0; k < a.length; k += 1) u(a[k]).c(d(k), c) }) } function x(a) { return new n(function (b, c) { for (var d = 0; d < a.length; d += 1) u(a[d]).c(b, c) }) }; window.Promise || (window.Promise = n, window.Promise.resolve = u, window.Promise.reject = t, window.Promise.race = x, window.Promise.all = w, window.Promise.prototype.then = n.prototype.c, window.Promise.prototype["catch"] = n.prototype.g);
+        }());
+
+        (function () {
+            function l(a, b) { document.addEventListener ? a.addEventListener("scroll", b, !1) : a.attachEvent("scroll", b) } function m(a) { document.body ? a() : document.addEventListener ? document.addEventListener("DOMContentLoaded", function c() { document.removeEventListener("DOMContentLoaded", c); a() }) : document.attachEvent("onreadystatechange", function k() { if ("interactive" == document.readyState || "complete" == document.readyState) document.detachEvent("onreadystatechange", k), a() }) }; function q(a) {
+                this.a = document.createElement("div"); this.a.setAttribute("aria-hidden", "true"); this.a.appendChild(document.createTextNode(a)); this.b = document.createElement("span"); this.c = document.createElement("span"); this.h = document.createElement("span"); this.f = document.createElement("span"); this.g = -1; this.b.style.cssText = "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;"; this.c.style.cssText = "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";
+                this.f.style.cssText = "max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;"; this.h.style.cssText = "display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;"; this.b.appendChild(this.h); this.c.appendChild(this.f); this.a.appendChild(this.b); this.a.appendChild(this.c)
+            }
+            function w(a, b) { a.a.style.cssText = "max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:" + b + ";" } function x(a) { var b = a.a.offsetWidth, c = b + 100; a.f.style.width = c + "px"; a.c.scrollLeft = c; a.b.scrollLeft = a.b.scrollWidth + 100; return a.g !== b ? (a.g = b, !0) : !1 } function z(a, b) { function c() { var a = k; x(a) && null !== a.a.parentNode && b(a.g) } var k = a; l(a.b, c); l(a.c, c); x(a) }; function A(a, b) { var c = b || {}; this.family = a; this.style = c.style || "normal"; this.weight = c.weight || "normal"; this.stretch = c.stretch || "normal" } var B = null, C = null, D = null; function H() { if (null === C) { var a = document.createElement("div"); try { a.style.font = "condensed 100px sans-serif" } catch (b) { } C = "" !== a.style.font } return C } function I(a, b) { return [a.style, a.weight, H() ? a.stretch : "", "100px", b].join(" ") }
+            A.prototype.load = function (a, b) {
+                var c = this, k = a || "BESbswy", y = b || 3E3, E = (new Date).getTime(); return new Promise(function (a, b) {
+                    null === D && (D = !!window.FontFace); if (D) { var J = new Promise(function (a, b) { function e() { (new Date).getTime() - E >= y ? b() : document.fonts.load(I(c, c.family), k).then(function (c) { 1 <= c.length ? a() : setTimeout(e, 25) }, function () { b() }) } e() }), K = new Promise(function (a, c) { setTimeout(c, y) }); Promise.race([K, J]).then(function () { a(c) }, function () { b(c) }) } else m(function () {
+                        function r() {
+                            var b; if (b = -1 != f &&
+                            -1 != g || -1 != f && -1 != h || -1 != g && -1 != h) (b = f != g && f != h && g != h) || (null === B && (b = /AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent), B = !!b && (536 > parseInt(b[1], 10) || 536 === parseInt(b[1], 10) && 11 >= parseInt(b[2], 10))), b = B && (f == t && g == t && h == t || f == u && g == u && h == u || f == v && g == v && h == v)), b = !b; b && (null !== d.parentNode && d.parentNode.removeChild(d), clearTimeout(G), a(c))
+                        } function F() {
+                            if ((new Date).getTime() - E >= y) null !== d.parentNode && d.parentNode.removeChild(d), b(c); else {
+                                var a = document.hidden; if (!0 === a || void 0 ===
+                                a) f = e.a.offsetWidth, g = n.a.offsetWidth, h = p.a.offsetWidth, r(); G = setTimeout(F, 50)
+                            }
+                        } var e = new q(k), n = new q(k), p = new q(k), f = -1, g = -1, h = -1, t = -1, u = -1, v = -1, d = document.createElement("div"), G = 0; d.dir = "ltr"; w(e, I(c, "sans-serif")); w(n, I(c, "serif")); w(p, I(c, "monospace")); d.appendChild(e.a); d.appendChild(n.a); d.appendChild(p.a); document.body.appendChild(d); t = e.a.offsetWidth; u = n.a.offsetWidth; v = p.a.offsetWidth; F(); z(e, function (a) { f = a; r() }); w(e, I(c, '"' + c.family + '",sans-serif')); z(n, function (a) { g = a; r() }); w(n, I(c, '"' +
+                        c.family + '",serif')); z(p, function (a) { h = a; r() }); w(p, I(c, '"' + c.family + '",monospace'))
+                    })
+                })
+            }; "undefined" !== typeof module ? module.exports = A : (window.FontFaceObserver = A, window.FontFaceObserver.prototype.load = A.prototype.load);
+        }());
+        /*
+        Fonts are loaded through @font-face rules in the CSS whenever an element references them.
+        FontFaceObserver creates a referencing element to trigger the font request, and lsisten for font load events.
+        When all 3 fonts are loaded, we enable them by adding a class to the html element
+    */
+
+
+        var fontB = new FontFaceObserver("Christies");
+
+        fontB.load().then(function () {
+            document.getElementsByTagName('body')[0].className += ' webfont-loaded ';
+            console.log('Font is available');
+        }, function () {            
+            console.log('Font is not available');
+        });
+        if (detectIE()) {
+        document.getElementsByTagName('body')[0].className += ' webfont-loaded ';
+        }
+
+    </script>
+    
+
+    <script src="/static/Scripts/modules/paramPopup-global.js"></script>
+    <script src="/static/Scripts/modules/initialize-plugins-global.js"></script>
+
+    
+    
+        <script type="text/javascript" src="/app_build/widgetBuilder.js?v=5"></script>
+     
+
+    <script type="text/javascript">
+        var CSCInactivityTime = '900000';
+        var rootSecurePath = 'https://www.christies.com/';
+        var EnableCSCInactivityLogout = 'Y';
+	
+    </script>
+    <script src="/static/Scripts/CSCUserInteraction.js"></script>
+
+
+    <script type="text/javascript">
+        document.cookie = 'CurrentLanguage=; path=/; Domain=.www.christies.com; expires=' + new Date(0).toUTCString();
+        document.cookie = 'CurrentLanguage=; path=/; expires=' + new Date(0).toUTCString();
+		jQuery(document).ready(function(){
+		// this part disables the right click
+			jQuery('img','image-preview-container').on('contextmenu', function(e) {
+			return false;
+			});
+			//this part disables dragging of image
+			jQuery('img','image-preview-container').on('dragstart', function(e) {
+			return false;
+			});
+
+		});
+    </script>
+    <script type='text/javascript'>
+	//<![CDATA[
+	function nocontext(e) {
+		var clickedTag = (e==null) ? event.srcElement.tagName : e.target.tagName;
+		if (clickedTag == "IMG") {
+			return false;
+		}
+	}
+	document.oncontextmenu = nocontext;
+	//]]>
+	</script>
+	
+</body>
+</html>
+

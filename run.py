@@ -13,35 +13,48 @@ import os
 from christie_scraper import scraper, read_ivr_training_data, save_ivr_training_data
 
 
+def calc_avg_price_of_similars(artist, X, all_objects, MONTH):
+    month_objs = all_objects.loc[all_objects['month'] == MONTH][
+        ['lot_num', 'sold_price_usd', 'height_cm', 'length_cm']]
 
+    month_artist_infos = all_objects.loc[(all_objects['artist'] == artist) & (all_objects['month'] == MONTH)][
+        ['artist', 'lot_num', 'month', 'title', 'sold_price_usd', 'height_cm', 'length_cm']]
+    month_prices = []
+    month_lots = []
+    for i in range(month_artist_infos.shape[0]):
+        # print("\n", month_artist_infos.iloc[i].lot_num, " : ", month_artist_infos.iloc[i].height_cm, "  ", month_artist_infos.iloc[i].length_cm)
+        try:
+            h = float(month_artist_infos.iloc[i].height_cm)
+            w = float(month_artist_infos.iloc[i].length_cm)
+        except:
+            h = 10e10
+            w = 10e10
 
-def find_similar_objects(all_objects, X):
-    lot_pairs = []
-    lot_id_list = all_objects.lot_id.list()
-    lot_id_list_copy = deepcopy(lot_id_list)
+        for j in range(month_objs.shape[0]):
+            try:
+                sim_h = float(month_objs.iloc[j].height_cm)
+                sim_w = float(month_objs.iloc[j].length_cm)
+            except:
+                sim_h = -10e10
+                sim_w = -10e10
 
-    for i in range(len(lot_id_list)):
-        this_lot_id = all_objects.iloc[i].lot_id
-        this_width = all_objects.iloc[i].width
-        this_height = all_objects.iloc[i].height
-        lot_id_list_copy.remove(this_lot_id)
-        for lot_id in lot_id_list_copy:
-            if (all_objects.loc['lot_id'==lot_id].width >= (this_width - X) or
-               all_objects.loc['lot_id' == lot_id].width <= (this_width + X) or
-               all_objects.loc['lot_id' == lot_id].height >= (this_height - X) or
-               all_objects.loc['lot_id' == lot_id].height <= (this_height + X) ) :
-                lot_pairs.append(tuple((this_lot_id, lot_id)))
-    return lot_pairs
+            if (sim_h >= (h - X) and sim_h <= (h + X) and sim_w >= (w - X) and sim_w <= (w + X)):
+                if month_objs.iloc[j].lot_num not in month_lots:
+                    month_lots.append(month_objs.iloc[j].lot_num)
+                    month_prices.append(float(month_objs.iloc[j].sold_price_usd))
+                    # print(" ** ", month_objs.iloc[j].lot_num, " : ", month_objs.iloc[j].height_cm, "  ", month_objs.iloc[j].length_cm, float(month_objs.iloc[j].sold_price_usd))
+    return np.mean(month_prices)
 
 def calc_price_growth(old_price, new_price):
     return 100.0*(new_price - old_price)/old_price
 
 
 def find_intersecting_artist(all_objects):
-    a1 = np.array(all_objects.loc[all_pd['month'] == '14November2017'].artist)
-    a2 = np.array(all_objects.loc[all_pd['month'] == '28February2018'].artist)
+    a1 = np.array(all_objects.loc[all_objects['month'] == '14November2017'].artist)
+    a2 = np.array(all_objects.loc[all_objects['month'] == '28February2018'].artist)
 
     common_artists = list(set(a1).intersection(a2))
+    print("There are ", len(common_artists), " common artists")
     return common_artists
     
 def get_data(basedir, scraped_path):
@@ -65,43 +78,36 @@ def get_data(basedir, scraped_path):
         pd.DataFrame(pd4).reset_index(drop=True),
         pd.DataFrame(pd5).reset_index(drop=True)
     ])
-    save_ivr_training_data(all_data, data_path)
+    save_ivr_training_data(all_data, scraped_path)
 
 def run(X):     #similar objects: height +/-X and width +/-X
+    print("X is ", X)
+    X = float(X)
     basedir = os.path.abspath(os.path.dirname(__file__))
     scraped_path = os.path.abspath(os.path.dirname(__file__)) + "/feb17_march18.csv"
-    # get_data(basedir, scraped_path)
+    month1 = '14November2017'
+    month2 = '28February2018'
+
+    if not os.path.exists(scraped_path):
+        get_data(basedir, scraped_path)
 
     all_objects = read_ivr_training_data(scraped_path)
-    print(all_objects.columns)
-    print(all_objects.shape)
 
     common_artists = find_intersecting_artist(all_objects)
 
-    all_objects.loc[all_objects['artist'] == common_artists[0]][
-        ['artist', 'month', 'title', 'sold_price_usd', 'height_cm', 'length_cm']]
+    results = []
     
     for artist in common_artists:
-        feb_artist_Ws = all_objects.loc[all_objects['artist'] == artist][
-        ['artist', 'month', 'title', 'sold_price_usd', 'height_cm', 'length_cm']]
-
-    '''
-    lot_pairs = find_similar_objects(all_objects, X)
-
-
-    for obj in all_objects:
-        nov17_prices = []
-        march18_prices = []
-
-        #TODO: 1.calc each month price average
-        nov17_price = np.avg(nov17_prices)
-        march18_price = np.avg(march18_prices)
-
-
-        #TODO: beautify the output
-        print(obj.artist_name, obj.height, obj.width, calc_price_growth(nov17_price, march18_price), '%',
-              ' Avg ', nov17_price, ' Avg ', march18_price)
-    '''
+        # print(" ** ", artist)
+        result = {'artist':artist}
+        feb_price = calc_avg_price_of_similars(artist, X, all_objects, month1)
+        march_price = calc_avg_price_of_similars(artist, X, all_objects, month2)
+        growth = calc_price_growth(feb_price, march_price)
+        result['feb_price'] = feb_price
+        result['march_price'] = march_price
+        result['growth'] = growth
+        print(result)
+        results.append(result)
 
 
 if __name__ == '__main__':
